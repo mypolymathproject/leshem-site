@@ -72,7 +72,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'leshemSidebar',
             position: 'left',
-            label: 'Text',
+            label: 'Table of Contents',
           },
         ],
       },
