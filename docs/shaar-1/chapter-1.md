@@ -1,0 +1,132 @@
+---
+id: chapter-1
+title: "Chapter 1: What the Names Havaye and Ad-nai Signify"
+sidebar_position: 1
+---
+
+*Leshem Shvo v’Achlamah*
+
+**ספר לשם שבו ואחלמה \- הקדמות ושערים** 
+
+**שער א פרק א**
+
+***Leshem Shevo v’Achlama*** **– Introductions and Gates**
+
+***Shaar*** **1 Chapter 1**
+
+**What the Names *Havaye* and *Ad-nai* Signify**
+
+**יְ**סוֹד **הַ**חְכָּמָה **וְ**שֹׁרֶשׁ **הַ**קַּבָּלָה. 
+
+**\[1:1\] The foundation of wisdom and the root of Kabbalah** 
+
+Rabbi Shlomo Elyashiv (1785-1866) is better known as the Baal haLeshem, after his magnum opus, *Leshem Shvo v’Achlama,* and we will refer to him this way henceforth. He begins his magnum opus explaining Rabbi Isaac Luria’s system of Kabbalah with a phrase the initial letters of which spell the Ineffable Divine Name יהוה (often referred to as *Havaye* in English). This is a common practice, especially among Kabbalists.[^1]
+
+**אֲ**שֶׁר **דִּ**בֵּר **נֵ**ר **י**הוה. **א**ר"י \[=אֲדוֹנֵנוּ רַבִּי יִצְחָק\] **ל**וּריָא **הַ**קָּדוֹשׁ **יָ**דִיד **מִ**בֶּטֶן **אֶל** **הַ**תַּלְמִיד **יָ**שָׁר **נֶ**אֱמָן **וָ**תִיק
+
+**that ‘the candle of God’ – the holy \[Rabbi Isaac\] Luria, beloved from the womb, imparted to his upright, faithful and veteran student,**
+
+Interestingly, the Baal haLeshem continues the above theme of spelling the Name of G-d by emphasizing the initial letters of the next four words as well, spelling א-ד-נ-י the Divine Name associated with G-d as Master (*Adon*) of the Worlds Who oversees and orchestrates everything. The Talmud[^2] and the Zohar[^3] note that the Ineffable Divine Name is spelled יהוה but is pronounced א-ד-נ-י (*A-d-o-n-a-i*). The Baal haLeshem continues with the same theme with the next five words as well, spelling א-ל-ה-י-ם – G-d as the Divine Judge and Creator, followed by the words spelling “our G-d” א-ל-ה-י-נ-ו – the G-d of Israel. He completes the theme with the next three words, as we will see below. 
+
+Rabbi Isaac Luria, known to many as the Arizal (1534-1572), is regarded as the father of modern Kabbalah. Rabbi Elyashiv reverently refers to him as “the candle of G-d,” based on the verse in Proverbs 20:27,[^4] perhaps because Rabbi Luria revealed the inner light of the Torah.[^5] Furthermore, he refers to him as “beloved from the womb” which usually refers to the Patriarch Isaac,[^6] the Arizal’s namesake. This may be because Rabbi Isaac Luria is regarded as one of the founding patriarchs of Kabbalah.
+
+**אִ**ישׁ **חַ**יִּים **דּ**וֹדֵינוּ. זֵכֶר שְׁנֵיהֶם לַבְּרָכָה לְחָיֵי הָעוֹלָם הַבָּא.
+
+**Our beloved ‘man of life’** \[Rabbi Chaim Vital\]**, may both be blessed with the life of the World to Come**
+
+As mentioned above, the Baal haLeshem completes his theme by spelling out the word א-ח-ד – \[is\] One, thus rendering the first sentence of this work as an acrostic of the foundational principle of Judaism which he intends to expound on in this chapter, and also throughout the entire work – the Oneness of G-d. His entire explanation is based on the teachings of the Arizal which he alludes to by including his name and the name of his chief redactor, Rabbi Chaim Vital, in stating his theme of G-d’s unity. The word דּוֹדֵינוּ, besides meaning ‘beloved,’ may also mean ‘our uncle.’ Perhaps there was some family connection, although I was not able to find one. 
+
+Rabbi Chaim Vital (1543-1620) was among Rabbi Luria’s foremost disciples (according to many, his chief disciple) and the one who committed his master’s teachings to writing and taught them extensively.
+
+לֵידַע וּלְהוֹדִיעַ כִּי יהוה אֱלֹהֵינוּ אֱלֹהֵי אַבְרָהָם אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב אֱלֹהֵי יִשְׂרָאֵל.
+
+Rabbi Chaim was charged with the task **of knowing and informing us that God Almighty, the God of Abraham, the God of Isaac and the God of Jacob, the God of Israel,**
+
+הִנֵּה הוּא לְבַדּוֹ בִּרְצוֹנוֹ הַטּוֹב. הִמְצִיא כֹּל הַנִּמְצָאִים וּבָרָא כָּל הַנִּבְרָאִים
+
+**He alone, out of His good will, brought forth all those in existence and created all the creations**
+
+Here Rabbi Elyashiv alludes to the higher ‘worlds’ – spiritual planes of existence – that he will speak about at length shortly. ‘Those in existence’ refers to transcendent planes of existence, including the World of *Atzilut* which exists on a plane beyond actual creation; ‘created all the creations’ refers to the World of *Beriah* – a finite created world called the World of Creation. This is the plane of reality where limited existence comes into being, but it is as yet inchoate, formless, until the World of *Yetzirah*.   
+
+(הגהות מכ"י הַמְּחַבֵּר \- וּבָּרָא כָּל הַנִּבְרָאִים, נ"ב, כָּאן לֹא כָּתַבְתִּי וּבוֹרֵא, מִשּׁוּם דַּהֲרִי לָשׁוֹן בְּרִיאָה הוּא עַל יֵשׁ מֵאֵין, כמ"ש הרמב"ן, וא"כ הֲרֵי לֹא שַׁיָּךְ בְּהֹוֶה,
+
+**(Author’s hand-written note: ‘Created all the creations’ – here I did not write ‘creates’** in the present tense **since the word for creation –בְּרִיאָה  – implies *ex nihilo* as Ramban states,**[^7] **and that is not applicable in the present.** Creation *ex nihilo* occurred once only, at the beginning of Creation, as he goes on to explain…
+
+וּמָה שֶׁיֵּשׁ כַּמָּה בְּרָכוֹת כְּלָשׁוֹן בּוֹרֵא, הֲרֵי אָמְרוּ רז"ל, ברכות דף כ"ב סע"ב כִּי גַּם בּוֹרֵא, בָּרָא מַשְׁמָע, אַךְ לָשׁוֹן בּוֹרֵא, אֲשֶׁר אַחַר לָשׁוֹן בָרָא, הִנָּהּ פָּשׁוּט הוּא שֶׁהוּא עַל הוֹרָאַת הֲוָה, וּבֶאֱמֶת לֹא שַׁיָּךְ בּוֹ הֹוֶה אַחֵר שֶׁהוּא רַק עַל יֵשׁ מֵאֵין, וְזֶה הָיָה רַק בְּיוֹם רִאשׁוֹן דְּמַעֲשֵׂה בְּרֵאשִׁית). 
+
+**Now regarding the fact that a number of the blessings use the word בּוֹרֵא** – creates, in the present tense – **our Sages state (*Berachot* 52b) that בּוֹרֵא** ‘creates’, present tense, **should be understood as ‘created’** in the past. **But when** **בּוֹרֵא** in the present tense occurs **after the expression בָרָא** past tense, **it is clearly meant to indicate the past. In fact, the present tense is not even relevant since** the creation **was exclusively *ex nihilo,* and that occurred only on the first day of creation).**                                                                                                                                                                                                                                                                         
+
+וְיָצַר וְיוֹצֵר כָּל הַיִּצּוּרִים וְעָשָׁה וְעוֹשֶׂה כָּל הַמַּעֲשִׂים מְהֲוֶה הַכֹּל בְּכָל עֵת
+
+**He formed and fashions all formed entities, and made and makes all made entities. He brings everything into being at every moment.**
+
+“Formed and fashions” refers to the World of *Yetzirah*, the World of Formation, where finite existence now acquires form and dimension. “Made and makes all made entities” refers to the World of *Asiyah* where they become material entities. The meaning of “He brings everything into being all the time” will be explained shortly.
+
+\[רוֹצֶה לוֹמַר שֶׁכָּל הַמְּצִיאוּת כּוּלָהּ מֵעֵת שֶׁהִמְצִיא אוֹתָהּ וְכָל זְמַן קִיּוּמָהּ הִנֵּה כָּל הִתְהַוּוּתָהּ תָּמִיד הוּא רַק מֶנוּ שֶׁהוּא נוֹשֵׂא אוֹתָהּ תָּמִיד בְּכָל מְלוֹאָהּ\].
+
+**\[Meaning to say that all of existence in its entirety – from the time that He brought it forth, and the entire duration of its continued existence – its constant coming into being is only from Him, for He continuously maintains it** in existence **in all of its fullness\].**
+
+All being is continuously being kept in existence by the Divine force that created, formed and made it.   
+
+וּמַשְׁגִּיחַ בְּכָל בְּלִי הֶפְסֵק וּמַנְהִיג אֶת הַכֹּל תָּמִיד רַק הוּא לְבַדּוֹ וְאֵין שׁוּם דָּבָר בִּלְעֲדוֹ מְאוּמָה כְּלָל.
+
+ **And He watches over all beings without pause, and He guides all things constantly; He alone and none other at all.**
+
+Here the Baal haLeshem alludes to the doctrine of Divine Providence which he will discuss in a later section. 
+
+שְׁמוֹ נִכְתַּב בְּשֵׁם י\-ה\-ו\-ה וְנִקְרָא בְּשֵׁם אֲדֹנָ'י.
+
+**His** Ineffable **Name is written *Yud-Hai-Vav-Hai* but is pronounced *Adonai*.**
+
+On the verse (Exodus 3:15) זֶה שְּׁמִי לְעֹלָם – “This is My Name forever…” our Sages[^8] note that the word *l’olam* (לְעֹלָם) is written without the letter *vav* and therefore alludes to the word for concealment – *he’elem*. Meaning: the eternal Name *Havaye* should not be read as written, but rather as *Adon-ai*. In order to distinguish the former Name from the latter, Kabbalists often used the term *Havaye* for the former.
+
+וְהִנֵּה הוֹרָאַת הָעִקָּרַי דְּהַשֵּׁם הֲוָיָה הוּא נִמְצָא קַיָים ור"ל שֶׁמְּצִיאוּתוֹ הוּא בְּהֹוֶה תָּמִיד וְאֵין בִּמְצִיאוּתוֹ עָבַר וַעֲתִיד
+
+**The Name *Havaye* signifies primarily ‘continuous presence,’ meaning that His existence is always in the present, not the past or future**
+
+One cannot say that God’s existence is in the past, since the past is no longer. Nor is it in the future, since that does not yet exist. His existence is therefore always in the present. Or as the *Zohar* puts it: “Past, present and future all at once” (*Zohar III* p. 257b, *Raya Mehemna*).
+
+וְכֵן יֵשׁ בּוֹ גַּם כֵּן הוֹרָאַת מַהֲוֵה עַל שֵׁם שֶׁכָּל הַהִתְהַוּוּת הוּא רַק מִמֶּנּוּ וְתָלוּי לְעוֹלָם רַק בּוֹ.
+
+The Name *Havaye* **also signifies ‘bringing into being,’ since all existence is exclusively from Him, and is always dependent upon Him.**
+
+שֶׁהוּא נוֹשֵׂא אוֹתָם בְּכָל מִלּוּאָם כְּנִזְכָּר
+
+**For He maintains** literally, ‘carries’ **them** all the worlds **and everything in them, as mentioned.** 
+
+וְהִנֵּה עַל שֵׁם הַהִתְהַווּת שֶׁהִיא בִּזְמַן וְנִבְחַן בְּעָבַר וְהֹוֶה וְעָתִיד הִנֵּה נִקְרָא הוּא יִתְבָּרַךְ שְׁמוֹ גַּם כֵּן בְּשֵׁם תֹּאַר הָיָה וְהַוָּה וְיִהְיֶה שֶׁהֵם אוֹתִיּוֹת ג' הֲוָיוֹת.
+
+**Now it is in terms of this ‘bringing into being’ – which takes place in time and can be differentiated into past, present and future – that He, may His Name** *Havaye* **be blessed, can be described as past, present and future, the letters of which are the three states of being** – in the past, the present and the future.
+
+The Name י-ה-ו-ה can be explained as an amalgamation of הָיָה, הֹוֶה, יִהְיֶה (was, is, will be – all three states of being throughout time). But this is only when the Name *Havaye* is interpreted as signifying ‘bringing into being.’
+
+אָמְנָם עַצְמוּתוֹ יִתְבָּרַךְ שְׁמוֹ הוּא בֶּאֱמֶת תָּמִיד בְּהֹוֶה וְהוּא הוֹרָאַת הָעִקָּרִי דְּשָׁם הֲוָיָה בָּרוּךְ הוּא.
+
+**But His essence (blessed be His Name) is truly always in the present, and this is the primary significance of the Name *Havaye*, blessed be He.**
+
+וְהוֹרָאַת דְּשֵׁם אֲדֹנָי הוּא אָדוֹן הַכֹּל שֶׁהוּא מַשְׁגִּיחַ בַּכֹּל וּמַנְהִיג אֶת הַכֹּל
+
+**The import of the Name *Adon-ai* is that He is *Adon*** Master **of everything and that He oversees everything and conducts all matters.**
+
+וְהוּא בּוֹחֵן וְדָן אֵת כָּל הַמַּעֲשִׂים כָּל מַה שֶׁנִּצְרָךְ לְהֵעָשׂוֹת בְּכָל הַנִּמְצָאִים כֻּלָּם בְּקִיּוּמָם וְהַנְהָגָתָם שֶׁבְּכָל עֵת:
+
+**And He assesses and judges all deeds and everything that needs to be done with all things in existence, in preserving them and guiding them at all times.** 
+
+The Name Adon-ai thus signifies the Almighty’s relationship with the created worlds – as their Master, overseer, preserver and guide.
+
+
+[^1]:  This is not exclusive to Kabbalists, however. See e.g. Rambam’s *Mishneh Torah, Yesodei HaTorah* 1:1.
+
+[^2]:  *Pesachim* 50a, cited below fn. 8\.
+
+[^3]:  *Zohar III* 230a; *Tikunei Zohar* 101a.
+
+[^4]:   משלי כ, כז: נֵר יְהוָה נִשְׁמַת אָדָם חֹפֵשׂ כָּל חַדְרֵי בָטֶן 
+
+[^5]:  See *Chagiga* 12a; *Zohar I* 47a, 264a; *Zohar II* 148b ff.
+
+[^6]:  See *Talmud Shabbat* 137b; *Rashi.*
+
+[^7]:  In his commentary  to Genesis 1:1:
+
+[^8]:  *Talmud Pesachim* 50a, Rashi:  

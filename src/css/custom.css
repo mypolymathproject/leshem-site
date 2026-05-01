@@ -1,0 +1,68 @@
+:root {
+  --ifm-color-primary: #7b5e3a;
+  --ifm-color-primary-dark: #6e5434;
+  --ifm-color-primary-darker: #684f31;
+  --ifm-color-primary-darkest: #564129;
+  --ifm-color-primary-light: #886840;
+  --ifm-color-primary-lighter: #8e6d44;
+  --ifm-color-primary-lightest: #a07e51;
+  --ifm-font-family-base: Georgia, 'Times New Roman', serif;
+  --ifm-heading-font-family: Georgia, 'Times New Roman', serif;
+  --ifm-font-size-base: 17px;
+  --ifm-line-height-base: 1.8;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #c9a87a;
+  --ifm-color-primary-dark: #c09a67;
+  --ifm-color-primary-darker: #bb935d;
+  --ifm-color-primary-darkest: #a87c44;
+  --ifm-color-primary-light: #d2b68d;
+  --ifm-color-primary-lighter: #d7bd97;
+  --ifm-color-primary-lightest: #e4d0b0;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* ── Hebrew / mixed bidirectional text ─────────────────────────────────────
+   unicode-bidi: plaintext  — paragraph direction is set by its first strong
+   character: Hebrew-first paragraphs become RTL, English-first stay LTR.
+   text-align: start        — aligns to the natural start edge for each direction.
+   ─────────────────────────────────────────────────────────────────────────── */
+.markdown p,
+.markdown li {
+  unicode-bidi: plaintext;
+  text-align: start;
+}
+
+/* Give Hebrew-leading paragraphs a little extra breathing room */
+.markdown p:has(> strong:first-child:lang(he)),
+.markdown p[dir='rtl'] {
+  font-size: 1.05em;
+  line-height: 2;
+}
+
+/* Translation lines (bold English) — slightly distinguished */
+.markdown p > strong:only-child,
+.markdown p > strong:first-child {
+  display: inline;
+}
+
+/* Footnotes section */
+.footnotes {
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  margin-top: 3rem;
+  padding-top: 1rem;
+  font-size: 0.88em;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.footnotes p {
+  margin-bottom: 0.4rem;
+}
+
+/* Sidebar — make it feel like a table of contents for a book */
+.theme-doc-sidebar-item-category .menu__list-item-collapsible {
+  font-weight: 600;
+}
