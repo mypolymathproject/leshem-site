@@ -74,6 +74,11 @@ const config = {
             position: 'left',
             label: 'Table of Contents',
           },
+          {
+            href: 'https://ko-fi.com',
+            label: '☕ Support this project',
+            position: 'right',
+          },
         ],
       },
       docs: {
