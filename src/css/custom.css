@@ -1,3 +1,4 @@
+/* ── Colour palette ─────────────────────────────────────────────────────── */
 :root {
   --ifm-color-primary: #7b5e3a;
   --ifm-color-primary-dark: #6e5434;
@@ -6,12 +7,20 @@
   --ifm-color-primary-light: #886840;
   --ifm-color-primary-lighter: #8e6d44;
   --ifm-color-primary-lightest: #a07e51;
+
   --ifm-font-family-base: Georgia, 'Times New Roman', serif;
   --ifm-heading-font-family: Georgia, 'Times New Roman', serif;
   --ifm-font-size-base: 17px;
-  --ifm-line-height-base: 1.8;
+  --ifm-line-height-base: 1.9;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --leshem-parchment: #fdf6e8;
+  --leshem-parchment-dark: #f5edd6;
+  --leshem-gold: #b8892a;
+  --leshem-gold-light: #e8c97a;
+  --leshem-ink: #2a1f0e;
+  --leshem-ink-light: #5a4a2e;
 }
 
 [data-theme='dark'] {
@@ -23,46 +32,259 @@
   --ifm-color-primary-lighter: #d7bd97;
   --ifm-color-primary-lightest: #e4d0b0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --leshem-parchment: #1e1810;
+  --leshem-parchment-dark: #161208;
+  --leshem-gold: #c9a87a;
+  --leshem-gold-light: #8a6a3a;
+  --leshem-ink: #e8dcc8;
+  --leshem-ink-light: #b8a888;
 }
 
-/* ── Hebrew / mixed bidirectional text ─────────────────────────────────────
-   unicode-bidi: plaintext  — paragraph direction is set by its first strong
-   character: Hebrew-first paragraphs become RTL, English-first stay LTR.
-   text-align: start        — aligns to the natural start edge for each direction.
-   ─────────────────────────────────────────────────────────────────────────── */
+/* ── Page background ────────────────────────────────────────────────────── */
+.main-wrapper {
+  background: var(--leshem-parchment);
+}
+
+/* ── Navbar ─────────────────────────────────────────────────────────────── */
+.navbar {
+  background: #3d2b0f;
+  border-bottom: 3px solid var(--leshem-gold);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+}
+
+.navbar__title {
+  color: #f0dfa8 !important;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+}
+
+.navbar__link {
+  color: #d4b87a !important;
+}
+
+.navbar__link:hover {
+  color: #f0dfa8 !important;
+}
+
+/* ── Sidebar ────────────────────────────────────────────────────────────── */
+.theme-doc-sidebar-container {
+  background: var(--leshem-parchment-dark);
+  border-right: 1px solid var(--leshem-gold-light);
+}
+
+.menu__link {
+  font-size: 0.88rem;
+  border-radius: 4px;
+}
+
+.menu__link--active {
+  background: var(--leshem-gold-light) !important;
+  color: var(--leshem-ink) !important;
+  font-weight: 600;
+}
+
+.menu__list-item-collapsible .menu__link {
+  font-weight: 700;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--leshem-gold) !important;
+}
+
+/* ── Article container ──────────────────────────────────────────────────── */
+.theme-doc-markdown {
+  max-width: 780px;
+}
+
+article {
+  color: var(--leshem-ink);
+}
+
+/* ── Chapter title ──────────────────────────────────────────────────────── */
+.markdown h1 {
+  font-size: 1.7rem;
+  color: #3d2b0f;
+  border-bottom: 2px solid var(--leshem-gold);
+  padding-bottom: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+[data-theme='dark'] .markdown h1 {
+  color: #f0dfa8;
+}
+
+.markdown h2 {
+  font-size: 1.25rem;
+  color: var(--leshem-ink-light);
+  margin-top: 2.5rem;
+}
+
+/* ── Text type distinction ───────────────────────────────────────────────
+   Three types of paragraph in each chapter:
+   1. Hebrew source text        — plain paragraph, Hebrew-first (renders RTL)
+   2. English translation       — paragraph whose first child is <strong>
+   3. Commentary                — plain English paragraph
+   ────────────────────────────────────────────────────────────────────── */
+
+/* Base: all paragraphs handle bidi automatically */
 .markdown p,
 .markdown li {
   unicode-bidi: plaintext;
   text-align: start;
 }
 
-/* Give Hebrew-leading paragraphs a little extra breathing room */
-.markdown p:has(> strong:first-child:lang(he)),
-.markdown p[dir='rtl'] {
-  font-size: 1.05em;
-  line-height: 2;
+/* Hebrew text — slightly larger, gold right-border to mark it as source */
+.markdown p:is([dir='rtl']) {
+  font-size: 1.12em;
+  line-height: 2.1;
+  border-right: 3px solid var(--leshem-gold);
+  padding-right: 0.9rem;
+  margin-right: 0;
+  color: var(--leshem-ink);
 }
 
-/* Translation lines (bold English) — slightly distinguished */
-.markdown p > strong:only-child,
-.markdown p > strong:first-child {
-  display: inline;
+/* Translation (bold-leading paragraph) — amber left bar, indented */
+.markdown p:has(> strong:first-child) {
+  border-left: 3px solid var(--leshem-gold);
+  padding-left: 1rem;
+  color: #3a2510;
+  font-style: normal;
 }
 
-/* Footnotes section */
+[data-theme='dark'] .markdown p:has(> strong:first-child) {
+  color: #e8d8b8;
+}
+
+/* Commentary — slightly muted, no border */
+.markdown p:not(:has(> strong:first-child)):not(:is([dir='rtl'])) {
+  color: var(--leshem-ink-light);
+  font-size: 0.97em;
+}
+
+[data-theme='dark'] .markdown p:not(:has(> strong:first-child)):not(:is([dir='rtl'])) {
+  color: #b8a888;
+}
+
+/* ── Inline styles within translations ──────────────────────────────────── */
+/* Italic within a bold translation — used for Hebrew term romanisations */
+.markdown p:has(> strong:first-child) em {
+  font-style: italic;
+  color: var(--leshem-gold);
+}
+
+/* ── Horizontal rules as section dividers ───────────────────────────────── */
+.markdown hr {
+  border: none;
+  border-top: 1px solid var(--leshem-gold-light);
+  margin: 2.5rem auto;
+  width: 60%;
+}
+
+/* ── Footnotes ──────────────────────────────────────────────────────────── */
 .footnotes {
-  border-top: 1px solid var(--ifm-color-emphasis-300);
-  margin-top: 3rem;
-  padding-top: 1rem;
-  font-size: 0.88em;
-  color: var(--ifm-color-emphasis-700);
+  border-top: 1px solid var(--leshem-gold-light);
+  margin-top: 3.5rem;
+  padding-top: 1.2rem;
+  font-size: 0.83em;
+  color: var(--leshem-ink-light);
+}
+
+.footnotes::before {
+  content: 'Notes';
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--leshem-gold);
+  margin-bottom: 0.8rem;
 }
 
 .footnotes p {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.35rem;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
-/* Sidebar — make it feel like a table of contents for a book */
-.theme-doc-sidebar-item-category .menu__list-item-collapsible {
-  font-weight: 600;
+/* ── Pagination (prev / next chapter links) ─────────────────────────────── */
+.pagination-nav__link {
+  border-color: var(--leshem-gold-light);
+  background: var(--leshem-parchment-dark);
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--leshem-gold);
+}
+
+/* ── Intro page hero ────────────────────────────────────────────────────── */
+.leshem-hero {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem;
+  border-bottom: 1px solid var(--leshem-gold-light);
+  margin-bottom: 2.5rem;
+}
+
+.leshem-hero-hebrew {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: var(--leshem-ink);
+  direction: rtl;
+  margin-bottom: 0.5rem;
+}
+
+.leshem-hero-english {
+  font-size: 1.35rem;
+  color: var(--leshem-gold);
+  font-style: italic;
+  margin-bottom: 0.3rem;
+}
+
+.leshem-hero-sub {
+  font-size: 0.95rem;
+  color: var(--leshem-ink-light);
+  letter-spacing: 0.04em;
+}
+
+.leshem-divider {
+  text-align: center;
+  color: var(--leshem-gold);
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  letter-spacing: 0.4em;
+}
+
+.leshem-meta-box {
+  background: var(--leshem-parchment-dark);
+  border: 1px solid var(--leshem-gold-light);
+  border-left: 4px solid var(--leshem-gold);
+  border-radius: 6px;
+  padding: 1.2rem 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.leshem-meta-box ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.leshem-meta-box li {
+  margin-bottom: 0.3rem;
+}
+
+.leshem-begin-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.65rem 1.8rem;
+  background: var(--leshem-gold);
+  color: #fff !important;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-decoration: none !important;
+  letter-spacing: 0.03em;
+  transition: background 0.2s;
+}
+
+.leshem-begin-link:hover {
+  background: #9a7020;
 }
