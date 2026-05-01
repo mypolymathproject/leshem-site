@@ -1,202 +1,279 @@
-/* ── Colour palette ─────────────────────────────────────────────────────── */
+/* ── Color Tokens ────────────────────────────────────────────────────────── */
 :root {
-  --ifm-color-primary: #7b5e3a;
-  --ifm-color-primary-dark: #6e5434;
-  --ifm-color-primary-darker: #684f31;
-  --ifm-color-primary-darkest: #564129;
-  --ifm-color-primary-light: #886840;
-  --ifm-color-primary-lighter: #8e6d44;
-  --ifm-color-primary-lightest: #a07e51;
+  /* IFM bridge — points into the new token system */
+  --ifm-color-primary:          oklch(48% 0.09 68);
+  --ifm-color-primary-dark:     oklch(44% 0.09 68);
+  --ifm-color-primary-darker:   oklch(42% 0.09 68);
+  --ifm-color-primary-darkest:  oklch(38% 0.08 65);
+  --ifm-color-primary-light:    oklch(52% 0.09 70);
+  --ifm-color-primary-lighter:  oklch(55% 0.09 72);
+  --ifm-color-primary-lightest: oklch(62% 0.10 75);
 
-  --ifm-font-family-base: Georgia, 'Times New Roman', serif;
-  --ifm-heading-font-family: Georgia, 'Times New Roman', serif;
-  --ifm-font-size-base: 17px;
-  --ifm-line-height-base: 1.9;
-  --ifm-code-font-size: 95%;
+  --ifm-background-color:       oklch(96.5% 0.012 80);
+  --ifm-font-family-base:       'EB Garamond', Georgia, serif;
+  --ifm-heading-font-family:    'EB Garamond', Georgia, serif;
+  --ifm-font-size-base:         16.5px;
+  --ifm-line-height-base:       1.85;
+  --ifm-code-font-size:         95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  --leshem-parchment: #fdf6e8;
-  --leshem-parchment-dark: #f5edd6;
-  --leshem-gold: #b8892a;
-  --leshem-gold-light: #e8c97a;
-  --leshem-ink: #2a1f0e;
-  --leshem-ink-light: #5a4a2e;
+  /* Design tokens */
+  --color-bg:        oklch(96.5% 0.012 80);
+  --color-bg-deep:   oklch(93% 0.018 75);
+  --color-bg-card:   oklch(94.5% 0.015 78);
+  --color-ink:       oklch(18% 0.015 60);
+  --color-ink-mid:   oklch(35% 0.012 60);
+  --color-ink-light: oklch(55% 0.010 65);
+  --color-rule:      oklch(78% 0.018 75);
+  --color-gold:      oklch(62% 0.10 75);
+  --color-gold-dark: oklch(48% 0.09 68);
+  --color-accent:    oklch(38% 0.06 55);
+
+  --font-body:    'EB Garamond', Georgia, serif;
+  --font-display: 'Cinzel', Georgia, serif;
+  --font-hebrew:  'Frank Ruhl Libre', Georgia, serif;
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #c9a87a;
-  --ifm-color-primary-dark: #c09a67;
-  --ifm-color-primary-darker: #bb935d;
-  --ifm-color-primary-darkest: #a87c44;
-  --ifm-color-primary-light: #d2b68d;
-  --ifm-color-primary-lighter: #d7bd97;
-  --ifm-color-primary-lightest: #e4d0b0;
+  --ifm-color-primary:          oklch(72% 0.09 75);
+  --ifm-color-primary-dark:     oklch(65% 0.09 72);
+  --ifm-color-primary-darker:   oklch(60% 0.09 70);
+  --ifm-color-primary-darkest:  oklch(55% 0.08 68);
+  --ifm-color-primary-light:    oklch(78% 0.09 78);
+  --ifm-color-primary-lighter:  oklch(82% 0.08 80);
+  --ifm-color-primary-lightest: oklch(88% 0.07 82);
+
+  --ifm-background-color:       oklch(12% 0.012 250);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
-  --leshem-parchment: #1e1810;
-  --leshem-parchment-dark: #161208;
-  --leshem-gold: #c9a87a;
-  --leshem-gold-light: #8a6a3a;
-  --leshem-ink: #e8dcc8;
-  --leshem-ink-light: #b8a888;
+  --color-bg:        oklch(12% 0.012 250);
+  --color-bg-deep:   oklch(9% 0.010 250);
+  --color-bg-card:   oklch(16% 0.015 250);
+  --color-ink:       oklch(92% 0.008 80);
+  --color-ink-mid:   oklch(70% 0.010 80);
+  --color-ink-light: oklch(50% 0.008 80);
+  --color-rule:      oklch(25% 0.015 250);
+  --color-gold:      oklch(72% 0.09 75);
+  --color-gold-dark: oklch(55% 0.08 70);
+  --color-accent:    oklch(65% 0.07 55);
 }
 
-/* ── Page background ────────────────────────────────────────────────────── */
-.main-wrapper {
-  background: var(--leshem-parchment);
+/* ── Base ────────────────────────────────────────────────────────────────── */
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 16.5px;
+  line-height: 1.85;
 }
 
 /* ── Navbar ─────────────────────────────────────────────────────────────── */
 .navbar {
-  background: #3d2b0f;
-  border-bottom: 3px solid var(--leshem-gold);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  background: var(--color-bg-deep);
+  border-bottom: 1px solid var(--color-rule);
+  box-shadow: none;
+}
+
+.navbar__brand {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-gold-dark) !important;
+  font-weight: 600;
 }
 
 .navbar__title {
-  color: #f0dfa8 !important;
-  font-size: 1.05rem;
-  letter-spacing: 0.02em;
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-gold-dark) !important;
+  font-weight: 600;
 }
 
 .navbar__link {
-  color: #d4b87a !important;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-ink-mid);
 }
 
+.navbar__link--active,
 .navbar__link:hover {
-  color: #f0dfa8 !important;
+  color: var(--color-gold-dark);
+  border-bottom: 1px solid var(--color-gold);
 }
 
 /* ── Sidebar ────────────────────────────────────────────────────────────── */
 .theme-doc-sidebar-container {
-  background: var(--leshem-parchment-dark);
-  border-right: 1px solid var(--leshem-gold-light);
+  background: var(--color-bg-deep);
+  border-right: 1px solid var(--color-rule);
 }
 
 .menu__link {
-  font-size: 0.88rem;
-  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-ink-mid);
+  border-radius: 0;
 }
 
 .menu__link--active {
-  background: var(--leshem-gold-light) !important;
-  color: var(--leshem-ink) !important;
-  font-weight: 600;
+  color: var(--color-gold-dark);
+  background: oklch(90% 0.022 75);
+  border-left: 2px solid var(--color-gold);
+  font-weight: 500;
+}
+
+[data-theme='dark'] .menu__link--active {
+  background: oklch(19% 0.025 250);
 }
 
 .menu__list-item-collapsible .menu__link {
-  font-weight: 700;
-  font-size: 0.82rem;
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--leshem-gold) !important;
+  color: var(--color-ink-light);
 }
 
-/* ── Article container ──────────────────────────────────────────────────── */
+/* ── Table of Contents ──────────────────────────────────────────────────── */
+.table-of-contents {
+  border-left: 1px solid var(--color-rule);
+  font-size: 13px;
+}
+
+.table-of-contents__link {
+  color: var(--color-ink-light);
+  font-family: var(--font-body);
+  font-style: italic;
+}
+
+.table-of-contents__link--active {
+  color: var(--color-gold-dark);
+  border-left: 1px solid var(--color-gold);
+  font-style: normal;
+}
+
+/* ── Main content area ──────────────────────────────────────────────────── */
 .theme-doc-markdown {
-  max-width: 780px;
+  max-width: 68ch;
+  margin: 0 auto;
 }
 
-article {
-  color: var(--leshem-ink);
+article h1 {
+  font-family: var(--font-body);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--color-ink);
+  margin-bottom: 8px;
 }
 
-/* ── Chapter title ──────────────────────────────────────────────────────── */
-.markdown h1 {
-  font-size: 1.7rem;
-  color: #3d2b0f;
-  border-bottom: 2px solid var(--leshem-gold);
-  padding-bottom: 0.6rem;
-  margin-bottom: 2rem;
+article h2 {
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-ink-light);
+  margin-top: 40px;
+  margin-bottom: 14px;
+  font-weight: 400;
 }
 
-[data-theme='dark'] .markdown h1 {
-  color: #f0dfa8;
+article p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--color-ink-mid);
+  text-wrap: pretty;
 }
 
-.markdown h2 {
-  font-size: 1.25rem;
-  color: var(--leshem-ink-light);
-  margin-top: 2.5rem;
+article strong {
+  font-weight: 600;
+  color: var(--color-ink);
 }
 
-/* ── Text type distinction ───────────────────────────────────────────────
-   Three types of paragraph in each chapter:
-   1. Hebrew source text        — plain paragraph, Hebrew-first (renders RTL)
-   2. English translation       — paragraph whose first child is <strong>
-   3. Commentary                — plain English paragraph
-   ────────────────────────────────────────────────────────────────────── */
+article em {
+  font-style: italic;
+}
 
-/* Base: all paragraphs handle bidi automatically */
+hr {
+  border: none;
+  border-top: 1px solid var(--color-rule);
+  margin: 28px 0;
+}
+
+/* ── Footer ─────────────────────────────────────────────────────────────── */
+.footer {
+  background: var(--color-bg-deep);
+  border-top: 1px solid var(--color-rule);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-style: italic;
+  color: var(--color-ink-light);
+}
+
+.footer__copyright {
+  color: var(--color-ink-light);
+}
+
+/* ── Pagination ─────────────────────────────────────────────────────────── */
+.pagination-nav__link {
+  border: 1px solid var(--color-rule);
+  background: var(--color-bg-deep);
+  border-radius: 0;
+  font-family: var(--font-body);
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--color-gold);
+}
+
+.pagination-nav__label {
+  color: var(--color-gold-dark);
+  font-style: italic;
+}
+
+/* ── Admonition blocks ──────────────────────────────────────────────────── */
+.alert {
+  background: var(--color-bg-card);
+  border-left: 3px solid var(--color-gold);
+  border-radius: 0;
+  font-style: italic;
+  color: var(--color-ink-mid);
+}
+
+/* ── Hebrew bidi (content paragraphs) ──────────────────────────────────── */
 .markdown p,
 .markdown li {
   unicode-bidi: plaintext;
   text-align: start;
 }
 
-/* Hebrew text — slightly larger, gold right-border to mark it as source */
-.markdown p:is([dir='rtl']) {
-  font-size: 1.12em;
-  line-height: 2.1;
-  border-right: 3px solid var(--leshem-gold);
-  padding-right: 0.9rem;
-  margin-right: 0;
-  color: var(--leshem-ink);
-}
-
-/* Translation (bold-leading paragraph) — amber left bar, indented */
-.markdown p:has(> strong:first-child) {
-  border-left: 3px solid var(--leshem-gold);
-  padding-left: 1rem;
-  color: #3a2510;
-  font-style: normal;
-}
-
-[data-theme='dark'] .markdown p:has(> strong:first-child) {
-  color: #e8d8b8;
-}
-
-/* Commentary — slightly muted, no border */
-.markdown p:not(:has(> strong:first-child)):not(:is([dir='rtl'])) {
-  color: var(--leshem-ink-light);
-  font-size: 0.97em;
-}
-
-[data-theme='dark'] .markdown p:not(:has(> strong:first-child)):not(:is([dir='rtl'])) {
-  color: #b8a888;
-}
-
-/* ── Inline styles within translations ──────────────────────────────────── */
-/* Italic within a bold translation — used for Hebrew term romanisations */
-.markdown p:has(> strong:first-child) em {
-  font-style: italic;
-  color: var(--leshem-gold);
-}
-
-/* ── Horizontal rules as section dividers ───────────────────────────────── */
+/* ── Horizontal rules ───────────────────────────────────────────────────── */
 .markdown hr {
   border: none;
-  border-top: 1px solid var(--leshem-gold-light);
+  border-top: 1px solid var(--color-rule);
   margin: 2.5rem auto;
   width: 60%;
 }
 
 /* ── Footnotes ──────────────────────────────────────────────────────────── */
 .footnotes {
-  border-top: 1px solid var(--leshem-gold-light);
+  border-top: 1px solid var(--color-rule);
   margin-top: 3.5rem;
   padding-top: 1.2rem;
   font-size: 0.83em;
-  color: var(--leshem-ink-light);
+  color: var(--color-ink-light);
 }
 
 .footnotes::before {
   content: 'Notes';
   display: block;
+  font-family: var(--font-display);
   font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--leshem-gold);
+  letter-spacing: 0.12em;
+  color: var(--color-gold);
   margin-bottom: 0.8rem;
 }
 
@@ -206,61 +283,65 @@ article {
   text-align: start;
 }
 
-/* ── Pagination (prev / next chapter links) ─────────────────────────────── */
-.pagination-nav__link {
-  border-color: var(--leshem-gold-light);
-  background: var(--leshem-parchment-dark);
-}
-
-.pagination-nav__link:hover {
-  border-color: var(--leshem-gold);
-}
-
 /* ── Intro page hero ────────────────────────────────────────────────────── */
 .leshem-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 40px 48px;
   text-align: center;
-  padding: 3rem 1rem 2.5rem;
-  border-bottom: 1px solid var(--leshem-gold-light);
+  background: linear-gradient(to bottom, var(--color-bg-deep), var(--color-bg));
+  border-bottom: 1px solid var(--color-rule);
   margin-bottom: 2.5rem;
 }
 
 .leshem-hero-hebrew {
-  font-size: 2rem;
-  line-height: 1.6;
-  color: var(--leshem-ink);
+  font-family: var(--font-hebrew);
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--color-gold-dark);
   direction: rtl;
-  margin-bottom: 0.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 0.04em;
 }
 
 .leshem-hero-english {
-  font-size: 1.35rem;
-  color: var(--leshem-gold);
-  font-style: italic;
-  margin-bottom: 0.3rem;
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-ink-light);
+  margin-bottom: 22px;
 }
 
 .leshem-hero-sub {
-  font-size: 0.95rem;
-  color: var(--leshem-ink-light);
-  letter-spacing: 0.04em;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-style: italic;
+  color: var(--color-ink-mid);
+  max-width: 480px;
+  line-height: 1.75;
+  margin-bottom: 32px;
 }
 
 .leshem-divider {
   text-align: center;
-  color: var(--leshem-gold);
-  font-size: 1.4rem;
-  margin: 2rem 0;
+  color: var(--color-gold);
+  font-size: 14px;
   letter-spacing: 0.4em;
+  margin: 2rem 0;
 }
 
 .leshem-meta-box {
-  background: var(--leshem-parchment-dark);
-  border: 1px solid var(--leshem-gold-light);
-  border-left: 4px solid var(--leshem-gold);
-  border-radius: 6px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-rule);
+  border-left: 3px solid var(--color-gold);
+  border-radius: 0;
   padding: 1.2rem 1.5rem;
   margin: 1.5rem 0;
   font-size: 0.95rem;
+  font-style: italic;
+  color: var(--color-ink-mid);
 }
 
 .leshem-meta-box ul {
@@ -273,18 +354,44 @@ article {
 }
 
 .leshem-begin-link {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 0.65rem 1.8rem;
-  background: var(--leshem-gold);
-  color: #fff !important;
-  border-radius: 6px;
-  font-size: 1rem;
-  text-decoration: none !important;
-  letter-spacing: 0.03em;
-  transition: background 0.2s;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-style: italic;
+  color: var(--color-gold-dark);
+  border-bottom: 1px solid var(--color-gold);
+  padding-bottom: 2px;
+  text-decoration: none;
 }
 
 .leshem-begin-link:hover {
-  background: #9a7020;
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* ── Contents list ──────────────────────────────────────────────────────── */
+.leshem-contents-item {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  padding: 14px 18px;
+  background: var(--color-bg-deep);
+  border: 1px solid var(--color-rule);
+  border-left: 3px solid var(--color-gold);
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.leshem-contents-gate {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--color-gold);
+  min-width: 64px;
+}
+
+.leshem-contents-title {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-style: italic;
+  color: var(--color-ink);
 }
