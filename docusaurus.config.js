@@ -19,6 +19,7 @@ const config = {
   headTags: [
     {
       tagName: 'script',
+      attributes: { type: 'text/javascript' },
       innerHTML: `try{var c=localStorage.getItem('leshem-compact');if(c==='true')document.documentElement.setAttribute('data-reading','compact');}catch(e){}`,
     },
     {
