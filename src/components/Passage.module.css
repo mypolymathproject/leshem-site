@@ -29,7 +29,7 @@
 }
 
 .translation {
-  font-size: 16.5px;
+  font-size: 17.5px;
   font-weight: 700;
   line-height: 1.75;
   color: var(--color-ink);
@@ -55,4 +55,42 @@
 
 .commentary p:last-child {
   margin-bottom: 0;
+}
+
+/* ── Compact mode overrides ─────────────────────────────────────────────── */
+:global([data-reading='compact']) .passage {
+  margin-bottom: 14px;
+  padding-left: 12px;
+  border-left-width: 1px;
+  border-left-color: oklch(from var(--color-rule) l c h / 0.45);
+}
+
+:global([data-reading='compact']) .hebrew {
+  font-size: 19px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+:global([data-reading='compact']) .marker {
+  font-size: 10px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+
+:global([data-reading='compact']) .translation {
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+:global([data-reading='compact']) .commentary {
+  font-size: 14px;
+  line-height: 1.65;
+  padding: 7px 11px;
+}
+
+:global([data-reading='compact']) .commentary p {
+  font-size: 14px;
+  line-height: 1.65;
+  margin-bottom: 0.35em;
 }

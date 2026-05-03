@@ -18,6 +18,10 @@ const config = {
 
   headTags: [
     {
+      tagName: 'script',
+      innerHTML: `try{var c=localStorage.getItem('leshem-compact');if(c==='true')document.documentElement.setAttribute('data-reading','compact');}catch(e){}`,
+    },
+    {
       tagName: 'link',
       attributes: { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     },
