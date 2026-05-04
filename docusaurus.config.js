@@ -54,6 +54,10 @@ const config = {
           routeBasePath: '/',
         },
         blog: false,
+        gtag: {
+          trackingID: 'G-8XJNSZMNEV',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
