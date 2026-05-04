@@ -18,7 +18,7 @@ The site presents:
 
 The site is read-only — no login, no accounts. It is a scholarly reading experience optimised for desktop and mobile.
 
-**Live URL:** https://leshem.karunakaran.com
+**Live URL:** https://leshem-site.vercel.app/
 
 ---
 

@@ -11,7 +11,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://leshem.karunakaran.com',
+  url: 'https://leshem-site.vercel.app',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
