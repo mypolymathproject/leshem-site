@@ -253,9 +253,13 @@ hr {
 article p:dir(rtl) {
   font-family: var(--font-hebrew);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 2;
   color: var(--color-ink);
+}
+
+[data-theme='dark'] article p:dir(rtl) {
+  color: var(--color-gold);
 }
 
 /* ── Horizontal rules ───────────────────────────────────────────────────── */
