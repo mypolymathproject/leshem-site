@@ -249,8 +249,8 @@ hr {
   text-align: start;
 }
 
-/* Hebrew paragraphs — match Passage component .hebrew styling */
-article p:dir(rtl) {
+/* Hebrew paragraphs — remark plugin sets dir="rtl" on Hebrew-first paragraphs */
+article p[dir="rtl"] {
   font-family: var(--font-hebrew);
   font-weight: 500;
   font-size: 22px;
@@ -258,7 +258,7 @@ article p:dir(rtl) {
   color: var(--color-ink);
 }
 
-[data-theme='dark'] article p:dir(rtl) {
+[data-theme='dark'] article p[dir="rtl"] {
   color: var(--color-gold);
 }
 

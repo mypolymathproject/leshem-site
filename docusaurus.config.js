@@ -1,5 +1,6 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkHebrewRtl from './src/plugins/remark-hebrew-rtl.mjs';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -52,6 +53,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
+          remarkPlugins: [remarkHebrewRtl],
         },
         blog: false,
         gtag: {
