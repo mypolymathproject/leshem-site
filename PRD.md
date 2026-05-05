@@ -1,5 +1,5 @@
 # PRD — Leshem Shvo v'Achlama Translation Website
-**Version:** 1.3  
+**Version:** 1.4  
 **Author:** Prasad Karunakaran  
 **Date:** May 4, 2026  
 **Status:** Live
@@ -50,7 +50,7 @@ Shaar 1 — The Names Havaye and Ad-nai
 
 Shaar 2 — Matter, Form, and the Chain of Worlds
   Chapter 1: From Higher World to Lower World                    ✓ live
-  Chapter 2: Tzurah — Form                                       forthcoming
+  Chapter 2: Tzurah — Form                                       ✓ live
 ...
 ```
 
@@ -67,8 +67,9 @@ Each chapter file contains:
 | Layer | Technology | Notes |
 |---|---|---|
 | Framework | Docusaurus 3 (React) | Static site generator ideal for book/doc-style content |
-| Content | MDX (.mdx) | One file per chapter; chapters use `<Passage>` React component |
+| Content | MDX (.mdx) | One file per chapter; chapters use `<Passage>` component or plain markdown |
 | Components | `src/components/Passage.js` | Renders Hebrew / translation / commentary as a styled block |
+| Remark plugin | `src/plugins/remark-hebrew-rtl.mjs` | Adds `dir="rtl"` to Hebrew-first paragraphs at build time |
 | Root wrapper | `src/theme/Root.js` | Docusaurus root wrapper; injects the compact/spacious toggle button |
 | Styling | Custom CSS with `oklch()` tokens | EB Garamond body, Cinzel display, Frank Ruhl Libre Hebrew; parchment light + midnight dark themes |
 | Analytics | Google Analytics 4 (`G-8XJNSZMNEV`) | Via Docusaurus `gtag` preset option; `anonymizeIP: true` |
@@ -81,12 +82,19 @@ Each chapter file contains:
 
 ## 5. Hebrew / Bidirectional Text
 
-Hebrew and English appear in the same document. The rendering approach:
+Hebrew and English appear in the same document. The rendering approach uses two layers:
 
-- `unicode-bidi: plaintext` on all paragraphs — the browser's Unicode Bidirectional Algorithm determines direction from the first strong character in each paragraph
-- Hebrew-leading paragraphs are automatically rendered RTL with right-alignment
-- English-leading paragraphs render LTR as normal
-- No manual `dir` attributes needed in the Markdown source
+**Remark plugin** (`src/plugins/remark-hebrew-rtl.mjs`): registered in `docusaurus.config.js` under `docs.remarkPlugins`. At build time it scans every markdown paragraph and adds `dir="rtl"` to any paragraph whose first character is Hebrew Unicode (U+0590–U+05FF). This gives the HTML element an explicit `dir` attribute.
+
+**CSS** (`src/css/custom.css`): `article p[dir="rtl"]` matches those paragraphs and applies the Hebrew typography — Frank Ruhl Libre, 22px, weight 500, line-height 2 — identical to the `<Passage>` component's `.hebrew` class.
+
+A base rule `unicode-bidi: plaintext; text-align: start` on `.markdown p` handles visual alignment for all paragraphs regardless of direction.
+
+**Two authoring patterns for Hebrew text:**
+- **`<Passage>` component** (Shaar 1, Shaar 2 Ch 1): Hebrew passed via `hebrew="..."` prop; component applies its own `dir="rtl"` and `.hebrew` styling.
+- **Plain markdown** (Shaar 2 Ch 2 onward): Hebrew written as plain paragraph text; remark plugin adds `dir="rtl"` automatically; CSS applies matching styles.
+
+Note: `:dir(rtl)` CSS pseudo-class does NOT work for this purpose — it is driven by the HTML `dir` attribute algorithm, not by the CSS `unicode-bidi` property.
 
 ---
 
@@ -175,11 +183,14 @@ leshem-site/
 │   │   └── chapter-9.mdx
 │   └── shaar-2/
 │       ├── _category_.json    ← Sidebar label: "Shaar 2 — Matter, Form, and the Chain of Worlds"
-│       └── chapter-1.mdx
+│       ├── chapter-1.mdx
+│       └── chapter-2.mdx      ← Plain markdown (no Passage component); remark plugin handles Hebrew RTL
 ├── src/
 │   ├── components/
 │   │   ├── Passage.js         ← MDX component: Hebrew + translation + commentary block
 │   │   └── Passage.module.css ← Scoped styles for Passage (includes compact mode overrides)
+│   ├── plugins/
+│   │   └── remark-hebrew-rtl.mjs ← Adds dir="rtl" to Hebrew-first paragraphs at build time
 │   ├── theme/
 │   │   └── Root.js            ← Docusaurus root wrapper; injects compact/spacious toggle button
 │   └── css/custom.css         ← oklch() color tokens, typography, Hebrew RTL, toggle button styles
@@ -245,7 +256,7 @@ Google Analytics 4 is configured via the Docusaurus `gtag` preset option.
 
 | Feature | Priority | Notes |
 |---|---|---|
-| Shaar 2 Chapter 2: Tzurah — Form | High | Source MD file ready in Downloads |
+| Shaar 2 Chapter 2: Tzurah — Form | ~~High~~ | ✓ Live |
 | Remaining Shaar 2 chapters | High | Source files to be provided by translator |
 | Search | High | Docusaurus has built-in local search via `@docusaurus/plugin-search-local` |
 | Glossary page | Medium | Kabbalistic terms (Atzilut, tzimtzum, sefirot, etc.) |
@@ -256,4 +267,4 @@ Google Analytics 4 is configured via the Docusaurus `gtag` preset option.
 
 ---
 
-*End of PRD v1.3 — Leshem Shvo v'Achlama Translation Site*
+*End of PRD v1.4 — Leshem Shvo v'Achlama Translation Site*

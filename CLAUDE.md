@@ -75,13 +75,17 @@ More commentary.
 
 ## Hebrew Rendering
 
-Hebrew/English bidirectionality is handled purely via CSS:
+Hebrew/English bidirectionality is handled via two mechanisms working together:
 
-```css
-.markdown p { unicode-bidi: plaintext; text-align: start; }
-```
+**1. Remark plugin** (`src/plugins/remark-hebrew-rtl.mjs`): runs at build time and adds `dir="rtl"` to any paragraph whose first character is in the Hebrew Unicode range. Registered in `docusaurus.config.js` under `docs.remarkPlugins`.
 
-This means: a paragraph that starts with a Hebrew character renders RTL automatically; an English-first paragraph renders LTR. No `dir` attributes needed in the Markdown.
+**2. CSS** (`src/css/custom.css`): `article p[dir="rtl"]` applies Frank Ruhl Libre / 22px / weight 500, matching the `<Passage>` component's `.hebrew` class. A base rule `unicode-bidi: plaintext; text-align: start` on `.markdown p` handles visual alignment.
+
+**Two chapter authoring patterns:**
+- **`<Passage>` component** (Shaar 1, Shaar 2 Ch 1): Hebrew passed as `hebrew="..."` prop; component renders its own `<div dir="rtl">` with the `.hebrew` CSS class.
+- **Plain markdown** (Shaar 2 Ch 2 onward): Hebrew paragraphs written as bare text; remark plugin adds `dir="rtl"` at build time; `article p[dir="rtl"]` CSS applies matching styles.
+
+Do NOT try to use `:dir(rtl)` CSS pseudo-class — it only fires based on the HTML `dir` attribute algorithm, not the CSS `unicode-bidi` property.
 
 ## Footnotes
 
