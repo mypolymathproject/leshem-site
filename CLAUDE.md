@@ -93,9 +93,68 @@ Markdown footnotes (`[^1]`, `[^2]`, etc.) are supported natively. Keep footnote 
 
 ## Source Files
 
-Original Word document and converted Markdown are in the parent directory:
-- `../word doc/` — original `.docx` files
-- `../md file/` — Markdown conversions of the Word docs (source of truth for content)
+Source chapters arrive as `.rtf` files (e.g. from `~/Downloads/`). No pre-converted markdown exists — convert directly from RTF using the Python script below.
+
+## Converting RTF Chapters to Markdown
+
+Use this Python pattern to convert any Shaar 3 chapter RTF:
+
+```python
+import re
+
+with open('path/to/chapter.rtf', 'rb') as f:
+    raw = f.read().decode('latin-1')
+
+def replace_hex(m):
+    try:
+        return bytes([int(m.group(1), 16)]).decode('cp1255')
+    except:
+        return ''
+
+def replace_unicode(m):
+    n = int(m.group(1))
+    if n < 0: n += 65536
+    return chr(n)
+
+text = raw
+# IMPORTANT: use `.` (not `\?`) to match the skip char after \uN — this file uses a space
+text = re.sub(r'\\u(-?\d+).', replace_unicode, text)
+text = re.sub(r"\\'([0-9a-fA-F]{2})", replace_hex, text)
+text = re.sub(r'\\b\b(?!0)', '<<<B>>>', text)   # mark bold spans
+text = re.sub(r'\\b0\b', '<<<E>>>', text)
+text = re.sub(r'\\par\b', '\n\n', text)          # paragraph breaks
+text = re.sub(r'\\[a-zA-Z]+[-\d]*\s?', '', text) # strip RTF control words
+text = re.sub(r'[{}]', '', text)
+text = re.sub(r'\\[^\n]', '', text)
+```
+
+**Paragraph classification:**
+- Contains >3 Hebrew chars → plain Hebrew paragraph (remark plugin handles RTL)
+- Contains `<<<B>>>` → **bold** paragraph (English translation)
+- Otherwise → plain text (commentary/footnote)
+
+**Footnotes:** paragraphs matching `^1\s+(word)` mark the footnote section start; format as `[^N]: text`.
+
+**Diagrams:** If the RTF contains a visual diagram (tables, boxes, arrows), recreate it as JSX in the `.md` file. Use `style={{...}}` object syntax (not `style="..."` strings) — Docusaurus 3 uses MDX which requires JSX prop syntax. Example layout for a 3-row world/organ diagram:
+
+```jsx
+<div style={{margin: '2rem 0', fontFamily: 'var(--font-body)', fontSize: '1rem', color: 'var(--color-ink)'}}>
+  <div style={{display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '1.8rem'}}>
+    <div style={{border: '2px solid currentColor', padding: '0.6rem 0.8rem', textAlign: 'center', minWidth: '110px', flexShrink: 0, lineHeight: 1.5}}>
+      <div style={{fontStyle: 'italic', fontWeight: 700}}>Beriah</div>
+      <div style={{fontStyle: 'italic', fontWeight: 700, marginTop: '0.2rem'}}>Macro-<br/>NESHAMA</div>
+    </div>
+    <div style={{flex: 1, fontStyle: 'italic', fontWeight: 700, lineHeight: 2.2}}>
+      <div>NESHAMA n*r<sup>1</sup>"n<sup>2</sup></div>
+      ...
+    </div>
+    <div style={{border: '2px solid currentColor', padding: '0.6rem 1rem', textAlign: 'center', flexShrink: 0, fontWeight: 700}}>
+      Brain
+    </div>
+  </div>
+  ...
+</div>
+```
 
 ## Deployment
 
