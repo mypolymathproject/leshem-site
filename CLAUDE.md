@@ -28,16 +28,16 @@ npm run serve    # serve the production build locally
 | `sidebars.js` | Auto-generated from folder structure — rarely needs editing |
 | `src/css/custom.css` | All custom styling including Hebrew RTL |
 | `docs/intro.md` | About page, serves at `/` (root) |
-| `docs/shaar-1/_category_.json` | Sidebar label for Shaar 1 |
-| `docs/shaar-1/chapter-N.md` | Chapter content |
+| `docs/shaar-N/_category_.json` | Sidebar label and collapse config for each Shaar |
+| `docs/shaar-N/chapter-N.md` | Chapter content |
 
 ## How to Add a New Chapter
 
-1. Create `docs/shaar-1/chapter-N.md` with frontmatter:
+1. Create `docs/shaar-N/chapter-N.md` with frontmatter:
    ```markdown
    ---
    id: chapter-N
-   title: "Chapter N: Title Here"
+   title: "Chapter N"
    sidebar_position: N
    ---
    ```
@@ -49,9 +49,18 @@ npm run serve    # serve the production build locally
 1. Create folder `docs/shaar-N/`
 2. Add `_category_.json`:
    ```json
-   { "label": "Shaar N — Title", "position": N, "collapsible": false }
+   {
+     "label": "Shaar N — Title",
+     "position": N,
+     "collapsible": true,
+     "collapsed": true
+   }
    ```
 3. Add chapter files inside it
+
+## Sidebar
+
+Each Shaar in the sidebar is **collapsible and collapsed by default** (`collapsible: true, collapsed: true` in `_category_.json`). This keeps the sidebar clean when there are many chapters. The active chapter's Shaar expands automatically.
 
 ## Content Format
 
