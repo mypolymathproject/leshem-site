@@ -814,11 +814,54 @@ In Diagram 6: The root of *neshama* of *Yetzirah* is from *ruach* of *Beriah* **
 
 The nine aspects of *rosh*, *toch*, *sof* are depicted below. Soul-levels in CAPS are the macro-levels. The raised numbers show the relationship between each higher micro-level and the lower micro-level that derives from it.
 
-| | NESHAMA | RUACH | NEFESH |
-|---|---|---|---|
-| **BERIAH** | n\*r¹n² | ⁽ᵃ⁾nr³n⁴ | ⁽ᵇ⁾nr⁵n⁶ |
-| **YETZIRAH** | ⁽ᵃ⁾n¹rn⁷ | n³r\*n⁸ | ⁽ᶜ⁾n⁵rn⁹ |
-| **ASIYAH** | n²r⁷n | n⁴r⁸n | n⁶r⁹n\* |
+<div style={{margin: '2rem 0', fontFamily: 'var(--font-body)', fontSize: '1rem', color: 'var(--color-ink)'}}>
+
+  <div style={{display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '1.8rem'}}>
+    <div style={{border: '2px solid currentColor', padding: '0.6rem 0.8rem', textAlign: 'center', minWidth: '110px', flexShrink: 0, lineHeight: 1.5}}>
+      <div style={{fontStyle: 'italic', fontWeight: 700}}>Beriah</div>
+      <div style={{fontStyle: 'italic', fontWeight: 700, marginTop: '0.2rem'}}>Macro-<br/>NESHAMA</div>
+    </div>
+    <div style={{flex: 1, fontStyle: 'italic', fontWeight: 700, lineHeight: 2.2}}>
+      <div>NESHAMA n*r<sup>1</sup>"n<sup>2</sup></div>
+      <div>RUACH<sup>a</sup> nr<sup>3</sup>"n<sup>4</sup></div>
+      <div>NEFESH<sup>b</sup> nr<sup>5</sup>"n<sup>6</sup></div>
+    </div>
+    <div style={{border: '2px solid currentColor', padding: '0.6rem 1rem', textAlign: 'center', flexShrink: 0, fontWeight: 700}}>
+      Brain
+    </div>
+  </div>
+
+  <div style={{display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '1.8rem'}}>
+    <div style={{border: '2px solid currentColor', padding: '0.6rem 0.8rem', textAlign: 'center', minWidth: '110px', flexShrink: 0, lineHeight: 1.5}}>
+      <div style={{fontStyle: 'italic', fontWeight: 700}}>Yetzirah</div>
+      <div style={{fontStyle: 'italic', fontWeight: 700, marginTop: '0.2rem'}}>Macro-<br/>RUACH</div>
+    </div>
+    <div style={{flex: 1, fontStyle: 'italic', fontWeight: 700, lineHeight: 2.2}}>
+      <div>NESHAMA<sup>a</sup> n<sup>1</sup>r"n<sup>7</sup></div>
+      <div>RUACH n<sup>3</sup>r*"n<sup>8</sup></div>
+      <div>NEFESH<sup>c</sup> n<sup>5</sup>r"n<sup>9</sup></div>
+    </div>
+    <div style={{border: '2px solid currentColor', padding: '0.6rem 1rem', textAlign: 'center', flexShrink: 0, fontWeight: 700}}>
+      Heart
+    </div>
+  </div>
+
+  <div style={{display: 'flex', alignItems: 'center', gap: '1.5rem'}}>
+    <div style={{border: '2px solid currentColor', padding: '0.6rem 0.8rem', textAlign: 'center', minWidth: '110px', flexShrink: 0, lineHeight: 1.5}}>
+      <div style={{fontStyle: 'italic', fontWeight: 700}}>Asiyah</div>
+      <div style={{fontStyle: 'italic', fontWeight: 700, marginTop: '0.2rem'}}>Macro-<br/>NEFESH</div>
+    </div>
+    <div style={{flex: 1, fontStyle: 'italic', fontWeight: 700, lineHeight: 2.2}}>
+      <div>NESHAMA<sup>b</sup> n<sup>2</sup>r<sup>7</sup>"n</div>
+      <div>RUACH<sup>c</sup> n<sup>4</sup>r<sup>8</sup>"n</div>
+      <div>NEFESH n<sup>6</sup>r<sup>9</sup>"n*</div>
+    </div>
+    <div style={{border: '2px solid currentColor', padding: '0.6rem 1rem', textAlign: 'center', flexShrink: 0, fontWeight: 700}}>
+      Liver
+    </div>
+  </div>
+
+</div>
 
 \* The primary reflection of this soul-level
 
