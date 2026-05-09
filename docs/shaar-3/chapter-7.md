@@ -1,6 +1,6 @@
 ---
 id: chapter-7
-title: “Chapter 7”
+title: "Chapter 7"
 sidebar_position: 7
 ---
 
