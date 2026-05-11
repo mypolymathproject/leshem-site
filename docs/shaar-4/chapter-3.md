@@ -1,6 +1,6 @@
 ---
 id: chapter-3
-title: "Chapter 3"
+title: "Chapter 3 — The first three levels of unfolding from above to below (hitpashtut) of Divine Light."
 sidebar_position: 3
 ---
 

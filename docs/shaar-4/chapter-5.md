@@ -1,6 +1,6 @@
 ---
 id: chapter-5
-title: "Chapter 5"
+title: "Chapter 5 — The fifth level of the revelation of Divine Light, the worlds of Bi\"a (briah, yetsira, asiya)."
 sidebar_position: 5
 ---
 

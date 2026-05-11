@@ -1,6 +1,6 @@
 ---
 id: chapter-1
-title: "Chapter 1"
+title: "Chapter 1 — The narnhai leading to its final expression on the material plane."
 sidebar_position: 1
 ---
 

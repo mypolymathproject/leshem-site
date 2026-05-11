@@ -1,6 +1,6 @@
 ---
 id: chapter-6
-title: "Chapter 6"
+title: "Chapter 6 — The division between the first three revelations and the final two."
 sidebar_position: 6
 ---
 

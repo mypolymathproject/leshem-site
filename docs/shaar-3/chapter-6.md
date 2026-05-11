@@ -1,6 +1,6 @@
 ---
 id: chapter-6
-title: "Chapter 6"
+title: "Chapter 6 — Ruakh and nefesh are the basis of creation as we know it. They are intertwined from above via the neshama."
 sidebar_position: 6
 ---
 

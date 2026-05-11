@@ -1,6 +1,6 @@
 ---
 id: chapter-2
-title: "Chapter 2"
+title: "Chapter 2 — The revelation of the Divine Light in the world of Atsilus and in the worlds of Bi\"a (briah, yetsira, asiya) via His Holy Names."
 sidebar_position: 2
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: chapter-3
-title: "Chapter 3"
+title: "Chapter 3 — The generic nefesh and ruakh of the lower worlds bi\"a are not at all Divine energy in and of themselves."
 sidebar_position: 3
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: chapter-2
-title: "Chapter 2"
+title: "Chapter 2 — Though there are 5 levels in nefesh, ruakh, neshama, chaya and yeshida, only the first 3 reside in the body. This is the same for the worlds."
 sidebar_position: 2
 ---
 

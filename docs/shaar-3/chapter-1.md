@@ -1,6 +1,6 @@
 ---
 id: chapter-1
-title: "Chapter 1"
+title: "Chapter 1 — The worlds of bia (briah, yetsirah, asiya), their nature and expression in man."
 sidebar_position: 1
 ---
 

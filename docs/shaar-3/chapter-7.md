@@ -1,6 +1,6 @@
 ---
 id: chapter-7
-title: "Chapter 7"
+title: "Chapter 7 — The manner in which the five soul levels of nefesh, ruakh, neshama, chaya and yehida of neshama are derived from the world of atsilut."
 sidebar_position: 7
 ---
 

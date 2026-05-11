@@ -1,6 +1,6 @@
 ---
 id: chapter-4
-title: "Chapter 4"
+title: "Chapter 4 — The fourth level of unfolding from above to below (hitpashtut) of Divine Light, the world of Atsilus."
 sidebar_position: 4
 ---
 

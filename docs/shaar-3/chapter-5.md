@@ -1,6 +1,6 @@
 ---
 id: chapter-5
-title: "Chapter 5"
+title: "Chapter 5 — Just as we find nefesh, ruakh and neshama one above the other and one inside the other, we also have each grouping within each of them."
 sidebar_position: 5
 ---
 

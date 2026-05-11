@@ -1,6 +1,6 @@
 ---
 id: chapter-4
-title: "Chapter 4"
+title: "Chapter 4 — The locations of all the specific aspects of the nefesh, ruakh and neshama are the brain, heart and liver."
 sidebar_position: 4
 ---
 
