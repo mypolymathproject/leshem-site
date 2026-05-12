@@ -30,6 +30,9 @@ npm run serve    # serve the production build locally
 | `docs/intro.md` | About page, serves at `/` (root) |
 | `docs/shaar-N/_category_.json` | Sidebar label and collapse config for each Shaar |
 | `docs/shaar-N/chapter-N.md` | Chapter content |
+| `docs/illustrations/_category_.json` | Illustrations section (position 7) |
+| `docs/illustrations/charts.md` | Gallery page — all 17 charts inline |
+| `static/img/illustrations/` | Chart images (PNG converted from PDF, plus original JPGs) |
 
 ## How to Add a New Chapter
 
@@ -164,6 +167,61 @@ text = re.sub(r'\\[^\n]', '', text)
   ...
 </div>
 ```
+
+## Chapter Title Format
+
+Chapter titles in frontmatter include a descriptive subtitle, not just the number:
+
+```markdown
+title: "Chapter 1 — The worlds of bia (briah, yetsirah, asiya), their nature and expression in man."
+```
+
+The `_category_.json` label for each Shaar also includes a descriptive subtitle:
+
+```json
+{ "label": "Shaar 3 — Five levels of form: nefesh, ruakh, neshama, chaya, yehida (narnhai)." }
+```
+
+## Adding Illustrations
+
+Charts and diagrams live in `static/img/illustrations/` and are shown on `docs/illustrations/charts.md`.
+
+**To add new images:**
+1. Place JPGs directly in `static/img/illustrations/`
+2. For PDFs, convert using macOS built-in Quick Look (no install needed):
+   ```bash
+   qlmanage -t -s 2000 -o /tmp/output_dir /path/to/file.pdf
+   # produces file.pdf.png in the output dir
+   cp /tmp/output_dir/file.pdf.png static/img/illustrations/clean-name.png
+   ```
+3. Add a section to `docs/illustrations/charts.md`:
+   ```markdown
+   ## Chart Title
+   ![Alt text](/img/illustrations/clean-name.png)
+   ---
+   ```
+
+Note: ImageMagick (`brew install imagemagick`) is an alternative converter but struggled on macOS 12. `qlmanage` works reliably on all macOS versions.
+
+## Search
+
+Local search is provided by `@easyops-cn/docusaurus-search-local`. It builds a search index at deploy time — no external service or API key needed.
+
+**Configuration** in `docusaurus.config.js` under `themes`:
+```js
+[
+  require.resolve('@easyops-cn/docusaurus-search-local'),
+  {
+    hashed: true,
+    language: ['en', 'he'],
+    highlightSearchTermsOnTargetPage: true,
+    explicitSearchResultPath: true,
+    docsRouteBasePath: '/',
+  },
+]
+```
+
+Note: search only works on the production build (`npm run build` + `npm run serve`), not on the dev server (`npm start`).
 
 ## Deployment
 

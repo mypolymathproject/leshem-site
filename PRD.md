@@ -1,7 +1,7 @@
 # PRD — Leshem Shvo v'Achlama Translation Website
-**Version:** 1.4  
+**Version:** 1.5  
 **Author:** Prasad Karunakaran  
-**Date:** May 4, 2026  
+**Date:** May 11, 2026  
 **Status:** Live
 
 ---
@@ -38,20 +38,34 @@ The book is divided into **Shaarim** (Gates), each subdivided into chapters.
 
 ```
 Shaar 1 — The Names Havaye and Ad-nai
-  Chapter 1: What the Names Havaye and Ad-nai Signify           ✓ live
-  Chapter 2: The Revelation of the Name Havaye in Atzilut       ✓ live
-  Chapter 3: Derivative Names and Titles                         ✓ live
-  Chapter 4: Two Aspects of Revelation in Atzilut               ✓ live
-  Chapter 5: The Revelation via the Name Havaye                  ✓ live
-  Chapter 6: His Revelation within Names and Worlds is Concealed ✓ live
-  Chapter 7: His Essence is Revealed in and until Atzilut        ✓ live
-  Chapter 8: Atzilut is Unified with the Emanator                ✓ live
-  Chapter 9: The Importance of the Inner Dimensions of Torah     ✓ live
+  Chapter 1–9                                                    ✓ live
 
 Shaar 2 — Matter, Form, and the Chain of Worlds
-  Chapter 1: From Higher World to Lower World                    ✓ live
-  Chapter 2: Tzurah — Form                                       ✓ live
-...
+  Chapter 1–2                                                    ✓ live
+
+Shaar 3 — Five levels of form: nefesh, ruakh, neshama, chaya, yehida (narnhai).
+          Only the first three are related to the body.
+  Chapter 1: The worlds of bia, their nature and expression in man          ✓ live
+  Chapter 2: Only the first 3 soul levels reside in the body                ✓ live
+  Chapter 3: The generic nefesh and ruakh of bi"a are not Divine energy     ✓ live
+  Chapter 4: Locations of nefesh, ruakh, neshama — brain, heart, liver      ✓ live
+  Chapter 5: Each soul grouping exists within each of them                  ✓ live
+  Chapter 6: Ruakh and nefesh intertwined from above via the neshama        ✓ live
+  Chapter 7: How the five soul levels derive from the world of atsilut      ✓ live
+
+Shaar 4 — Discussion of the first three levels of the Divine as related to us.
+  Chapter 1: The narnhai leading to its final expression on the material plane ✓ live
+  Chapter 2: Revelation of Divine Light via His Holy Names                     ✓ live
+  Chapter 3: The first three levels of hitpashtut of Divine Light              ✓ live
+  Chapter 4: The fourth level of hitpashtut — world of Atsilus                 ✓ live
+  Chapter 5: The fifth level of revelation — worlds of Bi"a                    ✓ live
+  Chapter 6: The division between the first three and the final two revelations ✓ live
+
+Shaar 5 — (title TBD)
+  Chapter 1: Various ways of picturing relationships between the Revelations  ✓ live
+  Chapter 2: Two aspects that equal four — multidimensional relationships      ✓ live
+  Chapter 3: The matter of enclothing of levels — a cosmic mystery             ✓ live
+  Chapter 4+: Pending
 ```
 
 Each chapter file contains:
@@ -170,21 +184,14 @@ The sidebar is **auto-generated** from the folder structure — no manual sideba
 leshem-site/
 ├── docs/
 │   ├── intro.mdx              ← About page / hero (serves at /)
-│   ├── shaar-1/
-│   │   ├── _category_.json    ← Sidebar label: "Shaar 1 — The Names Havaye and Ad-nai"
-│   │   ├── chapter-1.mdx
-│   │   ├── chapter-2.mdx
-│   │   ├── chapter-3.mdx
-│   │   ├── chapter-4.mdx
-│   │   ├── chapter-5.mdx
-│   │   ├── chapter-6.mdx
-│   │   ├── chapter-7.mdx
-│   │   ├── chapter-8.mdx
-│   │   └── chapter-9.mdx
-│   └── shaar-2/
-│       ├── _category_.json    ← Sidebar label: "Shaar 2 — Matter, Form, and the Chain of Worlds"
-│       ├── chapter-1.mdx
-│       └── chapter-2.mdx      ← Plain markdown (no Passage component); remark plugin handles Hebrew RTL
+│   ├── shaar-1/               ← 9 chapters ✓
+│   ├── shaar-2/               ← 2 chapters ✓
+│   ├── shaar-3/               ← 7 chapters ✓
+│   ├── shaar-4/               ← 6 chapters ✓
+│   ├── shaar-5/               ← 3 chapters ✓ (ongoing)
+│   └── illustrations/
+│       ├── _category_.json    ← Sidebar label: "Illustrations", position 7
+│       └── charts.md          ← Gallery of all 17 charts (inline images)
 ├── src/
 │   ├── components/
 │   │   ├── Passage.js         ← MDX component: Hebrew + translation + commentary block
@@ -196,7 +203,9 @@ leshem-site/
 │   └── css/custom.css         ← oklch() color tokens, typography, Hebrew RTL, toggle button styles
 ├── docusaurus.config.js       ← Site title, Google Fonts, anti-flash script, GA4, navbar, footer
 ├── sidebars.js                ← Auto-generated from folder structure
-└── static/                    ← Favicon, images
+└── static/
+    ├── img/illustrations/     ← 17 chart images (PNG converted from PDF via qlmanage, + 2 original JPGs)
+    └── ...                    ← Favicon, other images
 ```
 
 ---
@@ -256,9 +265,10 @@ Google Analytics 4 is configured via the Docusaurus `gtag` preset option.
 
 | Feature | Priority | Notes |
 |---|---|---|
-| Shaar 2 Chapter 2: Tzurah — Form | ~~High~~ | ✓ Live |
-| Remaining Shaar 2 chapters | High | Source files to be provided by translator |
-| Search | High | Docusaurus has built-in local search via `@docusaurus/plugin-search-local` |
+| Shaar 5 remaining chapters | High | Source files to be provided by translator |
+| Search | ~~High~~ | ✓ Live — `@easyops-cn/docusaurus-search-local`, Hebrew + English, index built at deploy time |
+| Illustrations section | ~~High~~ | ✓ Live — 17 charts at `/illustrations/charts` |
+| Descriptive chapter titles | ~~High~~ | ✓ Done — all Shaar 3 and 4 chapters titled |
 | Glossary page | Medium | Kabbalistic terms (Atzilut, tzimtzum, sefirot, etc.) |
 | Cross-references | Medium | Link from commentary to glossary or other chapters |
 | Print-friendly CSS | Low | For those who want to print chapters |
@@ -267,4 +277,4 @@ Google Analytics 4 is configured via the Docusaurus `gtag` preset option.
 
 ---
 
-*End of PRD v1.4 — Leshem Shvo v'Achlama Translation Site*
+*End of PRD v1.5 — Leshem Shvo v'Achlama Translation Site*
