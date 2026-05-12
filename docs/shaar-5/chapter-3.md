@@ -1,6 +1,6 @@
 ---
 id: chapter-3
-title: "Chapter 3"
+title: "Chapter 3 — The enclothing and overlapping of the levels of the heikhalot (Divine palaces), physical bodies, and the neshama."
 sidebar_position: 3
 ---
 

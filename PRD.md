@@ -61,10 +61,10 @@ Shaar 4 — Discussion of the first three levels of the Divine as related to us.
   Chapter 5: The fifth level of revelation — worlds of Bi"a                    ✓ live
   Chapter 6: The division between the first three and the final two revelations ✓ live
 
-Shaar 5 — (title TBD)
-  Chapter 1: Various ways of picturing relationships between the Revelations  ✓ live
-  Chapter 2: Two aspects that equal four — multidimensional relationships      ✓ live
-  Chapter 3: The matter of enclothing of levels — a cosmic mystery             ✓ live
+Shaar 5 — The five general Divine revelations
+  Chapter 1: Two varieties of the five revelations: one above the other and one within the other  ✓ live
+  Chapter 2: Two aspects of illumination: the makif (transcendent) and the penimi (immanent)      ✓ live
+  Chapter 3: The enclothing and overlapping of the heikhalot, physical bodies, and the neshama    ✓ live
   Chapter 4+: Pending
 ```
 

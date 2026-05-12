@@ -1,6 +1,6 @@
 ---
 id: chapter-1
-title: "Chapter 1"
+title: "Chapter 1 — Two varieties of the five revelations: one above the other and one within the other."
 sidebar_position: 1
 ---
 

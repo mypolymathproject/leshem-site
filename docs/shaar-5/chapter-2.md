@@ -1,6 +1,6 @@
 ---
 id: chapter-2
-title: "Chapter 2"
+title: "Chapter 2 — Two aspects of illumination: the makif (transcendent, surrounding) and the penimi (inner, immanent light)."
 sidebar_position: 2
 ---
 
