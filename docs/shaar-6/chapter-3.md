@@ -4,484 +4,638 @@ title: "Chapter 3 — The kav (the funnel in tsimtsum) and the matters of the ma
 sidebar_position: 3
 ---
 
-**The or penimi and or makif have different reasons for how they function.**
+**Role of the kav and its attributes. Makifim: surrounding light.**
 
-וְהִנֵּה ע"ד שֶׁבִּאַרְנוּ שֶׁיֵּשׁ חִלּוּק בֵּין הַגִּלּוּי דּאֹור הַפְּנִימִי 
+הִנֵּה מָה שֶׁאָמַרְנוּ כִּי מִתְפַּשֵּׁט קַו אוֹר אֶחָד דַּק 
 
-**As we explained** in the previous chapter **there is a** clear **distinction between the illumination from the internalized** light (the *ohr pnimi*),
+**Now when we said that a single thin line of light** called the *kav* **spreads forth**
 
-לְהַגִּילוּי דּאֹור הַמַּקִּיף בְּהַפְעוּלוֹת הַיּוֹצֵא מֵהֶם 
+בִּמְקוֹם הַצִּמְצוּם מֵהָאוֹר הָעֶלְיוֹן אֲשֶׁר נִסְתַּלֵּק וְעָלָה, 
 
-**and the illumination from the enveloping light** (*ohr makif*) **in terms of their effects.**
+**into the region of the *tzimtzum* from the higher light that was withdrawn and ascended,** 
 
-כִּי הָאוֹר הַפְּנִימִי כָּל גִּלּוּיוֹ הוּא ע"י הַגּוּף וְיוֹצֵא מִמֶּנוֹ רַק פְּעֻלּוֹת גְּבוּלִיִּים. 
+וּמֵאוֹתוֹ הַקַּו אוֹר נַעֲשָׂה כָּל הַמְּצִיאוּת דְּעוֹלָם הַתַּחְתּוֹן. 
 
-**All the revelations from the *ohr pnimi* are via a body** or vessel, **and what emerge from it are limited effects.**
+**and from that *kav* of light the entire existence of the lower world[^1] was fashioned.**
 
-אֲבָל הַגִּלּוּי דּאֹור הַמַּקִּיף הוּא דַּוְקָא שֶׁלֹּא ע"י הַגּוּף 
+הִנֵּה יֶשְׁנוֹ בְּאוֹתוֹ הַקַּו ב' בְּחִי' 
 
-**However, the illumination from the *ohr makif* is explicitly not by way of a body** or vessel,
+**Now** **in this *kav* there are two aspects:**
 
-וְיוֹצְאִים מִמֶּנוֹ פְּעֻלּוֹת בִּלְתִּי גְּבוּל וְכַנָּ"ל. 
+**אֶחָד** הוּא כָּל הַהִתְלַבְשׁוּת דְּשְׁתַּיִם שֶׁהֵן אַרְבַּע אֲשֶׁר אָמַרְנוּ לְעֵיל שַׁעַר ה' פ"ב ופ"ג 
 
-**and what emerge from it are unlimited effects, as explained above.**
+**One, the entire** process of **enclothing** – called *hitlavshut* – **the 'two that are four' – as we explained above Sha'ar 5, chapters 2 & 3.**
 
-כֵּן יֵשׁ חִלּוּק עד"ז ג"כ בְּסִבַּת פְּעֻלּוֹתֵיהֶם הַנִּמְשָׁךְ מֵהֶם לְהָאָדָם. 
+וְהֲיְינוּ כִּי יוֹרֵד וּמִתְפַּשֵּׁט מְאוֹר הָעֶלְיוֹן וְכֵן מִכָּל הָעֶלְיוֹנִים כֻּלָּם 
 
-**Similarly, there is a further distinction along these lines in terms of what causes the effects to be drawn down to man:**
+**Meaning to say, there descends and diffuses from the superior light, and from all the superior levels,**
 
-כִּי סִבַּת פְּעֻלּוֹת אוֹר הַפְּנִימִי וְכָל אוֹרוֹ וְגִּלּוּיוֹ 
+וּמִתְלַבְּשִׁים בְּהֶאָרָתָם בְּהֲקַו בְּהַבְחִינַת דְּשְׁתַּיִם שֶׁהֵן אַרְבַּע וּכְמוֹ שֶׁבֵּאַרְנוּ שָׁם
 
-**The cause of the *ohr pnimi's* effects that are drawn down to man, and all its light and illumination,**
+**a radiance that is clothed in the *kav* in the manner of 'two that are four' as explained there** in *Sha'ar* 5, chapters 2 & 3**.**
 
-הִנֵּה חָקַק הַמַּאֲצִיל ית"ש חֻקִּים גְּבוּלִיִּים לְזֶה אֲשֶׁר רַק עַל יְדֵיהֶם 
+**וְהַשֵּׁנִי** הוּא כִּי הִנֵּה עִקַּר הָעֲצְמוּת דְּאֹור הַקַּו 
 
-**are that the Emanator, may His Name be blessed, fixed** (lit. Engraved) **limiting laws as the exclusive basis around which**  
+**The second** aspect of the *kav* **is that the primary essence of the light of the *kav***
 
-נְסַבֵּב וְנִמְשַׁךְ כָּל אוֹרוֹ וּפְעֻלָּתוֹ לְהָאָדָם 
+הוּא בֶּאֱמֶת זוּלַת כָּל הַהִתְלַבְּשׁוּת הַנִּזְכָּר 
 
-**all its light and effects would revolve, and be drawn down to man,**
+**is truly independent of** the process of **'enclothing' mentioned previously.**
 
-וְהִנֵּה הֵם כָּל מַעֲשֵׂה הַתַּחְתּוֹנִים בִּזְכוּת אוֹ בְּחוֹבָה 
+אֶלָּא שֶׁהוּא מָה שֶׁשַּׁיָּךְ לְעֶצֶם הַתַּחְתּוֹן גּוּפָהּ מִשָּׁרְשׁוֹ וּמֵעִקָּרוֹ 
 
-**via the actions of those below – whether they arouse merit or liability.**
+**Instead it is related to the essence of the lower aspect itself, in** terms of **its root and origin.** 
 
-וְעַל יְדֵיהֶם נִמְשַׁךְ כָּל פְּעֻלּוֹת אוֹר הַפְּנִימִי שֶׁהוּא מְצֻמְצָם בַּגּוּף וּכְלִי. 
+כִּי הִנֵּה נִתָּן מֵהַמַּאֲצִיל הָעֶלְיוֹן ית"ש בְּכָל אוֹר עֶלְיוֹן 
 
-**Through them are drawn down all the activities of the *ohr pnimi* that are constricted into a body and vessel,**
+**This is because the Supernal Emanator, blessed be His name, imbued every supernal light**
 
-וּמִתְנַהֵג רַק ע"פ הַדִּין וְהַמִּשְׁפָּט לִהְיוֹת גּוֹמֵל לְאִישׁ חֶסֶד כְּמִפְעָלוֹ 
+שֹׁרֶשׁ וְרוֹשֵׁם לְהַמְצִיאוֹת דְּהַתַּחְתּוֹן 
 
-**and it conducts itself according to law and justice, granting a person kindness commensurate with his** own **actions,**
+**with the root and the imprint of the lower aspects of existence.**
 
-וְלָרָשָׁע רָע כְּרִשְׁעָתוֹ 
+וְהוּא מֻנָּח גֻּנֵּז וְטָמִיר בָּאוֹר הָעֶלְיוֹן וּמוּכָן לְעוֹלָם רַק לְהֲתַחְתּוֹן. 
 
-**and to the wicked** person **according to his wickedness,**
+**And this** root and imprint **is located in a concealed and secret manner in the supernal light, and is always primed exclusively for the lower aspects**.
 
-כִּי תַּהֲלוּכוֹת אוֹר הַפְּנִימִי הוּא בְּמִדָּה וּבְמִשְׁקָל וְאֵינוֹ עוֹבֵר עַל גְּבוּלוֹ. 
+וּבַתְּחִלָּה הִנֵּה הוּא מֻשְׁרָשׁ בַּהָעֶלְיוֹן רַק בְּכֹחַ לְבַד 
 
-**since the paths of the *ohr pnimi* are measured and weighed, and do not step out of their bounds.**
+**Initially it** the imprint of the lower aspect **is rooted in the upper level only in potential,[^2]** 
 
-וְהוּא גִּלּוּיוֹ ית"ש אֲשֶׁר בְּכָל דַּרְכֵי הַטֶּבַע 
+אַךְ עַל יְדֵי יְרִידַת כָּל אוֹר עֶלְיוֹן וְהִתְפַּשְּׁטוּתוֹ בַּתְּחִלָּה בִּמְקוֹם הֶעָתִיד לְהֲתַחְתּוֹן כַּנָּ"ל פ"א, 
 
-**And this is how He is revealed within the paths of nature**
+**but, via the descent of the supernal light and its initial diffusion below, into the place where the lower aspects would exist in the future, as explained previously (Part one)**
 
-שֶׁחָקַק וְהִטְבִּיעַ בְּהַבְרִיאָהּ מִשֵּׁשֶׁת יְמֵי בְּרֵאשִׁית. 
+הִנֵּה יוֹצֵא אָז אוֹתוֹ הַשֹּׁרֶשׁ מֵהַכֹּחַ אֶל הַפֹּעַל וּמֵהָעֶלֶם אֶל הַגִּלּוּי 
 
-**which He fixed and set as the disposition of the created world from the six days of Creation.**
+**that root then emerges from potential to actual, and from concealment to revelation.**
 
-וְהֵם מְסֻדָּרִים בְּחִיּוּב וְנִמְנַע וְאֶפְשָׁר וְאֵינוֹ עוֹבֵּר כָּל אֶחַד אֶת חֻקּוֹ. 
+וּמִתְגַּלֶּה בּוֹ אָז שֶׁהוּא הַשֹּׁרֶשׁ דְּהַתַּחְתּוֹן. 
 
-**These** laws of nature **are arranged as the necessary, the impossible and the possible** but not necessary, **and none of them violates its boundaries.** 
+**And then it is revealed as the root of the lower aspect**. 
 
-וכ"ז הוּא מִפְּעֻלַּת אוֹר הַפְּנִימִי כַּנָּ"ל. 
+וְכַאֲשֶׁר מִסְתַּלֵּק הָאוֹר וְעוֹלֶה לְמַעְלָה בְּעֵת הַצִּמְצוּם 
 
-**All of this is the effect of the *ohr pnimi.***
+**When the light** of the *Ohr Ein Sof* **withdraws and ascends at the time of the *tzimtzum***
 
-כֵּן נִמְשַׁךְ עד"ז ג"כ כָּל סִבַּת אוֹרוֹ לְהָאָדָם הַכֹּל רַק לְפִי מַעֲשָׂיו 
+הִנֵּה מִסְתַּלֵּק וְעוֹלֶה עִמּוֹ אוֹתוֹ הַשֹּׁרֶשׁ דְּהַתַּחְתּוֹן ג"כ 
 
-**Similarly, there is drawn down to man the entire source of illumination – all of it only according to his deeds.**
+**then the root of the lower aspect ascends together with it.**
 
-כִּי כְּשֶׁמִּתְנַהֵג ע"פ הַתּוֹרָה וְהַמִּצוָה אָז הוּא בָּא בִּשְׂכָרוֹ 
+וְהִנֵּה נִתְוַסֵּף לוֹ בַּעֲלִיָּתוֹ לְמַעְלָה תּוֹסֶפֶת אוֹר וּבְרָכָה הַרְבֵּה מֵאוֹר א"ס הָעֶלְיוֹן 
 
-**Thus when a person conducts himself according to Torah and mitzvot, then he receives his reward –**
+**Now when it** the lower light **ascends above** to its root in the higher light,**[^3] abundant additional light and blessing is added to it from the supernal *Ohr Ein Sof*.[^4]**
 
-לֵהָנוֹת מִטּוֹב הָעוֹלָם כִּי כָּל הָעוֹלָם לֹא נִבְרָא אֶלָּא בִּשְׁבִילוֹ. 
+כִּי מִקֹּדֶם לֹא הָיָה אֶלָּא רַק בְּחִינַת שֹׁרֶשׁ דַּק וְקָטָן וּכְגַרְעִינֵי פְּרִי 
 
-**and enjoys the goodness of the world, since the entire world was created only for this** – for Torah and mitzvot**[^1]** –
+**For initially** the connection of the lower light to the higher light **was only** like **a slender, tiny root, like tiny seeds of a fruit.**
 
-וּכְמוֹ שֶׁהֵם כָּל הַבְטָחוֹת הַתּוֹרָה בְּבִרְכוֹתֶיהָ וְטוֹבוֹתֶיהַּ 
+אַךְ בַּעֲלִיָּתוֹ לְמַעְלָה הִנֵּה נִתְוַסֵּף בּוֹ אוֹר וּבְרָכָה מִלְּמַעְלָה 
 
-**just as the Torah promises all its blessings and goodness,**
+**but after its ascent above, light and blessing was added to it,**
 
-שֶׁהֵם תְּלוּיִם כֻּלָּם רַק בְּקִיּוּם הַתּוֹרָה וְהַמִּצְוַה.
+בְּתוֹסֶפֶת מְרֻבָּה עַל הָעִקָּר 
 
-**which are all dependent upon fulfilling Torah and mitzvot.** 
+**an additional abundance that is greater than the initial outlay.**
 
-וכמ"ש אִם בְּחֻקּוֹתַי תֵּלְכוּ כו' וְהָיָה אִם שָׁמוֹעַ תִּשְׁמְעוּ כו' וְהָיָה עֵקֶב תִּשְׁמְעוּן כו'. 
+וְנַעֲשָׂה וְנִשְׁלַם לְשֹׁרֶשׁ שָׁלֵם וְכֵן מִתְלַבֵּשׁ בּוֹ וּמִתְיַחֵד עִמּוֹ כָּל הַהִתְלַבְשׁוּת דְּשְׁתַּיִם שֶׁהֵן אַרְבַּע 
 
-**And as is it written, "If you will go in My statutes…"** (Leviticus 26:3), **and "If you will indeed obey"** (Deuteronomy 11:13), **and "When in the end you will obey…"** (Deuteronomy 7:12).
+**And thus it becomes fully manifested as a complete root, and within it is clothed and integrated the entire *hitlavshut*** the 'enclothing process' **of two that are four,**
 
-וְכֵן לְהֵפֶךְ כְּשֶׁיַּעַבְרוּ עַל הַתּוֹרָה אָז הוֹלֵךְ כָּל הָעוֹלָם לְנֶגְּדָם 
+מִכָּל הָאוֹרוֹת הָעֶלְיוֹנִים כֻּלָּם 
 
-**And the opposite is also true: if they transgress the Torah, the entire world will go against them,**
+**as well as all the supernal lights.**
 
-וּכְמוֹ שֶׁהוּא כָּל הַקְּלָלוֹת שבתו"כ וְשֶׁבְּמִשְׁנֵה תּוֹרָה 
+וּמִכָּל זֶה יוֹרֵד וְנִמְשָׁךְ הַקַּו אוֹר בְּהַצִמְצוּם וְנִבְנֶה מֵהֶם כָּל הַבִּנְיָן דְּאוֹתוֹ הָעוֹלָם אֲשֶׁר יוֹרֵד בּוֹ וְכַנָּ"ל פ"ב:
 
-**as the curses in Vayikra** (Leviticus) **and in Devarim** (Deuteronomy) state explicitly.
+**From all of this the *kav* is drawn down via the *tzimtzum* and the entire edifice of that world that descends** via the *kav* **is built, as we explained in chapter 2.**  
 
-וְכֵן כָּל עָנְשֵׁי הַתּוֹרָה כֻּלָּם. 
+וַהֲרֵי נִמְצָא כִּי הַקַּו הִנֵּה הוּא מְיֻסָּד מִשְּׁנֵי בְּחִי' 
 
-**And the same is true of all the punishments in the Torah.**
+**So it turns out that the *kav* is in fact comprised of two elements:**
 
-וכ"ז הוּא הַכֹּל מֵהַחֻקִּים וּגְבוּלִים דְּהָאוֹר הַפְּנִימִי 
+אֶחָד הוּא מְאוֹר עַצְמוּתוֹ גּוּפָהּ שֶׁהוּא עַצְמוֹת הָאוֹר הַשַּׁיָּךְ לְאוֹתוֹ הָעוֹלָם 
 
-**All of this is** in the purview of **the statutes and limitations engraved into the *ohr pnimi,***
+**One is the essential light itself, which is the essence of the light appropriate for that world,**
 
-וְעַל יָדוֹ הוּא כָּל דִּינֵי הַתּוֹרָה בְּכָל חֻקּוֹתֶיהָ וּמִשְׁפָּטֶיהָ, 
+שֶׁיּוֹרֵד בּוֹ אֲשֶׁר הוּכַן לוֹ מִתְּחִלָּתוֹ מֵהַמַּאֲצִיל עֶלְיוֹן 
 
-**and by its agency are all the laws of the Torah, its laws and judgments,**
+**that descends with it** with the *kav* **and was prepared from the outset for this by the Supernal Emanator.**
 
-כִּי מִשְׁפְּטֵי הַתּוֹרָה וְחֻקֵּי הַבְּרִיאָה אֶחָד הֵם. 
+וְהוּא עִקָּרוֹ וְחֶלְקוֹ הַשַּׁיָּךְ אֵלָיו עַצְמוֹ בַּסּוֹף מַעֲשֶׂה וְהוּא בְּמַחְשָׁבָה תְּחִלָּה 
 
-**because the statutes of the Torah and the laws of Nature are one and the same.**
+**And this is the primary aspect and portion assigned to it as the final act** of Creation **that arose initially in thought.**
 
-שֶׁהֲרֵי הַבְּרִיאָה נִתְיַסְּדָה בְּטוֹב וְרַע 
+וְהַשֵּׁנִי הוּא כָּל הַהִתְלַבְּשׁוּת דְּשְׁתַּיִם שֶׁהֵן אַרְבַּע מִכָּל הָאוֹרוֹת הָעֶלְיוֹנִים כֻּלָּם 
 
-**For since the Creation is established on the basis of** **good and evil**,
+**The second** aspect **is the *hitlavshut* of 'two that are four'** – the two aspects of *olam* (world) and *nefesh* (person)**[^5]** that subdivide into chambers and garments, bodies and souls, 
 
-וְכַמָּ"שֶׁ(קָּהֶלֶת ז, יד) גַּם אֶת זֶה לְעֻמַּת זֶה עָשָׂה הָאֱלֹקִים טוֹב לְעֻמַּת רַע וְרַע לְעֻמַּת טוֹב
+הַמִּשְׁתַּתְּפִים עִמּוֹ וּמִתְיַחֲדִים בּוֹ וְכַנָּ"ל שע"ה פ"ג. 
 
-**as the verse (Eccleisastes 7:14) states: "G-d made one thing opposite the other"** (Rashi: Goodness and reward for doing good, as opposed to evil and the punishment for doing evil) **– good opposite evil, and evil opposite good.**
+**that join with it** with the *kav* **and are united in it, as explained above Sha'ar 5 chapter 3.**
 
-וְכָל מְצִיאוּת הָעוֹלָם הוּא הַכֹּל בִּתְמוּרָה 
+אָמְנָם הוּא כִּי הִנֵּה הָאוֹר עַצְמוּתוֹ אֲשֶׁר אָמַרְנוּ שֶׁיֶּשְׁנוֹ בְּכָל עוֹלָם 
 
-Thus **the way the entire world exists is as an exchange of one thing for another:**
+**Indeed, the essential light that is in every world, as we stated,**
 
-חַיִּים וּמַוֶת עֹשֶׁר וְעֹנִי מֶמְשָׁלָה וְעַבְדוּת זֶרַע וּשְׁמָמָה חֲכָמָה וְאִוֶּלֶת שֶׁלּוֹם וּמִלְחָמָה. 
+הִנֵּה הוּא גַּם כֵּן בְּב' בְּחִינוֹת אֶחָד פְּנִימִי וְאֶחָד מַקִּיף 
 
-**life and death, wealth and poverty, leadership and servitude, fruitfulness and desolation, wisdom and foolishness, peace and war.**
+**is also** manifested **in two aspects: one** aspect that is **internalized, and the other – encompassing**.
 
-וְהֵם י"ד עִתִּים לְטוֹבָה וי"ד עִתִּים לְרָעָה. 
+כִּי הִנֵּה כָּל מְצִיאֻת הַקַּו אֲשֶׁר אָמַרְנוּ הִנֵּה הוּא בִּבְחִינַת אוֹר וּכְלִי 
 
-**These are the fourteen *itim* (**times) **for the good and fourteen *itim* (**times) **for the bad** mentioned in Ecclesiastes chapter 3.   
+**For the entire character of the *kav*, as we mentioned, is that it has** two **aspects** – **'light' and 'vessel.'**
 
-וְהֵם נִמְשָׁכִים כֻּלָּם ע"ש מִשְׁפְּטֵי הַתּוֹרָה 
+כִּי עַל יְדֵי זֶה הוּא רַק בִּבְחִינַת קַו דַּק כִּי הַכְּלִי שֶׁבּוֹ מִצַּמְצְמּוֹ וּמַגְבִּילוֹ 
 
-**All of them are drawn from the statutes of the Torah –**
+**And for this reason it is only a *thin* line of light – because the vessel** aspect **therein constricts and limits it.**
 
-כִּי טוֹבָה שְׁמוּרָה לְטוֹבִים וְרָעָה שְׁמוּרָה לְרֵעִים. 
+וְנַעֲשָׂה בּוֹ הַכְּלִי מִכֹּחַ הַצִּמְצוּם אֲשֶׁר מִתְפַּשֵּׁט בּוֹ 
 
-**because good is kept for those** who do **good, and evil for those** who do **evil.**
+**And the 'vessel' is formed in it by the power of the *tzimtzum* that permeates it,**
 
-אַךְ כ"ז הוּא רַק מָה שֶׁרָאוּי לִהְיוֹת ע"פ חֻקֵּי וּגְבוּלֵי דּאֹור הַפְּנִימִי. 
+כִּי הֲרֵי הַקַּו הוּא מִתְפַּשֵּׁט בְּהַצְמָצוּם כַּנָּ"ל.
 
-**However, this is all in regard to what is appropriate according to the set laws and limitation of the *ohr pnimi,***
+**since the *kav* extends out via the *tzimtzum*, as noted previously.[^6]**
 
-כִּי עַל יָדוֹ הוּא כָּל מִשְׁפְּטֵי הַתּוֹרָה בִּשְׂכָרָהּ וְעָנְשָׁהּ שֶׁהֵם הַטּוֹב וְהָרַע שֶׁבְּהַבְרִיאָהּ. 
+וְעַל כָּל פָּנִים הוּא כִּי הַקַּו הוּא בִּבְחִינַת אוֹר וּכְלִי 
 
-**for all the judgments of the Torah, in terms of reward and punishment for good and evil in Creation are by way of it** the *ohr pnimi*. 
+**In any event, the *kav* is comprised of 'light and vessel,'**   
 
-משא"כ אוֹר הַמַּקִּיף אֲשֶׁר תַּהֲלוּכוֹת פְּעֻלָּתוֹ בְּגִלּוּיוֹ הוּא בִּלְתִּי גְּבוּל 
+וְכַאֲשֶׁר נִכְנַס הָאוֹר בַּהֲכְּלִי הִנֵּה נֶחֱלָק לַשָּׁנִים שֶׁלֹּא נִכְנַס בְּהַכְלִי אֶלָּא רַק חֵלֶק קָטָן מִמֶּנּוּ 
 
-**But this is not true of the *ohr makif* which performs in a way of limitless revelation**
+**and when the light enters the vessel it is divided into two, since only a fraction of the light enters the vessel,**
 
-כִּי הוּא אֵינוֹ מְצֻמְצָם כְּלָל וְכַנָּ"ל. 
+אֲבָל הַחֵלֶק הַיּוֹתֵר גָּדוֹל הוּא נִשְׁאַר מִבַּחוּץ וּמַקִּיפוֹ מִסָּבִיב 
 
-**since it is not constrained at all, as we discussed previously.**
+**while the majority of the light remains outside of it, enveloping it on all sides.[^7]**
 
-הִנֵּה כְּמוֹ כֵן לֹא נִמְצָא אֵלָיו בְּהַבְרִיאָהּ חֻקִּים וּגְבוּלִים כְּלָל גַּם לְסִבַּת גִילוּיוֹ. 
+וַהֲרֵי לָנוּ כִּי גַּם הָאוֹר עַצְמוּתוֹ שֶׁבְּכָל עוֹלָם הִנֵּה הוּא גַּם כֵּן בְּב' בְּחִינוֹת אֶחָד פְּנִימִי וְאֶחָד מַקִּיף.
 
-**Now in similar fashion, no laws or limitations can be found in Creation expressing the reasons for its revelation,**
+**Thus we have it that even the essential light in every world also presents in two aspects – one, internalized** light (*ohr pnimi*)**, and the other, enveloping** light (*ohr makif*).
 
-כִּי הוּא לְמַעְלָה מֵהַבְּרִיאָה לְגַמְרֵי וְהֵן גִּלּוּיוֹ וְהֵן סִבַּת גִּלּוּיוֹ. 
+וְהִנֵּה תּוֹעֶלֶת הַמַּקִּיפִים הוּא כִּי הֲרֵי הָאוֹר הַפְּנִימִי הִנֵּה הוּא מְצֻמְצָם בַּהֲגוּף וּכְלִי 
 
-**for it transcends the Creation completely – both in its revelation and the reason for its revelation.**
+**Now the superiority of the enveloping** light **is that the *ohr pnimi*** the internalized light **is constricted within a body and a vessel,** whereas the *ohr makif* (the enveloping light) is not constricted by a body or vessel.
 
-הֵם שְׁנֵיהֶם לְמַעְלָה מֵהַטֶּבַע וּלְמַעְלָה מֵהַמִּדָּה וְנֶעֱלַם סִבָתוֹ מִכָּל בְּרִיָּה.
+וְהֵם אֵינָם מִנַּגְּדִים זֶה לְזֶה לְעוֹלָם אֶלָּא אַדְּרַבָּה שֶׁמִּתְיַחֲדִים זֶה בָּזֶה 
 
-**Both of them transcend nature and limitations, and the reason for it is hidden from every created being.**
+**Now these lights** the *ohr pnimi* and the *ohr makif* **do not ever oppose one another. The opposite is true – they unite with one another,** 
 
-כִּי לֹא נִיתָן אֵלָיו בְּכָל הַבְּרִיאָה כֻּלָּהּ שׁוּם סִיבָהּ לְסַבֵב אוֹתוֹ וְשׁוּם חֹוק וּגְבוּל לִמְנֹעַ אוֹתוֹ.
+וְאֵינוֹ פּוֹעֵל כָּל אֶחָד אֶלָּא ע"י חֲבֵרוֹ 
 
-**For within Creation there is no reason triggering it nor any law or limitation inhibiting it.**
+**and each of them has an effect via the other** as will be explained below.
 
-וּכְבָר אָמַרְנוּ לְעֵיל ספ"ג כִּי אוֹר הַמַּקִּיף יֵשׁ בּוֹ שְׁנֵי בְּחִי'
+כִּי פְּעֻלַּת כָּל אוֹר הַפְּנִימִי שֶׁהוּא הַנְּשָׁמָה הֲרֵי הוּא ע"י הַגּוּף 
 
-**Now we already stated above (end of chapter 3) that the *ohr makif* has two aspects –**
+**The *ohr pnimi*, which is the soul** the *neshama***, acts via the body** which comes from the *ohr makif*,
 
-כִּי בִּבְחִי' אַחַת הוּא מִתְיַחֵד תָּמִיד עִם הָאוֹר הַפְּנִימִי 
+וּפְעֻלַּת כָּל הַגּוּף הֲרֵי הוּא רַק בְּכֹחַ הַנְּשָׁמָה שֶׁבּוֹ 
 
-**one aspect thereof is continuously united with the *ohr pnimi*,** 
+**and the entire body acts only by virtue of the soul within it.**
 
-וּמִשְׁתַּתֵּף גַּם הוּא בְּכָל הַפְּעוּלוֹת דְּגְבוּל וְצִמְצוּם ג"כ. 
+וּשְׁנֵיהֶם שׁוֹלְטִים בְּשָׁוֶה וּמִסְתַּכְּלִים זֶה עַל זֶה 
 
-**and it too participates in all the limited and constricted activities** regulating the *ohr pnimi*. This is only a radiance of the *ohr makif*, as the author explained at the end of the previous chapter.
+**Both of them** the body and the soul **are equally in control, and each looks to the other** for affirmation.
 
-אָמְנָם עי"ז הִנֵּה נִמְשָׁךְ עוֹד שֶׁהֲגַם שֶׁעִקָּרוֹ וְגִילוֹיוֹ הוּא רַק לְעֲתִיד, וּכְמוֹ שֶׁאָמַרְנוּ שָׁם,
+כִּי הַגּוּף מִסְתַּכֵּל עַל הַנְּשָׁמָה לִשְׁאֹב מִמֶּנָּה חִיוּתָה תָּמִיד 
 
-**Nevertheless, as a result of this** radiance of the *ohr makif* **another** great advantage **is drawn down** (**albeit that the primary aspect and revelation thereof will only be in the future, as we mentioned there**) **–**   
+**The body looks to the soul for the life-force that it draws from the soul,** 
 
-מכ"ז הֵנָּה ע"י יִחוּדוֹ בְּהָאוֹר הַפְּנִימִי מִתְנַהֵג הָאוֹר הַפְּנִימִי ג"כ תָּמִּיד
+וְהַנְּשָׁמָה מִסְתַּכֵּל עַל הַגּוּף שֶׁלֹּא לְיַגֵּעַ אוֹתוֹ וְשֶׁלֹּא לִפְעֹל בּוֹ יוֹתֵר מִכֹּחוֹ 
 
-**from all of this, due to** the radiance of the *ohr makif* **uniting with the *ohr pnimi*, the *ohr pnimi* also always performs** 
+**and the soul looks at the body** to ensure **that it is not exhausting it, and is not taxing it beyond its capabilities.**
 
-רַק ע"פ הַכַּוָּנָה הַתַּכְלִיתִּית אֲשֶׁר לְאוֹר הַמַּקִּיף. 
+וְלָכֵן הוּא כִּי הִנֵּה הַגַּם שֶׁמִּתְלַבֵּשׁ בְּכָל עוֹלָם וּפַרְצוּף תַּחְתּוֹן 
 
-**only according to the final purpose-oriented intention of the *ohr makif.***
+**And therefore, although there is clothed in every lower world and *partzuf*** 
 
-וְהִנֵּה הֵם כָּל הֲכָּבְשֵׁי דִּרֵחְמָנָא אֲשֶׁר בְּהַהַנְהָגָה תָּמִּיד 
+מִכָּל הָאוֹרוֹת הָעֶלְיוֹנִים כֻּלָּם וְכַנָּ"ל שע"ה פ"ג 
 
-**Now all of these are the secrets of how the world is always conducted, and are known only to the Merciful One.** 
+**some of all the supernal lights, as mentioned in Sha'ar 5 chapter 3,** 
 
-אֲשֶׁר נֶעֱלַם סִבָתָם מִכָּל בֶּרְיָּה וכמ"ש וְחַנֹּתִי אֶת אֲשֶׁר אָחֹן וְרִחַמְתִּי אֶת אֲשֶׁר אֲרַחֵם
+עִם כָּל זֶה הִנֵּה אֵינָם מִתְגַּלִּים בּוֹ אֶלָּא בַּמִּעוּט הַיּוֹתֵר אֶפְשָׁרִי 
 
-**The reasons** for the way things are run **are hidden from every creature, as the verse** (Exodus 33:19) **states, "I shall show favor to whom I choose to show favor, and I shall show mercy to whom I choose to show mercy,"**
+**nevertheless, they are not revealed in it** in that lower world **more than the minimum necessary,**
 
-אע"פ שֶׁאֵינוֹ כְּדַאי וְהָגוּן לְכָךְ
+הֲיְינוּ לְפִי כֹּחַ הַגּוּף וְהַכְּלִי שֶׁיּוּכַל לְקַבֵּל וְלִסְבֹּל 
 
-**even though they may not be fitting and worthy thereof.** 
+**i.e., according to the capacity of the body to receive and withstand,** 
 
-וְכֵן שְׁאֵלָה הַנּוֹדָע דְּצַדִּיק וְרַע לוֹ רָשָׁע וְטוֹב לוֹ וכמ"ש בְּרָכוֹת ז'. 
+וּמִתְצַמְצְמִים כָּל הָאוֹרוֹת שֶׁמִּתְלַבְּשִׁים בּוֹ לְפִי כֹּחַ הַגּוּף 
 
-**Thus the well-known question arises regarding a righteous person who suffers and a wicked person who prospers, as** the Talmud ***Berachot* 7a discusses:**
+**and all the lights that are clothed in the body are constricted according to the capacity of the body** to receive etc.
 
-Moshe Rabbeinu wished to know the ways of Hashem, and one of the questions that he asked was this: "Master of the Worlds, why is it that in this world there is a righteous person who prospers and a righteous person who suffers? And a wicked person who prospers, and a wicked person who suffers?" The Almighty answered that a righteous person who prospers is a *perfectly* righteous person, and a righteous person who suffers is not perfectly righteous. Similarly, a wicked person who prospers is not completely wicked, whereas a wicked person who suffers is completely wicked. The Maharsha explains that one who is not completely righteous suffers in this world, so that he will merit the World-to-Come, whereas a person who is not completely wicked prospers in this world in order to reward him now for whatever good deeds he has, but he will not merit the World-to-Come.
+וּמַעֲלִים אוֹתוֹ וּמְזַכְּכִים אוֹתוֹ רַק לְאַט לְאַט וּבְמִעוּט גָּדוֹל 
 
-וְכַיּוֹצֵא בָּזֶה פְּלִיאוֹת רַבּוֹת בְּהַהַנְהָגָה אֲשֶׁר נֶעֱלַם סִבָתָם מִכָּל בֶּרְיָּה. 
+**And they** the lights that are clothed in the body **elevate and refine it only gradually, in a greatly reduced manner.**
 
-**There are many other** similar **surprising matters regarding** Hashem's **conduct, the reasons for which are concealed from all created beings.**  
+כִּי בְּאִם שֶׁהָיוּ מִתְגַּלִּים בּוֹ בְּתֹקֶף אוֹרָם הָיָה מִתְבַּטֵּל הַגּוּף וּכְלִי מִכָּל וְכָל 
 
-וְהִנֵה הֵם מֵהַנְהָגָתוֹ הַנַּעֲלָמָה ית"ש אֲשֶׁר מַנְהִיג הַכֹּל תָּמִיד לְכַוָּנַת תַּכְלִית הָאַחֲרוֹן 
+**For if they** the illuminations of the soul and likewise the supernal lights **would be revealed in the body in their full power, the body and the vessel would be completely nullified,**
 
-All of these are products **of His hidden manner of conduct, with which He guides everything at all times for the ultimate final purpose** known to Him. 
+וְאָז הָיָה חוֹזֵר גַּם כָּל הָאוֹר כֻּלּוֹ לְמַעְלָה וּלְשָׁרְשׁוֹ 
 
-וכ"ז הוּא נִמְשַׁךְ וּבָא מָאוֹר הַמַּקִּיף ע"י יִחוּדוֹ בָּאוֹר הַפְּנִימִי. 
+**and then all the light would then return to its source above,**
 
-**And all of this is drawn from and emerges from the *ohr makif* by way of its unifying with the *ohr pnimi*.**
+כִּי אֵין לְהָאוֹר הַפְּנִימִי מָקוֹם וַעֲמִידָה בֶּהָעוֹלָם הַתַּחְתּוֹן 
 
-וְהַגַּם שֶׁהֲרֵי נִרְאֶה לְפִי זֶה סְתִירוֹת גְּדוֹלוֹת 
+**since the *ohr pnimi* has no place and standing in the lower world**
 
-**Now even though there appear to be huge contradictions** 
+אֶלָּא רַק ע"י הַגּוּף וּכְלִי שֶׁמִּתְלַבֵּשׁ בּוֹ 
 
-וּבִטּוּל רַב בְּכָל הַחֻקִּים וּגְבוּלִים דּאֹור הַפְּנִימִי שֶׁהֵם כָּל מִשְׁפָּטִי הִתּוֹרָה 
+**other than by way of the body and the vessel in which it is clothed.**
 
-**and a negation of all the statutes and limitations of the *ohr pnimi*, which are all the Laws of the Torah,**
+אָמְנָם הָאוֹר הַמַּקִּיף הִנֵּה הוּא אֵינוֹ כֵּן כִּי הֲרֵי הוּא אֵינוֹ מִתְלַבֵּשׁ בַּהֲגוּף וְהַפַּרְצוּף כְּלָל 
 
-אַךְ הוּא ית"ש גָּדוֹל הָעֵצָה וְרַב הָעֲלִילִיָּה 
+**However, this is not so regarding the *ohr makif* since it is not clothed in a body or a *partzuf*[^8] at all,**
 
-**nevertheless, He (blessed is His Name) "is great in counsel and mighty in deed"** (Jeremiah 32:19),
+וְלֹא נִתְצַמְצֵם בְּאוֹרוֹ לְפִי כֹּחַ הַגּוּף 
 
-וְעוֹשֶׂה נִפְלָאוֹת גְּדוֹלוֹת לְבַדוֹ, 
+**and its light is not constricted according to the capacity of the body** to receive,
 
-**And "He alone performs great wonders"** (Psalms 136:4), 
+וְהִנֵּה אֵינוֹ צָרִיךְ הוּא לְהִשְׁתַּוּוֹת אֶת עַצְמוֹ עִם הַגּוּף מְאוּמָה 
 
-וּמַעֲמִיד וּמְיַשֵּׁר אֶת הַכֹּל בִּפְעֻלּוֹת וְסִיבוּבִים נֶעֱלָמִים 
+**and so it does not have to align itself with the body at all,**
 
-**arranging and organizing everything through hidden actions and indirect events**
+כִּי מָה שֶׁפּוֹעֵל הוּא הִנֵּה אֵינוֹ נִמְשָׁךְ פְּעֻלָּתוֹ ע"י הַגּוּף כְּלָל 
 
-עַד שֶׁלֹּא נוֹפֵל שׁוּם דָּבָר וְלֹא זָז שׁוּם זִיז כָּל שֶׁהוּא 
+**since the way it operates it not by way of the body at all.** 
 
-**so that there is no skipping and no shifting, even a little,**
+וּמִמֶּנּוּ הוּא כָּל הַנִּסִּים הַנִּגְלִים אֲשֶׁר הֵם כֻּלָּם לְמַעְלָה מֵהַטֶּבַע לְגַמְרֵי 
 
-מִכָּל מִשְׁפְּטֵי הַתּוֹרָה וּשְׂכָרָהּ וְעָנְשָׁהּ וְהַכֹּל בֶּאֱמֶת וְהַכֹּל בַּדִּין. 
+**And from it** from the *ohr makif* **come all the revealed miracles that completely transcend the natural order.**
 
-**of all the statues of Torah and its rewards and punishments.** 
+וּמִשּׁוּם שֶׁלֹּא נִמְשַׁךְ פְּעֻלָּתוֹ ע"י הַגּוּף 
 
-וְהַכֹּל בֶּאֱמֶת וְהַכֹּל בַּדִּין.
+**And since it does not operate via the body,**
 
-Instead, **everything is according to the truth and everything is according to the law.**
+וְלָכֵן אֶפְשָׁר לוֹ לָצֵאת וּלְהִתְגַּלֵּה בְּתֹקֶף אוֹרוֹ לְמַעְלָה מִכֹּחַ הַגּוּף לְגַמְרֵי 
 
-אֶלָּא מִשּׁוּם שֶׁנַּעֲשָׂה כ"ז ע"י אוֹר הַמַּקִּיף וע"י יִחוּדוֹ בָּאוֹר הַפְּנִימִי כָּנִזְ' 
+**it is possible for the** *makif* **light to emerge and become revealed in its full strength, completely transcending the limitations of the body,**
 
-**But since it is all done by way of the *ohr makif* uniting with the *ohr pnimi*, as mentioned,**
+וְלַעֲשׂוֹת הָפְכוֹ וְעִם כָּל זֶה אֵינוֹ גּוֹרֵם שׁוּם בִּטּוּל לַהֲגוּף
 
-לָכֵן נֶעֱלָמִים הֵם כָּל הַדְּרָכִים הַלָּלוּ מִשּׁוּם בְּרִיָּה
+**and act the opposite of it** of the body's limitations **and still not cause any nullification of the body.[^9]**
 
-**therefore all of these paths are concealed from any created being,**
+אֶלָּא הוּא עוֹשֶׂה אֶת פְּעֻלָּתוֹ גַּם בְּעֵת שֶׁהַגּוּף קַיָּם וּבְתוֹךְ הַגּוּף עַצְמוֹ 
 
-בַּאֲשֶׁר שֶׁפְּעֻלַּת כָּל אוֹר הַמַּקִּיף וְכֹחוֹ הוּא לְמַעְלָה מֵהַבְּרִיאָה לְגַמְרֵי וְכַנָּ"ל 
+**Instead, it operates while the body continues as usual, and even in the body itself,**
 
-**since the activities of the *ohr makif* and its power completely transcend the Creation, as mentioned earlier,** 
+וְעִם כָּל זֶה אֵינוֹ מְבַטֵּל אוֹתוֹ וְאֵינוֹ מֵזִיז אוֹתוֹ מִמְּקוֹמוֹ כְּלָל 
 
-וְלָכֵן אִי אֶפְשָׁר לְשׁוּם בְּרִיָּה לְהַשִּׂיגוֹ.
+**yet it still does not nullify the body or move it from its proper place at all.**
 
-**and therefore it is impossible for any created being to grasp this.**
+אֶלָּא שֶׁהַגּוּף עוֹמֵד עַל עָמְדוּ וְהָאוֹר עוֹשֶׂה אֶת פְּעֻלָּתוֹ בְּתוֹךְ הַגּוּף עַצְמוֹ, הַגַּם שֶׁהוּא הָפְכוֹ לְגַמְרֵי. 
 
-וְזֶהוּ מָה שֶׁכָּתוּב בהי"ג מִדּוֹת הָרַחֲמִים שֶׁהֵם מהי"ג תִּקּוּנִים 
+**The body remains as is and the** *makif* **light operates in the body itself, even though it is completely the opposite of the body** i.e. of the body's limitations.
 
-**This is what is meant by describing the Thirteen Attributes of Mercy as 'the Thirteen *Tikunim*'[^2]** 
+וּכְמוֹ שֶׁמָּצִינוּ הַרְבֵּה נִסִּים כַּיּוֹצֵא בּוֹ כְּגוֹן מְקוֹם הָאָרוֹן וְהַכְּרוּבִים שֶׁלֹּא הֶחֱזִיקוּ מִדָּה (בָּבָא בָּתְרָא צ"ט א') 
 
-וְהֵם כֻּלָּם מִגִּלּוּיֵי דּאֹור הַמַּקִּיף שֶׁהוּא לְמַעְלָה מִן הַמִּדָּה. 
+**We find many miraculous events of this sort** in Scripture, **such as 'the Ark and the Cherubim** on top of it **took up no space'** in the Holy Temple**[^10]** (*Bava Batra* 99a).
 
-**since they are all from the *ohr makif* that transcends limitations shining out**
+וּכְגוֹן עוֹמְדִים צְפוּפִים וּמִשְׁתַּחֲוִים רְוָחִים (אָבוֹת פ"ה) 
 
-הִנֵּה כָּתוּב שָׁם אֱרֶךְ אֲפַיִם וְרַב חֶסֶד וֶאֱמֶת. 
+**And for example the people** in the Courtyard of the Temple who **stood crowded together, yet when they bowed they had plenty of room (*Avot* 5:5),**
 
-Among the Thirteen Attributes of Mercy, the following **is written** (Exodus 34:6): **"Slow to Anger and Abundant in Kindness and Truth."**
+וְנֵר שֶׁל מַעֲרָבִי שֶׁלֹּא הָיָה כָּבֶה, וְאֵשׁ שֶׁל מַעֲרָכָה שֶׁהָיָה מִתְגַּבֵּר (יוֹמָא צ"ט א'), 
 
-וְאָמְרוּ אֱרֶךְ אֲפַיִם לַצַּדִּיקִים וְלָרְשָׁעִים 
+**and the western candle did not go out** but burned until it was time to relight the Candelabra in the Temple at dusk, despite the fact that it had the same measure of oil as all the other candles that did go out sometime in the morning. 
 
-Regarding this our Sages **declared** (*Eruvin* 22a), He is **"Slow to Anger for the righteous and the wicked…"**
+וּכְגוֹן הַנֵּס דְּנֵר חֲנֻכָּה, 
 
-\[וְע' תּוֹסְפוֹת ב"ק נ' רע"ב מָה שֶׁהִקְשׁוּ שָׁם כִּי נִרְאֶה בָּזֶה סְתִירָה מֵעֵרוּבִין לְסַנְהֶדְרִין ע"ש. 
+**And like the miracle of Chanukah** where a single jar of oil, that was normally enough for one night only, lasted for eight days.
 
-**\[See Tosfot *Bava Kama* 50b who raise an apparent contradiction between Tractates *Eruvin* and *Sanhedrin*.** 
+וְכֵן בַּר' חֲנִינָא בֶּן דֹּסָא "מֵי שֶׁאָמַר לְשַׁמֵּן וְיִדְלֹק יֹאמַר לַחֹמֶץ וְיִדְלֹק" וְהָיָה דּוֹלֵק וְהוֹלֵךְ כָּל הַיּוֹם כֻּלּוֹ (תַּעֲנִית כ"ה) 
 
-אַךְ הָעִקָּר הוּא כִּי בְּעֵרוּבִין מְדַבֵּר בְּרִשְׁעֵי עוֹבְדֵי אֱלִילִים 
+**And similarly with** the miracle that happened with **Rabbi Chanina ben Dosa** when his daughter by accident poured vinegar into the candles instead of oil and lit them. Rabbi Chanina told her not to be upset, because **the One Who said "oil shall burn, will say vinegar shall burn" and they burned the entire day** until the Sabbath was over (Talmud **Taanit 25a).**
 
-**However, the main point is that *Eruvin* is referring to wicked idolaters**
+וְכֵן בְּאַבְרָהָם אָבִינוּ ע"ה וַחֲנַנְיָה מִישָׁאֵל וַעֲזַרְיָה בְּכִבְשַׁן הָאֵשׁ (פְּסָחִים קי"ח א' וְע' זוה"ק אַחֲרֵי מוֹת נ"ז א' ובהגר"א בספד"צ פ"א דה"מ דִּכְתִיב זֶה יֹאמַר) 
 
-כִּי עֲלֵיהֶם נֶאֱמַר וּמְשַׁלֵּם לְשֹׂנְאָיו אֲל פָּנָיו לְהַאֲבִידוֹ. 
+**And similarly with our Patriarch Avraham,[^11] may peace be upon him, and with Chanaya, Mishael and Azarya who were all thrown into a furnace** (see Daniel chapter 3; **Pesachim 118a; *Zohar Acharei Mot* 57a; GRA in *Sifra d'Tzniuta* chap. 1).** 
 
-**regarding whom it states (Deuteronomy 7:10): "He will repay those who hate Him to their face and destroy them."**
+וְכַיּוֹצֵא בָּזֶה נִסִּים הַרְבֵּה שֶׁהָיָה הַנֵּס בְּתוֹךְ הַטֶּבַע עַצְמָהּ גַּם בְּעֵת שֶׁהַטֶּבַע הָיָה עַל עֶמְדָּה 
 
-וְעַל זֶה סוֹבֵב דִּבְרִי הַגְּמָרָא בְּעֵרוּבִין שָׁם כ"ב ע"א. וע"ש י"ט א'. 
+**And there were many other miracles that took place clothed in natural events, while the natural order itself remained unchanged.**
 
-**It is around this verse that Tractate *Eruvin* 22a revolves. And see also 19a there.**
+שֶׁהֲרֵי לֹא נִתְרַחֲבוּ כָּתְלֵי בֵּית קֹדֶשׁ הַקֳּדָשִׁים בִּשְׁבִיל הָאָרוֹן וְהַכְּרוּבִים 
 
-אֲבָל בְּסַנְהֶדְרִין קי"א סע"א שָׁם מְדַבֵּר בְּרִשְׁעֵי יִשְׂרָאֵל כְּמוֹ שֶׁמְּבֹאָר שָׁם ע"ש. 
+**So,** for example, **the walls of the Holy-of-Holies did not widen for the Ark and the Cherubim,**
 
-**But Tractate *Sanhedrin* 111a is referring to the wicked of Israel, as is explained there. See there.**
+וְכֵן לֹא נִתְרַחֲבָה הָעֶזְרָה בְּעֵת שֶׁהִשְׁתַּחֲווּ רְוָחִים 
 
-וְעִם רִשְׁעֵי יִשְׂרָאֵל אֵינוֹ מִתְנַהֵג הקב"ה בְּמִדַּת וּמְשַׁלֵּם לְשֹׂנְאָיו אֲל פָּנָיו לְהַאֲבִידוֹ כְּלָל וּכְלָל ח"ו 
+**nor did the Courtyard expand when they bowed and still had plenty of room,** even though the Courtyard was packed.
 
-**With the evildoers of Israel the Holy One, blessed be He, does not act in the manner of "He will repay those who hate Him to their face and destroy them" at all, in any way, G-d forbid,**
+עַל דֶּרֶךְ שֶׁהֻגְבַּהּ הֲפִּתְחֵי שְׁעָרִים בְּשָׁעָה שֶׁהִכְנִיס שְׁלֹמֹה אֶת אֲרוֹן הַקֹּדֶשׁ לְבֵית הַמִּקְדָּשׁ וכמ"ש במ"ר בְּהַעֲלֹתְךָ סִימָן י"ג
 
-כְּמוֹ שֶׁיִּתְבָּאֵר לְמַטָּה בִּדְבָרֵינוּ. אֶלָּא רַק\] 
+However, the natural order *was* suspended **in the case where the gates lifted up when Shlomo** King Solomon **brought the Holy Ark into the Temple, as *Bamidbar Rabba, Beha'alotecha* 13:15 states.**[^12]
 
-**as will be explained below. Only that…**  End of note**\]**
+וַהֲגַם שֶׁזֶּה ג"כ נֵס גָּדוֹל אַךְ עַל כָּל פָּנִים הֲרֵי נִשְׁתַּנָּה הַטֶּבַע שָׁם וְנִתְבַּטְּלָה 
 
-שֶׁהוּא מַאֲרִיךְ אַף וְגַבֵי דִּלֵיהּ וכמ"ש בְּתַנְחוּמָא פ' תִּשָּׂא סִימַן כ"ו 
+**Now although this too was a great miracle, nevertheless, the natural order was changed in that case and** the laws of nature **were** temporarily **nullified.** 
 
-**He is** **"Slow to Anger" but will claim His due, as** Midrash **Tanchuma, *Parshat* *Ki Tissa,* 26 expounds**  
+וְע' שַׁבָּת ל' ע"א וְכֵן בְּמִדְרַשׁ תְּהִלִּים מִזְמוֹר כ"ד שֶׁאָמְרוּ שָׁם אוֹתוֹ הַנֵּס בְּאֹפֶן אַחֵר 
 
-בְּמַעֲשֵׂה עֵגֶל שֶׁנֹּאמַר שָׁם וּבְיוֹם פַּקְּדִי וּפָקַדְתִּי. 
+**See** Talmud **Shabbat 30a and Midrash Tehillim 24 which describe this miracle in a different way.**
 
-**regarding the** golden **calf, where it states** (Exodus 32:34), **"On the day I make a reckoning, I shall take into account** their sin."
+אַךְ עַל כָּל פָּנִים הוּא כִּי נִתְבַּטְּלָה הַטֶּבַע שָׁם משא"כ בְּעִנְיָנֵנוּ 
 
-וּמְיַסֵּר וּמַעֲנִישׁ אוֹתָם אִם בָּזֶה וּבְּבָא וּבְאֹפֶן שֶׁהָעוֹשֶׂה עֲבֵרָה נִשְׁאַר וְהָעֹנֶשׁ נִפְרַע. 
+**In any event, the natural order was** temporarily **nullified in that case, but not in those mentioned above,[^13]**
 
-**He will chasten and punish them, whether in this world or the next, in such a way that the sinner remains, while the sin is paid for.**
+הֲרֵי נִשְׁאֲרוּ הַכְּתָלִים עַל מְקוֹמָן וְהָיָה מוּעָט מַחֲזִיק אֶת הַמְּרֻבָּה 
 
-וְזֶהוּ מָה שֶׁאָמְרוּ בזוה"ק בְּרֵאשִׁית מ"ו ע"א כִּי בְּיוֹם שְׁנֵי דְּמַעֲשֶׂה בְּרֵאשִׁית 
+**for the walls** of the Holy-of-Holies and of the Courtyard **remained in place, and a small** area **held a large number** of people.
 
-**And this is what the Zohar** (***Bereishit*** **46a**) **states: On the Second Day of Creation**
+וְהוּא נֵס יוֹתֵר גָּדוֹל שֶׁנִּשְׁאַר הַטֶּבַע עַל מְקוֹמָהּ וְהַנֵּס נַעֲשָׂה מִכָּל מָקוֹם וְלֹא בִּטְּלוּ זֶה אֶת זֶה 
 
-אִתְּבְּרִי גֵּיהִנֹּם לְחַיָּבֵי עַלְמָא כו' בְּיוֹם תְּלִיתָאִי אִתְתַקָן יוֹם שֵׁנִי כו' 
+**This is an even greater miracle, since the natural order was unchanged and the miracle nevertheless took place without one nullifying the other.**
 
-***Gehinom*** Purgatory **was created for sinners in this world; on the Third Day** of Creation **the Second Day was rectified,**
+וְעַ' עוֹד בב"ר פ' ה' סִימָן ז' וְכֵן בויק"ר פ"י סִימַן ט' שֶׁחָשְׁבוּ שָׁם עוֹד כַּמָּה נִסִּים ע"ד זֶה 
 
-וּבֵיהּ אִשְׁתְּלִימוּ רַחֲמֵי עַל חַיָּבֵי גֵּיהִנֹּם. 
+**See further: Bereishit Rabba 5:7; Vayikra Rabba 10:9 where they list a number of other miracles of the same sort.** 
 
-**for on that day compassion is achieved for those who are condemned to *Gehinom*;** 
+וְכֵן הוּא בְּר' חֲנִינָה בֶּן דּוּסָא הַנִּז' שֶׁהֲרֵי לֹא נִתְהַפֵּךְ הַחֹמֶץ לִשְׁמָן 
 
-בְּיוֹמָא תְּלִיתָאָה מִשְׁתַּכְּכִין (ר"ל נִשְׁקָטִים) שְׁבִיבִין דְּגֵיהִנָּם כו'. 
+**And similarly with** the miracle that happened with **Rabbi Chanina ben Dosa**, who said that vinegar can also burn, **since the vinegar was not transformed into oil,**
 
-**on the Third Day the fires of *Gehinom* die down etc. (meaning they are diminished).**
+וְכֵן הֲרֵי לֹא נִתְוַסֵּף שֶׁמֶן בְּנֵר מַעֲרָבִי וְנֵר חֲנֻכָּה 
 
-וְהַכַּוָּנָה הוּא כִּי גַּם הַיּוֹרְדֵי גֵּיהִנֹּם אֵינָּם נֶאֱבָדִים שָׁם אֶלָּא נֶעֱנָשִׁים שָׁם לְאַט לְאַט 
+**and similarly, no oil was added to the Western candle, nor to the Chanukah candle,**
 
-**The intention here is that those who descend to *Gehinom* are not destroyed there, but merely that they are punished bit by bit,**
+וְלֹא נִכְבָּה הָאֵשׁ בְּכִבְשַׁן בַּחֲנַנְיָה מִישָׁאֵל וַעֲזַרְיָה 
 
-בְּאֹופֶן שֶׁהָעוֹשֶׂה עֲבֵרָה נִשְׁאַר וְהָעֹנֶשׁ נִפְרַע 
+**and the fire in the furnace** into which **Chananya, Mishael and Azarya** were thrown.
 
-**in such a way that the sinner remains, while the sin is paid for.** 
+אֶלָּא הָיָה כָּל הַנִּסִּים הַלָּלוּ בְּתוֹךְ הַטֶּבַע עַצְמָהּ 
 
-וְזֶהוּ שֶׁאָמַר שֶׁבְּיוֹם ג' נִתְיַסֵּד וְנִשְׁלַם רַחֲמֵי עַל חַיָּבֵי גֵּיהִנֹּם 
+**Rather, all of these miracles took place within the natural order itself.**
 
-**This is why it states that on the Third Day** of Creation **compassion is established and achieved for those who are condemned to *Gehinom,***
+וְכָל זֶה הִנֵּה הוּא מִבְּחִינַת אוֹר הַמַּקִּיף כִּי הוּא הוֹלֵךְ וּמֵאִיר בְּתֹקֶף אוֹרוֹ 
 
-וַהֲוָה כָּל עָנְשֵׁי גֵּיהִנֹּם ג"כ רַק לְצֵרוּף וּלְלִבּוּן אֲבָל נִשְׁאַר לְהַשְׁאָרַה נִצְחִית עכ"פ 
+**All of this is due to the *ohr makif*** (the transcendent light) **which continues and illuminates with all the power of its light,**
 
-**and all the punishments of *Gehinom* are also only to decontaminate and get rid of the impurities** of sins, **but in any event they** the sinners **remain forever,**  
+וְעוֹשָׂה אֶת פְּעֻלָּתוֹ גַּם בְּעֵת שֶׁהַגּוּף עוֹמֵד בְּכָל עַבְיוּתוֹ וְצִמְצוּמוֹ וּבְכָל תְּכוּנוֹתָיו 
 
-וְכֵן הוּא מְפֹרָשׁ בַּזֹּהַר פ' שְׁמוֹת דַּף כ"א ע"ב ע"ש. 
+**and has its effect even when the body remains in all its coarseness and the constriction of its qualities.**
 
-**as stated explicitly in *Zohar II* 21b.[^3] See there.**
+וְעוֹשֶׂה הָאוֹר אֶת כָּל פְּעֻלָּתוֹ גַּם בְּתוֹךְ הַגּוּף עַצְמוֹ 
 
-וְכֵן הוּא הַכַּוָּנָה בַּיְּרוּשַׁלְמִי תַּעֲנִית פ"ב ה"א שֶׁאָמְרוּ שָׁם 
+Moreover, **the** *makif* **light has its effect even within the body itself**
 
-**This is also the intention of the** Talmud **Yerushalmi *Taanit* 2:1** \[p. 9a\] **which states:**
+וְעִם כָּל זֶה אֵינוֹ מְבַטֵּל אוֹתוֹ כְּלָל הַגַּם שֶׁהוּא הָפְכוּ 
 
-ר' אֲחָא ר' תַּנְחוּם בֵּי ר' חִיָּיה בְּשֵׁם ר' יוֹחָנָן: אֶרֶךְ אַף אֵין כְּתִיב כָּאן אֶלָּא אֶרֶךְ אַפִּים. 
+**and yet it does not nullify it** the body **at all, even though it is its opposite.** 
 
-**Rabbi Acha** and **Rabbi Tanchum of the House of Rabbi Chiya** said **in the name of Rabbi Yochnan:**אֶרֶךְ אַף  **– 'Slow to Anger'** in the singular **is not stated here, but rather** אֶרֶךְ אַפִּים **– 'Slow to Anger'** in the *plural* –
+וכ"ז הוּא מִשּׁוּם שֶׁכָּל פְּעֻלַּת אוֹר הַמַּקִּיף הוּא אֵינוֹ ע"י הַגּוּף כְּלָל 
 
-מַאֲרִיךְ רוּחוֹ עַד שֶׁלֹּא יִגְבֶּה. הִתְחִיל לִגְבּוֹת מַאֲרִיךְ רוּחוֹ וְגֹבֶהּ. 
+**And all of this is because the entire operation of the *ohr makif* is not via the body at all.**
 
-signifying that **He is slow to anger until He makes His claim** against the sinner to repay the debt owed to Him. **But** even **once He begins to claim, He is slow to anger while He claims**. And therefore the expression is in the plural, because in both situations He exhibits patience and compassion.
+אֶלָּא שֶׁהוּא פְּעֻלַּת הָאוֹר עַצְמוֹ בִּלְתִּי כְּלִי 
 
-וְהַכַּוָּנָה הוּא ג"כ כִּי אֵינוֹ נִפְרָע בְּפַעַם אַחַת אֶלָּא רַק לְאַט לְאַט. 
+**Rather, it is an operation of the light itself without a vessel.**
 
-**The intention here is that He** does not demand **repayment in one** large **sum, but** slowly, **bit by bit,**
+וְלָכֵן אֵינוֹ מַרְחִיק אֶת עַצְמוֹ לְהִשְׁתַּוּוֹת עִם הַגוּף וּכְלִי כְּלָל 
 
-וּכְמוֹ שֶׁאָמְרוּ בעבו"ז דַּף ד' ע"א רַק אֶתְכֶם יָדַעְתִּי מִכֹּל מִשְׁפְּחוֹת הָאֲדָמָה עַל כֵּן אֶפְקֹד כו'
+**And therefore it does not distance itself in order to accord with the body or the vessel at all.**
 
-**as explained in** Tractate ***Avodah Zara*** **4a,** on the verse (Amos 3:2) **"You alone did I know** \[or love – Rashi\] **from among all the families of the earth; therefore I will hold you to account** for all your iniquities."
+אֶלָּא שֶׁהוּא עוֹשֶׂה אֶת פְּעֻלָּתוֹ גַּם בְּעֵת שֶׁהֵם עוֹמְדִים בְּכָל עֲנִיּוּתָם 
 
-מָשָּׁל למה"ד כו' אֶחָד אוֹהֲבוֹ וְאֶחָד שׂוֹנְאוֹ 
+**Instead, it produces its effects as they** the body and the vessel **remain in their totally impoverished state**
 
-Explains the Talmud (bid.): **To what can this be compared? To a person** claiming a debt owed to him by two people, **one of whom is his friend, and the other his enemy –**
+וְעִם כָּל זֶה אֵינָם מְבַטְּלִים זֶה אֶת זֶה וְאֵינָם סוֹתְרִים זֶה אֶת זֶה הַגַּם שֶׁהֵם הֲפָכִים 
 
-אוֹהֲבוֹ נִפְרַע מִמֶּנוֹ מְעַט מְעַט שׂוֹנְאוֹ נִפְרַע מִמֶּנּוֹ בְּבַת אַחַת. 
+**and yet they do not nullify each other** the vessel and body do not nullify the light, or vice versa **and they do not contradict one another, even though they are opposites.**
 
-**He allows his friend to pay back his debt slowly, but his enemy must pay back all at once.**
+כִּי זֶהוּ מִפְּעֻלַּת הַנִסִיּת לְהָאִיר בְּלִי גְּבוּל גַּם בְּתוֹךְ גְּבוּל 
 
-וְהוּא כמ"ש קִדּוּשִׁין ל"ו א' שֶׁיִּשְׂרָאֵל נִקְרְאוּ בָּנִים לְמָקוֹם אֲפִי' בִּזְמַן שֶׁהֵם רְשָׁעִים ח"ו 
+**For this is one of the miraculous effects** of the *ohr makif* **– it illuminates in an unlimited manner even within limitation** within the vessel and the body that are subject to the laws of nature.
 
-**This is also as stated in** Tractate **Kidushin 36a: Israel are called the children of the Omnipresent One, even when they are wicked, Heaven forbid,**
+וּבִהְיוֹת הַכֹּל הוּא בַּכֹל, וְאֵין דָּבָר חוֹצֵץ לְפָנָיו 
 
-וּמְבֹאָר שָׁם אֲפִי' בְּעוֹבֵד עב"ז רח"ל. 
+**And being that it** the *ohr makif* **is everything** in the sense of all-encompassing, **it is in everything and nothing is a barrier to it,**
 
-**and** the Sages explain there that **this is even in a case of idolatry, heaven forfend.**
+וַהֲרֵי הוּא מֵאִיר בְּאוֹרוֹ וְדָבוּק וְנוֹגֵעַ גַּם בָּהֶם ועכ"ז אֵינוֹ מֵזִיז אוֹתָם מִמְּקוֹמָם כְּלָל 
 
-וְכֵן אָמְרוּ בְּיוֹמָא נ"ו נ"ז אֲפִי' בִּזְמַן שֶׁהֵם טְמֵאִים שְׁכִינָּה עִמֵּהֶם. 
+**and so its light illuminates and cleaves to and is relevant to them** the vessels and bodies **as well, and yet it does not dislodge them from their place at all.**
 
-**And so too it states in** Tractate **Yoma 56-57 that the Shechinah is with them even when they ritually impure.**
+וַהֲרֵי נִמְצָא כִּי תְּכוּנַת אוֹר הַמַּקִּיף הוּא בְּהֵפֶךְ לְגַמְרֵי מֵהָאוֹר הַפְּנִימִי 
 
-וְלָכֵן כָּל מָה שֶׁגֹּבַהּ הקב"ה חוֹבָתוֹ מֵהֶם בִּיסוּרִים וָעֳנָשִׁים 
+**So it turns out that the characteristics of the *ohr makif* are the opposite of those of the *ohr pnimi.***
 
-**And therefore, to the extent that the Holy One, blessed be He, claims payback for their debt by way of suffering and punishment**
+כִּי הָאוֹר הַפְּנִימִי הִנֵּה הוּא דּוֹחֵק אֶת עַצְמוֹ לְהִשְׁתַּוּוֹת עִם הַגּוּף בְּכָל הָאֶפְשָׁרִי 
 
-אֲשֶׁר בָּזֶה וּבַּבָא הוּא הַכֹּל רַק בַּדֶּרֶךְ צֵרוּף וְלִבּוּן 
+**Because the *ohr pnimi* exerts itself to accord with the body** or the vessel **as much as possible,**
 
-**in this world and the next, this is all in a manner of cleansing and purging.**
+וּבוֹ תָּלוּי כָּל קִיּוּם הַגּוּף וּבִטּוּלוֹ כִּי הִיא מֵאִיר בַּהֲגוּף וּמִחְיָה אוֹתוֹ 
 
-אֲבָל עִם רִשְׁעֵי או"ה הִנֵּה מִתְנַהֵג הקב"ה עִמְהַם בְּמִדָּה 
+**and the entire continuing survival of the body or its nullification depends upon** the *ohr pnimi* **since it illuminates the body and enlivens it,**
 
-**But with the wicked of the nations He conducts Himself in a measure-for-measure manner –**
+וְנִמְשַׁךְ אוֹר חַיּוּתוֹ בַּהֲגוּף בְּמִדָּה וּבְמִשְׁקָל 
 
-וּמְשַׁלֵּם לְשֹׂנְאָיו אֶל פָּנָיו לְהַאֲבִידוֹ וכמ"ש בְּמִדְרַשׁ תְּהִלִּים מִזְמוֹר ז' סִי' י"ז. 
+**and its illumination and life-force is drawn into the body in a limited manner.**
 
-**repaying those who hate Him to their face and destroying them, as Midrash Tehillim 7:17 explains.**
+כִּי אִם יִתְמַעֵט אוֹרוֹ מִמֶּנּוּ מֵהַשִּׁעוּר הַמַּסְפִּיק לִכְדֵי חַיּוּתוֹ 
 
-וְהוּא בְּסוֹד הַכָּתוּב הֲלוֹא אָח עֵשָׂו לְיַעֲקֹב וְאוֹהֵב אֶת יַעֲקֹב וְאֶת עֵשָׂו שָׂנֵאתִי. 
+**For if the quantity of light** from the *ohr pnimi* **is less than the measure sufficient to enliven it** the body
 
-**This is the secret expressed in the verse** (Malachi 1:2-3): **"Was not Esau the brother of Jacob… Yet I loved Jacob, but Esau I detested."**
+אוֹ שֶׁיִּתְגַּבֵּר אוֹרוֹ בּוֹ יוֹתֵר מִכֹּחוֹ אָז יֵחָלֵשׁ הַגּוּף וְהוֹלֵךְ וְנָמָס עַד שֶׁיָּשׁוּב הֶעָפָר עַל הָאָרֶץ כְּשֶׁהָיָה 
 
-וכ"ז הוּא מְכַבְשֵׁי דִּרְחַמְנָא אֲשֶׁר בְּסוֹד בְּרִית אָבוֹת וְיִשְׂרָאֵל 
+**or the light increases to more than** the body's capacity to bear it **then body will weaken and continue to wane until it returns to the dust of the earth as before.**
 
-**All of this is of those matters that are kept secret by the Merciful One, by virtue of the mystical Covenant** He made with **the Patriarchs and Israel,**
+וְלָכֵן נִמְשַׁךְ וּמִתְגַּלֶּה אוֹרוֹ בַּהֲגֹף רַק לְאַט לְאַט וּלְפִי כֹּחַ הַגּוּף שֶׁיּוּכַל לִסְבֹּל 
 
-שֶׁהוּא בְּהַנְהָגַת אוֹר הַמַּקִּיף וְיִחוּדוּ בָּאוֹר הַפְּנִימִי 
+**Therefore, its light is drawn down and revealed in the body gradually, according to the ability of the body to sustain** the revelation,
 
-**which is that** these matters **are conducted by the *ohr makif* as it unites with the *ohr pnimi.***
+כִּי כָּל פְּעֻלָּתוֹ וְגִלּוּיוֹ הוּא לְעוֹלָם רַק ע"י כְּלִי הַגּוּף 
 
-וְלָכֵן מִתְנַהֵג עִמָהֶם בְּרַב חֶסֶד וֶאֱמֶת, שֶׁעוֹשֶׂה עַמָּם רַב חֶסֶד ועכ"ז הוּא וֶאֱמֶת 
+**since its entire activity and revelation is always and only by means of the vessel of the body.**
 
-**And therefore He acts towards them with 'Abundant Kindness'** by letting them repay their debt slowly **and nevertheless with Truth** by ensuring that they eventually pay up to expiate their transgressions.
+משא"כ אוֹר הַמַּקִּיף הִנֵּה הוּא אֵינוֹ דּוֹחֵק אֶת עַצְמוֹ לְהִשְׁתַּוּוֹת עִם הַגּוּף כְּלָל 
 
-שֶׁהַכֹּל בַּמִּשְׁפָּט וְהַכֹּל בַּדִּין כִּי בְּהֶאָרַת אוֹר הַמַּקִּיף הוּא נוֹשֵּׂא עָוֹן 
+**But this is not so with the *ohr makif* – it does not exert itself to accord with the body** or the vessel **at all,**
 
-**For everything is according to the Law and with Justice, for by beaming out the *ohr makif* He forgives sin**
+כִּי אֵינוֹ פּוֹעֵל וּמִתְגַּלֶּה ע"י הַגּוּף מְאוּמָה 
 
-וְסוֹבֵל וּמַעֲלִים עַיִן מְסוֹרָרִים וְטוֹב וּמֵטִיב לְרָעִים וּלְטוֹבִים 
+**since it does not act or become revealed via the body at all,**
 
-**and patiently bears** transgressions **and averts His gaze** from them, **with goodness and doing good to the wicked and to the virtuous,**   
+וְאוֹרוֹ הוּא תָּמִיד לְמַעְלָה מִמַּדְרֵגַת וּמִדַּת הַגּוּף 
 
-כִּי הוּא הוֹלֵךְ וּמֵאִיר שֶׁלֹּא ע"י מַעֲשֵׂה הַתַּחְתּוֹנִים כְּלָל 
+**and its light always transcends the level and limitation of the body.**
 
-**because He continues to shine forth** in a manner **not commensurate with the deeds of those below,** 
+וּבֵין כְּשֶׁאֵינוֹ מִתְגַּלֶּה כְּלָל וּבֵין כַַּאֲשֶׁר מִתְגַּלֶּה בְּתֹקֶף אוֹרוֹ 
 
-וּלְמַעְלָה מִן הַמִּדָּה לְגַמְרֵי וְזֶהוּ מִדַּת וְרַב חֶסֶד 
+**Whether it** the *ohr makif* **is not revealed at all, or whether it is revealed with all the power of its light,**  
 
-**and completely transcending any measure-for-measure response. This is** the attribute of **'Abundant Kindness.'**
+הִנֵּה אֵינוֹ גּוֹרֵם שׁוּם גִּרְעוּן לַהֲגוּף אֶלָּא שֶׁכָּל גִּלּוּיוֹ הוּא רַק לִפְעֻלַּת הַנִסִיית לְבַד 
 
-אֲבָל ע"י יִחוּדוֹ בָּאוֹר הַפְּנִימִי הִנֵּה הוּא גּוֹבֶה דִּלֵיהּ וְאֵינוֹ מְוַתֵּר כְּלָל 
+**it causes absolutely no deficiency in the body, since its entire revelation is only to bring about a miraculous effect,**
 
-**But, by way of unifying with the *ohr pnimi* He claims** the debt due **to Him, and He does not compromise at all.**
+לְהָאִיר וְלִפְעֹל לְמַעְלָה מֵהַגְּבוּל גַּם בֶּהֱיוֹת כָּל הַחֹמֶר וְהַגְּבוּל עַל מְצִיאוּתוֹ. 
 
-וְזֶהוּ מִדַּת וֶאֱמֶת וּמִתְיַחֲדִים שְׁנֵיהֶם וְנַעֲשָׂה הַכֹּל בִּפְעֻלּוֹת וְסִיבוּבִים נֶעֱלָמִים 
+**to illuminate and produce effects that transcend limitation, even while all the material and the finite remain in existence.**
 
-**This is the attribute of 'Truth.' Both** attributes **unite and everything is achieved by way of** direct **actions as well as indirect and concealed** activities
+אָמְנָם דַּע כִּי כָּל מָה שֶׁאָמַרְנוּ שֶׁהָאוֹר הַמַּקִּיף 
 
-בְּאֹפֶן שֶׁמִּתְקַיְּמִים שְׁנֵיהֶם וְהוּא וְרַב חֶסֶד וֶאֱמֶת בְּיַחַד:
+**However, be aware that everything we said regarding the *ohr makif* –**
 
-**in a manner that both** attributes **are satisfied – Abundant Kindness and Truth together.**
+אֵינוֹ מִשְׁתַּוֶּה עִם הַגּוּף וְאֵינוֹ תָּלוּי חַיּוּתוֹ בּוֹ הִנֵּה הוּא רַק עַל בְּחִינַת גִּלּוּיוֹ דּאֹור הַמַּקִּיף 
 
-[^1]: See Shabbat 30b:
+**that it** does not exert itself **to find affinity with the body, and its life** the life of the body **is not dependent upon it – this is all in regard to the *revelation* of the *ohr makif***  
 
-[^2]: Makover notes that the author does not elaborate on what he means by this. However, the Arizal explains (*Eitz Chaim Sha'ar* 13, chaps. 4-5) that the 13 *Tikunim* flow from *Arich Anpin*, the first level of *keter*, which is an *ohr makif* as opposed to all the other *sefirot*, which are *ohr pnimi.* 
+וְהָרְאוֹת כֹּחוֹ וְתָקְפוֹ בְּמָה שֶׁהוּא נִבְדָּל מֵהָאוֹר הַפְּנִימִי. 
 
-[^3]: The Zohar states as follows:
+**and displaying its strength and power distinct from the *ohr pnimi*** which is commensurate with the body it enlivens. 
+
+וְגִלּוּיוֹ הַזֶּה הִיא בֶּאֱמֶת אֵינוֹ בִּתְמִידוּת כְּלָל כִּי הוּא רַק לְעִתִּים וְלִפְרָקִים. 
+
+**In truth this revelation** of the *ohr makif* **is not constant at all; it only happens from time to time.** 
+
+שֶׁהֲרֵי הַנִּסִּים נִגְלִים אֵינָן אֶלָּא לִפְרָקִים וְכֵן רַק בִּמְקוֹמוֹת מְיֻחָדִים 
+
+**For revealed miracles are only occasional and in select places,**
+
+כִּי גִּלּוּיוֹ דּאֹור הַמַּקִּיף בְּתֹקֶף אוֹרוֹ בְּמָה שֶׁהוּא נִבְדָּל מֵהָאוֹר הַפְּנִימִי 
+
+**since the revelation of the *ohr makif* with all the power of its light, in which it is dissimilar to the *ohr pnimi*,**
+
+הִנֵּה הוּא עַתָּה רַק בַּמִּעוּט הָאֶפְשָׁרִי עַד לְעָתִיד לָבוֹא 
+
+**is at this time only to the minimum possible until the future Time-to-Come** *l'atid lavo*.
+
+This refers to that aspect of the *ohr makif* that, were it to be revealed, would upend the order of Creation.**[^14]**
+
+אָמְנָם בְּצִמְצוּם וּבַהֶעְלֵם הִנֵּה פּוֹעֵל וּמֵאִיר הָאוֹר הַמַּקִּיף גַּם כֵּן תָּמִיד 
+
+**However, in a constricted and concealed manner the *ohr makif* does have an effect, and it also shines forth constantly.**
+
+וּבָזֶה הֲוָה כָּל תַּהֲלוּכוֹתָיו גַּם כֵּן רַק עַל דֶּרֶךְ אוֹר הַפְּנִימִי. 
+
+**In this respect its entire manifestation is also only in the manner of the *ohr pnimi*.**
+
+וְאַדְּרַבָּה הוּא, כִּי כָּל פְּעֻלַּת אוֹר הַפְּנִימִי וְכֹּחוֹ 
+
+In fact, **the opposite is true: all the activity of the *ohr pnimi* and its powers**
+
+הִנֵּה הוּא רַק מָה שֶׁמְּקַבֵּל וְשׁוֹאֵב מְאוֹר הַמַּקִּיף אֲשֶׁר לְמַעְלָה וּמִסְּבִיבָיו 
+
+**is only by virtue of what it receives and draws out of the *ohr makif* which transcends it and envelops it,** 
+
+כִּי בּוֹ הוּא קָשׁוּר וְאָחוּד וּמִמֶּנּוּ שׁוֹאֵב תָּמִיד כָּל כֹּחוֹ וְאוֹרוֹ 
+
+**since it is bound to** the *ohr makif* **and is united with it, and from it** the *ohr pnimi* **draws all of its power and light,**  
+
+וְעַל יָדוֹ הִנֵּה קָשׁוּר אוֹר הַפְּנִימִי לְמַעְלָה לְמַעְלָה 
+
+**and through it the *ohr pnimi* is bound on high**
+
+וּמִתְלַבֵּשׁ בּוֹ הֶאָרַת כָּל הָעֶלְיוֹנִים כֻּלָּם 
+
+**so that all the radiances of the higher levels are clothed within it.**
+
+וְנִמְשַׁךְ תָּמִיד הֶאָרַת אוֹר הַמַּקִּיף עַצְמוֹ בַּהֲגוּף גַּם כֵּן לְהַדְבֵּק עִם הָאוֹר הַפְּנִימִי שֶׁבּוֹ 
+
+**The radiance of the *ohr makif* itself is drawn down continuously into the body as well, to join with the *ohr pnimi* therein,**
+
+כִּי הָאוֹר הַפְּנִימִי הוּא מְשַׁלֵּחַ הֶאָרָתוֹ דֶּרֶךְ הַגּוּף מִבִּפְנִים לְחוּץ 
+
+**for the *ohr pnimi* sends its radiance via the body from within it to the outside,**
+
+וְהָאוֹר הַמַּקִּיף מְשַׁלֵּחַ בּוֹ הֶאָרָתוֹ מִחוּץ לִפְנִים 
+
+**while the *ohr makif* sends its radiance to it from outside in.**
+
+וְעַל יְדֵי זֶה נִתְמַלֵּא כָּל הַגּוּף בְּאֹרֶן מִבַּיִת וּמִבַּחוּץ 
+
+**Because of this the body is filled with the light of both of them, within and without,** 
+
+וְנַעֲשָׂה עַל יְדֵי זֶה כֻּלּוֹ חַי בְּאוֹר הנר"נ שֶׁבּוֹ 
+
+**and in this way** the person **is fully alive with the light of the *nefesh, ruach* and *neshama* in them.**
+
+וּבִבְחִינַת הַזֶּה הִנֵּה מֵאִיר הָאוֹר הַמַּקִּיף בְּכָל הַתְּכוּנוֹת כְּמוֹ הָאוֹר הַפְּנִימִי מַמָּשׁ וְהוּא גַּם כֵּן תַּדִּירִי
+
+**In this respect the *ohr makif* illuminates all the characteristics** of a person **exactly like the *ohr pnimi,* and it too is continuously** active.
+
+וְכָל מָה שֶׁאָמַרְנוּ לְעֵיל מִתְּכוּנוֹת אוֹר הַמַּקִּיף 
+
+**Now everything that we said regarding the characteristics of the *ohr makif* –**
+
+שֶׁהוּא בְּהֵפֶךְ מִכָּל תַּהֲלוּכוֹת אוֹר הַפְּנִימִי 
+
+**that it functions in the opposite way to the *ohr pnimi* –**
+
+הִנֵּה הוּא רַק בִּבְחִינַת גִּלּוּיוֹ וּבְמָה שֶׁמִּתְגַּלֶּה בְּתֹקֶף אוֹרוֹ לִהְיוֹת מֵאִיר הוּא עַצְמוֹ, 
+
+**is only as regards the aspect of revelation, and that which is revealed in the full power of its light, being that it itself comes into revelation,**
+
+זוּלַת הַהִשְׁתַּתְּפוּת בָּאוֹר הַפְּנִימִי, 
+
+**distinct from its partnership with the *ohr pnimi*.**
+
+וְהָאוֹר הַזֶּה הוּא אֵינוֹ תַּדִּירִי וְאֵינוֹ מָצוּי עַתָּה כְּלָל 
+
+**This** latter aspect of the *ohr makif* **is not constant, and is not prevalent at all in our times,**
+
+כִּי בָּזֶה הוּא נִמְשָׁךְ פְּעֻלָּתוֹ בְּבִלְתִּי גְּבוּל וְתַכְלִית וְהוּא רַק אוֹר הַנִּסִיי 
+
+**for this is how its effect is drawn down in an unlimited, unbounded manner, and it is only as miraculous light** 
+
+אֲשֶׁר לְמַעְלָה מֵהַטֶּבַע לְגַמְרֵי וְגִלּוּיֵי הוּא עַתָּה רַק בַּמִּעוּט הַיּוֹתֵר אֶפְשָׁרִי וְכַנָּ"ל 
+
+**that transcends nature completely, the revelation of which is only to the minimum degree necessary nowadays, as explained previously.**
+
+אֲבָל בַּהֶעְלֵם הִנֵּה מְשַׁלֵח אוֹר הַמַּקִּיף אֶת הֶאָרָתוֹ בַּהֲגוּף גַּם כֵּן תָּמִיד, 
+
+**Nevertheless, in a concealed manner the *ohr makif* does constantly emit its radiance to the body as well** 
+
+לְהַחֲיוֹת אִתּוֹ מִבַּחוּץ לִפְנִים ע"ד אוֹר הַפְּנִימִי שֶׁמִּחְיָה אוֹתוֹ מִבִּפְנִים לְחוּץ, 
+
+**to enliven it from the outside in, in the same manner as the *ohr pnimi* enlivens the body from the inside out.**
+
+וּבָזֶה הִנֵּה מִתִּצְמַצֵּם אוֹר הַמַּקִּיף ג"כ רַק לְפִי כֹּחַ הַגּוּף 
+
+**And in this aspect the *ohr makif* is also constricted according to the capability of the body,**
+
+וּמִשְׁתַּתֵּף בַּזֶּה עִם הָאוֹר הַפְּנִימִי לְעוֹלָם. 
+
+**and** **it always partners with the *ohr pnimi*.**
+
+וַהֲרֵי נִמְצָא מִכָּל זֶה כִּי פְּעֻלַּת אוֹר הַמַּקִּיף הוּא בַּב' בְּחִינוֹת, 
+
+**From all** the above **it emerges that the *ohr makif* is active in two respects:**
+
+הֲיְינוּ ע"י הַגּוּף וְשֶׁלֹּא ע"י הַגּוּף וְהוּא בַּגְּבוּל וּבְבִלְתִּי גְּבוּל. 
+
+**via the body and not via the body; limited and unlimited.**
+
+אֲבָל הָאוֹר הַפְּנִימִי פְּעֻלָּתוֹ הוּא רַק בַּגְּבוּל לְבַד וְרַק ע"י הַגּוּף לְבַד.
+
+**But the effect of the *ohr pnimi* is only limited, and only via the body.**
+
+[^1]: It seems that the 'lower world' referred to here refers not only to BiY"A, but to all the worlds post-*tzimtzum*.
+
+[^2]: All of this is *prior* to the diffusion of light from the upper level into the lower.
+
+[^3]: Makover.
+
+[^4]: Makover notes that the author explained in the previous chapter that every superior level is in the category of 'infinite' compared with the levels below it.
+
+[^5]: As noted previously, *Sefer Yetzirah* 6:1 refers to three aspects, *olam shana* and *nefesh* – space, time and being. However, time is only a later manifestation, and only in the lower worlds. Consequently, it is not mentioned here. 
+
+[^6]: The Ba'al HaLeshem presents a new insight here – that the *kav* is actually an aspect of the *tzimtzum* (Makover).
+
+[^7]: A second new insight – since the *kav* also has the aspect of 'vessel', it too is divided into *ohr pnimi* and *ohr makif* (Makover).
+
+[^8]: A *partzuf* is the anthropomorphic representation of a *sefirah* or cluster of *sefirot* that fulfills a certain function described by the *partzuf*. For example, the *partzuf* of *Abba* (the *sefirah* of *chochmah*) has a role among the *sefirot* similar to the way a father has a role in the family unit. 
+
+[^9]: By way of contrast see *Zohar* I, p.105 regarding all the prophets other than Moshe Rabbeinu: "They would fall on their faces at the time of prophecy and their physical strength would leave them…" 
+
+[^10]: See also Talmud, *Megillah* 10b; *Yoma* 21a. Rashi explains: The space on each side of the Ark in the Holy-of-Holies measured ten cubits, and yet the entire space from wall to wall of the Holy-of-Holies measured twenty cubits altogether. So the Ark Moshe made took up no space. 
+
+[^11]: He was thrown into a furnace: *Zohar* I, p. 18, 34; *Pirkei d'R' Eliezer* ch. 26; Bereishit Rabba 38:19 etc.
+
+[^12]: When King Solomon wanted to bring the Ark into the Holy-of-Holies, the gates were down and he said, "Lift up, gates for the Honored King!" The gates then asked, "And who is the honored king?" \[since it could have been understood that Solomon was referring to himself\]. But when he clarified that he was talking about the Almighty they immediately lifted up.
+
+[^13]: The miracles mentioned above where miraculous events took place, but they did not nullify the natural order. Rather, they took place within the natural order.
+
+[^14]: Makover.
