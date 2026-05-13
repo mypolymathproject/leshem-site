@@ -1,0 +1,44 @@
+.wrapper {
+  position: relative;
+  display: block;
+  margin: 1.5rem 0;
+  line-height: 0; /* collapse whitespace below inline img */
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* transparent overlay that captures right-click and drag on the image */
+.overlay {
+  position: absolute;
+  inset: 0;
+  bottom: 28px; /* leave the copyright strip uncovered */
+  cursor: default;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.62);
+  color: rgba(255, 255, 255, 0.82);
+  font-family: var(--font-display, 'Cinzel', Georgia, serif);
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  pointer-events: none;
+  user-select: none;
+}
