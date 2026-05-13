@@ -1,7 +1,7 @@
 # PRD — Leshem Shvo v'Achlama Translation Website
-**Version:** 1.5  
+**Version:** 1.6  
 **Author:** Prasad Karunakaran  
-**Date:** May 11, 2026  
+**Date:** May 13, 2026  
 **Status:** Live
 
 ---
@@ -83,6 +83,7 @@ Each chapter file contains:
 | Framework | Docusaurus 3 (React) | Static site generator ideal for book/doc-style content |
 | Content | MDX (.mdx) | One file per chapter; chapters use `<Passage>` component or plain markdown |
 | Components | `src/components/Passage.js` | Renders Hebrew / translation / commentary as a styled block |
+| Components | `src/components/ProtectedImage.jsx` | Copyright-protection wrapper for all chart images |
 | Remark plugin | `src/plugins/remark-hebrew-rtl.mjs` | Adds `dir="rtl"` to Hebrew-first paragraphs at build time |
 | Root wrapper | `src/theme/Root.js` | Docusaurus root wrapper; injects the compact/spacious toggle button |
 | Styling | Custom CSS with `oklch()` tokens | EB Garamond body, Cinzel display, Frank Ruhl Libre Hebrew; parchment light + midnight dark themes |
@@ -191,11 +192,13 @@ leshem-site/
 │   ├── shaar-5/               ← 3 chapters ✓ (ongoing)
 │   └── illustrations/
 │       ├── _category_.json    ← Sidebar label: "Illustrations", position 7
-│       └── charts.md          ← Gallery of all 17 charts (inline images)
+│       └── charts.mdx         ← Gallery of all 17 charts, each wrapped in <ProtectedImage>
 ├── src/
 │   ├── components/
-│   │   ├── Passage.js         ← MDX component: Hebrew + translation + commentary block
-│   │   └── Passage.module.css ← Scoped styles for Passage (includes compact mode overrides)
+│   │   ├── Passage.js              ← MDX component: Hebrew + translation + commentary block
+│   │   ├── Passage.module.css      ← Scoped styles for Passage (includes compact mode overrides)
+│   │   ├── ProtectedImage.jsx      ← Copyright-protected image wrapper (overlay + badge)
+│   │   └── ProtectedImage.module.css ← Scoped styles for overlay and copyright strip
 │   ├── plugins/
 │   │   └── remark-hebrew-rtl.mjs ← Adds dir="rtl" to Hebrew-first paragraphs at build time
 │   ├── theme/
@@ -261,13 +264,29 @@ Google Analytics 4 is configured via the Docusaurus `gtag` preset option.
 
 ---
 
-## 12. Future Enhancements
+## 12. Image Copyright Protection
+
+All charts on the Illustrations page are rendered via `<ProtectedImage>` (`src/components/ProtectedImage.jsx`) rather than plain markdown images. This provides three layers of deterrence:
+
+| Mechanism | How | What it stops |
+|---|---|---|
+| Right-click block | Transparent overlay div intercepts `onContextMenu`, calls `preventDefault()`, shows copyright alert | "Save Image As", "Open image in new tab" |
+| Drag-to-save block | `draggable={false}` on `<img>`, `-webkit-user-drag: none` and `pointer-events: none` in CSS | Drag-to-desktop / Finder |
+| Copyright badge | Dark translucent strip pinned to bottom of every image | Ambiguity about ownership |
+
+**Copyright notice text:** *"© All Rights Reserved — Leshem Shvo v'Achlama Translation"*
+
+**Limitations (unavoidable):** OS-level screenshots (Cmd+Shift+4, PrintScreen, Windows Snipping Tool) and browser DevTools network-tab downloads cannot be blocked by any browser-based mechanism.
+
+---
+
+## 13. Future Enhancements
 
 | Feature | Priority | Notes |
 |---|---|---|
 | Shaar 5 remaining chapters | High | Source files to be provided by translator |
 | Search | ~~High~~ | ✓ Live — `@easyops-cn/docusaurus-search-local`, Hebrew + English, index built at deploy time |
-| Illustrations section | ~~High~~ | ✓ Live — 17 charts at `/illustrations/charts` |
+| Illustrations section | ~~High~~ | ✓ Live — 17 charts at `/illustrations/charts` with copyright protection |
 | Descriptive chapter titles | ~~High~~ | ✓ Done — all Shaar 3 and 4 chapters titled |
 | Glossary page | Medium | Kabbalistic terms (Atzilut, tzimtzum, sefirot, etc.) |
 | Cross-references | Medium | Link from commentary to glossary or other chapters |
@@ -277,4 +296,4 @@ Google Analytics 4 is configured via the Docusaurus `gtag` preset option.
 
 ---
 
-*End of PRD v1.5 — Leshem Shvo v'Achlama Translation Site*
+*End of PRD v1.6 — Leshem Shvo v'Achlama Translation Site*

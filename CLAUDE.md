@@ -31,7 +31,9 @@ npm run serve    # serve the production build locally
 | `docs/shaar-N/_category_.json` | Sidebar label and collapse config for each Shaar |
 | `docs/shaar-N/chapter-N.md` | Chapter content |
 | `docs/illustrations/_category_.json` | Illustrations section (position 7) |
-| `docs/illustrations/charts.md` | Gallery page — all 17 charts inline |
+| `docs/illustrations/charts.mdx` | Gallery page — all 17 charts, each wrapped in `<ProtectedImage>` |
+| `src/components/ProtectedImage.jsx` | Copyright-protection wrapper for chart images |
+| `src/components/ProtectedImage.module.css` | Scoped styles for ProtectedImage (overlay, copyright strip) |
 | `static/img/illustrations/` | Chart images (PNG converted from PDF, plus original JPGs) |
 
 ## How to Add a New Chapter
@@ -184,7 +186,7 @@ The `_category_.json` label for each Shaar also includes a descriptive subtitle:
 
 ## Adding Illustrations
 
-Charts and diagrams live in `static/img/illustrations/` and are shown on `docs/illustrations/charts.md`.
+Charts and diagrams live in `static/img/illustrations/` and are shown on `docs/illustrations/charts.mdx`.
 
 **To add new images:**
 1. Place JPGs directly in `static/img/illustrations/`
@@ -194,14 +196,24 @@ Charts and diagrams live in `static/img/illustrations/` and are shown on `docs/i
    # produces file.pdf.png in the output dir
    cp /tmp/output_dir/file.pdf.png static/img/illustrations/clean-name.png
    ```
-3. Add a section to `docs/illustrations/charts.md`:
-   ```markdown
+3. Add a section to `docs/illustrations/charts.mdx` using the `<ProtectedImage>` component — do NOT use plain `![alt](src)` markdown:
+   ```mdx
    ## Chart Title
-   ![Alt text](/img/illustrations/clean-name.png)
+   <ProtectedImage src="/img/illustrations/clean-name.png" alt="Chart Title" />
    ---
    ```
 
-Note: ImageMagick (`brew install imagemagick`) is an alternative converter but struggled on macOS 12. `qlmanage` works reliably on all macOS versions.
+## Image Copyright Protection
+
+All charts on the illustrations page are wrapped in `<ProtectedImage>` (`src/components/ProtectedImage.jsx`), which provides:
+
+- **Right-click blocked** — `onContextMenu` on a transparent overlay intercepts the event, calls `e.preventDefault()`, and shows a copyright alert
+- **Drag-to-save blocked** — `draggable={false}` on `<img>` and `-webkit-user-drag: none` / `pointer-events: none` in CSS
+- **Copyright strip** — a dark translucent bar pinned to the bottom of every image reads "© All Rights Reserved — Leshem Shvo v'Achlama Translation"
+
+**What it cannot prevent:** OS-level screenshots (Cmd+Shift+4, PrintScreen) and browser DevTools network downloads — these are impossible to block in any browser.
+
+The gallery file is `.mdx` (not `.md`) so it can import and use the React component. Always keep it as `.mdx`.
 
 ## Search
 
