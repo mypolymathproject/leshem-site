@@ -1,8 +1,25 @@
 # PRD — Leshem Shvo v'Achlama Translation Website
-**Version:** 1.6  
+**Version:** 1.7  
 **Author:** Prasad Karunakaran  
-**Date:** May 13, 2026  
+**Date:** May 14, 2026  
 **Status:** Live
+
+---
+
+## What's New in v1.7 (May 14, 2026)
+
+### Copyright Acknowledgment Modal for Illustrations
+
+When a visitor navigates to any page under `/illustrations/`, a modal overlay now appears requiring them to acknowledge the copyright notice before the images are visible.
+
+**How it works:**
+- `src/theme/Root.js` detects the current route via `useLocation()` from `@docusaurus/router`
+- If the pathname starts with `/illustrations` and the user has not previously acknowledged, `<CopyrightModal>` is rendered as a full-screen overlay with a blurred backdrop
+- The modal shows a copyright notice explaining that images may not be reproduced, downloaded, or distributed without explicit written permission, and that unauthorized use is a violation of copyright law
+- Clicking **"I Understand"** stores `leshem-copyright-ack = true` in `localStorage` and dismisses the modal permanently — it will not appear again on that browser
+- All other pages are completely unaffected
+
+**Styles** added to `custom.css`: `.leshem-copyright-overlay`, `.leshem-copyright-modal`, `.leshem-copyright-seal`, `.leshem-copyright-title`, `.leshem-copyright-body`, `.leshem-copyright-btn` — all using the site's existing `oklch()` color tokens and Cinzel/Garamond typography.
 
 ---
 
@@ -85,7 +102,7 @@ Each chapter file contains:
 | Components | `src/components/Passage.js` | Renders Hebrew / translation / commentary as a styled block |
 | Components | `src/components/ProtectedImage.jsx` | Copyright-protection wrapper for all chart images |
 | Remark plugin | `src/plugins/remark-hebrew-rtl.mjs` | Adds `dir="rtl"` to Hebrew-first paragraphs at build time |
-| Root wrapper | `src/theme/Root.js` | Docusaurus root wrapper; injects the compact/spacious toggle button |
+| Root wrapper | `src/theme/Root.js` | Docusaurus root wrapper; injects compact/spacious toggle button and copyright acknowledgment modal for `/illustrations/` |
 | Styling | Custom CSS with `oklch()` tokens | EB Garamond body, Cinzel display, Frank Ruhl Libre Hebrew; parchment light + midnight dark themes |
 | Analytics | Google Analytics 4 (`G-8XJNSZMNEV`) | Via Docusaurus `gtag` preset option; `anonymizeIP: true` |
 | Hosting | Vercel | Free tier, auto-deploys from GitHub |
@@ -276,6 +293,8 @@ All charts on the Illustrations page are rendered via `<ProtectedImage>` (`src/c
 
 **Copyright notice text:** *"© All Rights Reserved — Leshem Shvo v'Achlama Translation"*
 
+**Acknowledgment modal (v1.7):** In addition to the per-image protections above, a route-level modal in `Root.js` requires visitors to explicitly acknowledge the copyright before they can view any illustrations page. Stored in `localStorage` — shown once per browser. See §What's New in v1.7 for full details.
+
 **Limitations (unavoidable):** OS-level screenshots (Cmd+Shift+4, PrintScreen, Windows Snipping Tool) and browser DevTools network-tab downloads cannot be blocked by any browser-based mechanism.
 
 ---
@@ -296,4 +315,4 @@ All charts on the Illustrations page are rendered via `<ProtectedImage>` (`src/c
 
 ---
 
-*End of PRD v1.6 — Leshem Shvo v'Achlama Translation Site*
+*End of PRD v1.7 — Leshem Shvo v'Achlama Translation Site*
