@@ -1,6 +1,6 @@
 ---
 id: chapter-7
-title: "Chapter 7 — All that God does is for the good"
+title: "Chapter 7 — A continuation of an explanation of how the negative (ra) is flipped to positive (tov)"
 sidebar_position: 8
 ---
 

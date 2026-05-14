@@ -1,6 +1,6 @@
 ---
 id: chapter-8
-title: "Chapter 8 — How Future Good is linked to punishment"
+title: "Chapter 8 — The purpose of punishment (cause and effect) and rectification (balancing) via the power of the tsadikim (righteous people)"
 sidebar_position: 9
 ---
 
