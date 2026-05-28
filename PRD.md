@@ -1,8 +1,16 @@
 # PRD — Leshem Shvo v'Achlama Translation Website
-**Version:** 1.7  
+**Version:** 1.8  
 **Author:** Prasad Karunakaran  
-**Date:** May 14, 2026  
+**Date:** May 27, 2026  
 **Status:** Live
+
+---
+
+## What's New in v1.8 (May 27, 2026)
+
+### Shaar 7 — The Five Revelations in the Worlds and the Partzufim (complete)
+
+All 7 chapters of Shaar 7 added (chapters 1–7, sections a–i depending on chapter). One embedded diagram image extracted and published (`static/img/shaar-7/hexagon-diagonals.png`). Hebrew bold-stripping applied throughout. Illustrations sidebar repositioned from 8 → 9 to accommodate the new Shaar.
 
 ---
 
@@ -83,6 +91,18 @@ Shaar 5 — The five general Divine revelations
   Chapter 2: Two aspects of illumination: the makif (transcendent) and the penimi (immanent)      ✓ live
   Chapter 3: The enclothing and overlapping of the heikhalot, physical bodies, and the neshama    ✓ live
   Chapter 4+: Pending
+
+Shaar 6 — How the Divine Light expands: tsimtsum, the surrounding and inner lights, reward and karma
+  Chapter 1–11 + Avnei Miluim appendix                                         ✓ live (11 chapters)
+
+Shaar 7 — The Five Revelations in the Worlds and the Partzufim
+  Chapter 1: The Five Revelations in the Worlds and the Partzufim               ✓ live
+  Chapter 2: Chochmah and the Partzuf of Abba                                   ✓ live
+  Chapter 3: Binah and the Partzuf of Imma                                      ✓ live
+  Chapter 4: Revelations and Divine Names in Atzilut, Beriah and Yetzirah       ✓ live
+  Chapter 5: The Partzuf of Malchut                                              ✓ live
+  Chapter 6: The Names Elokim and Ad-nai                                         ✓ live
+  Chapter 7: The Six Partzufim in each World and the Four Levels                 ✓ live
 ```
 
 Each chapter file contains:
@@ -206,9 +226,11 @@ leshem-site/
 │   ├── shaar-2/               ← 2 chapters ✓
 │   ├── shaar-3/               ← 7 chapters ✓
 │   ├── shaar-4/               ← 6 chapters ✓
-│   ├── shaar-5/               ← 3 chapters ✓ (ongoing)
+│   ├── shaar-5/               ← 3 chapters ✓ (ch 4+ pending)
+│   ├── shaar-6/               ← 11 chapters + avnei-miluim ✓
+│   ├── shaar-7/               ← 7 chapters ✓
 │   └── illustrations/
-│       ├── _category_.json    ← Sidebar label: "Illustrations", position 7
+│       ├── _category_.json    ← Sidebar label: "Illustrations", position 9
 │       └── charts.mdx         ← Gallery of all 17 charts, each wrapped in <ProtectedImage>
 ├── src/
 │   ├── components/
@@ -225,6 +247,7 @@ leshem-site/
 ├── sidebars.js                ← Auto-generated from folder structure
 └── static/
     ├── img/illustrations/     ← 17 chart images (PNG converted from PDF via qlmanage, + 2 original JPGs)
+    ├── img/shaar-7/           ← Diagram images extracted from Shaar 7 source files
     └── ...                    ← Favicon, other images
 ```
 
@@ -303,7 +326,7 @@ All charts on the Illustrations page are rendered via `<ProtectedImage>` (`src/c
 
 | Feature | Priority | Notes |
 |---|---|---|
-| Shaar 5 remaining chapters | High | Source files to be provided by translator |
+| Shaar 5 remaining chapters (ch 4+) | High | Source files to be provided by translator |
 | Search | ~~High~~ | ✓ Live — `@easyops-cn/docusaurus-search-local`, Hebrew + English, index built at deploy time |
 | Illustrations section | ~~High~~ | ✓ Live — 17 charts at `/illustrations/charts` with copyright protection |
 | Descriptive chapter titles | ~~High~~ | ✓ Done — all Shaar 3 and 4 chapters titled |
@@ -315,4 +338,4 @@ All charts on the Illustrations page are rendered via `<ProtectedImage>` (`src/c
 
 ---
 
-*End of PRD v1.7 — Leshem Shvo v'Achlama Translation Site*
+*End of PRD v1.8 — Leshem Shvo v'Achlama Translation Site*

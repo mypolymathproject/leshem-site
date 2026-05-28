@@ -30,7 +30,7 @@ npm run serve    # serve the production build locally
 | `docs/intro.md` | About page, serves at `/` (root) |
 | `docs/shaar-N/_category_.json` | Sidebar label and collapse config for each Shaar |
 | `docs/shaar-N/chapter-N.md` | Chapter content |
-| `docs/illustrations/_category_.json` | Illustrations section (position 7) |
+| `docs/illustrations/_category_.json` | Illustrations section (position 9) |
 | `docs/illustrations/charts.mdx` | Gallery page — all 17 charts, each wrapped in `<ProtectedImage>` |
 | `src/components/ProtectedImage.jsx` | Copyright-protection wrapper for chart images |
 | `src/components/ProtectedImage.module.css` | Scoped styles for ProtectedImage (overlay, copyright strip) |
@@ -107,9 +107,77 @@ Markdown footnotes (`[^1]`, `[^2]`, etc.) are supported natively. Keep footnote 
 
 ## Source Files
 
-Source chapters arrive as `.rtf` files (e.g. from `~/Downloads/`). No pre-converted markdown exists — convert directly from RTF using the Python script below.
+Source chapters arrive as `.md` files exported from Word/DOCX (e.g. `~/Downloads/Shaar 7 Chapter 2 a-e.md`). Shaar 1–5 used `.rtf` source files. Shaar 6 onward uses `.md` source files.
 
-## Converting RTF Chapters to Markdown
+## Converting MD Source Files to Site Markdown (Shaar 6+)
+
+Use this Python pattern for Word-exported `.md` files:
+
+```python
+import re
+
+with open('path/to/source.md', 'r') as f:
+    text = f.read()
+
+# 1. Remove the top-level "**Sha'ar N Chapter M**" heading line
+#    Note: Sha'ar uses Unicode curly apostrophe (U+2019), not straight apostrophe
+text = re.sub(r'^\*\*Sha’ar \d+ Chapter \d+\*\*\s*\n\n', '', text)
+
+# 2. Convert section headers + their bold title lines to ## headings
+#    Pattern: **Chapter Na** + blank line + **Title text** → ## Na — Title text
+#    Titles with ***italic bold*** need custom handling per chapter
+text = re.sub(
+    r'\*\*Chapter (Na)\*\*\s*\n\n\*\*Title text\*\*\s*\n',
+    r'## Na — Title text\n\n', text
+)
+
+# 3. Strip bold markers from Hebrew-only lines
+#    Hebrew paragraphs in bold (**Hebrew text**) must be bare text
+#    so the remark-hebrew-rtl plugin can detect and add dir="rtl"
+def strip_hebrew_bold(text):
+    lines = text.split('\n')
+    result = []
+    for line in lines:
+        m = re.match(r'^\*\*(\s*[֐-׿].+)\*\*\s*$', line)
+        if m:
+            result.append(m.group(1).strip())
+        else:
+            result.append(line)
+    return '\n'.join(result)
+
+text = strip_hebrew_bold(text)
+
+# 4. Handle embedded base64 images (if any)
+import base64
+img_match = re.search(r'\[image1\]: <data:image/png;base64,([^>]+)>', text)
+if img_match:
+    img_data = base64.b64decode(img_match.group(1))
+    with open('static/img/shaar-N/name.png', 'wb') as f:
+        f.write(img_data)
+text = re.sub(r'\*\*!\[.*?\]\[image1\]\*\*', '![alt text](/img/shaar-N/name.png)', text)
+text = re.sub(r'!\[.*?\]\[image1\]', '![alt text](/img/shaar-N/name.png)', text)
+text = re.sub(r'\[image1\]: <data:image/png;base64,[^>]+>', '', text)
+
+# 5. Add frontmatter and write
+frontmatter = '''---
+id: chapter-N
+title: "Chapter N — Title"
+sidebar_position: N
+---
+
+'''
+with open('docs/shaar-N/chapter-N.md', 'w') as f:
+    f.write(frontmatter + text)
+```
+
+**Key gotchas:**
+- The curly apostrophe in `Sha'ar` is U+2019 — straight apostrophe regex will not match
+- Hebrew paragraphs **must not** be wrapped in `**bold**` — the remark plugin detects bare Hebrew
+- Footnotes in source are usually already in `[^N]: text` format (Shaar 2 Ch 2 onward)
+- Chapter 1 (Shaar 7) had bare-number footnote defs (`1 text`) requiring conversion
+- Titles using `***bold-italic***` need custom regex — extract exact bytes with `repr()` first
+
+## Converting RTF Chapters to Markdown (Shaar 1–5)
 
 Use this Python pattern to convert any Shaar 3 chapter RTF:
 
