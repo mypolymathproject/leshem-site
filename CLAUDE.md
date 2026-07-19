@@ -312,13 +312,12 @@ Note: search only works on the production build (`npm run build` + `npm run serv
 
 ## Print PDF Generation (Amazon KDP)
 
-`scripts/build-pdf.mjs` renders the whole site into print-ready PDFs for Amazon KDP print-on-demand, split into 3 volumes so each stays under KDP's 828-page paperback cap:
+`scripts/build-pdf.mjs` renders the whole site into print-ready PDFs for Amazon KDP print-on-demand, split into 2 volumes so each stays under KDP's 828-page paperback cap:
 
 | File | Content | ~Pages |
 |---|---|---|
-| `book-vol1-gates-1-4.pdf` | About This Work + Shaar 1–4 | 388 |
-| `book-vol2-gates-5-6.pdf` | Shaar 5–6 | 367 |
-| `book-vol3-gate-7.pdf` | Shaar 7 + Illustrations | 654 |
+| `book-vol1-gates-1-6.pdf` | About This Work + Shaar 1–6 | 530 |
+| `book-vol2-gate-7.pdf` | Shaar 7 + Illustrations | 475 |
 
 **Run it:**
 ```bash
@@ -326,15 +325,19 @@ npm run build          # production build first — the script reads static HTML
 node scripts/build-pdf.mjs
 ```
 
-**How it works:** for each chapter/divider/title/copyright/TOC unit, it renders a standalone HTML document (site CSS + self-hosted fonts + print overrides) through Puppeteer's `page.pdf()` (6×9in, 0.75in margins), then stitches the resulting per-unit PDFs together per volume with `pdf-lib`, computing real TOC page numbers in a two-pass render (guess → measure → re-render) and stamping running page numbers after merge.
+**How it works:** for each chapter/divider/title/copyright/TOC unit, it renders a standalone HTML document (site CSS + self-hosted fonts + print overrides) through Puppeteer's `page.pdf()` (6×9in, 0.65in margins), then stitches the resulting per-unit PDFs together per volume with `pdf-lib`, computing real TOC page numbers in a two-pass render (guess → measure → re-render) and stamping running page numbers after merge.
+
+**Print density:** the site's web CSS (16-22px text, 1.85-2x line-height, browser-default ~1em paragraph gaps) is tuned for airy browser reading, not print — rendered near-verbatim it produces books at a small fraction of the source Word manuscript's density. `PRINT_CSS` in the script overrides this for print: ~10pt body/commentary text, ~12.5pt Hebrew, ~1.3x line-height, tight paragraph margins (0.25–0.35em). This alone cut total page count by ~28% (1389 → ~1007 pages for the whole work) with no loss of legibility. If more density is ever needed, prefer shrinking `PRINT_CSS` font-size/line-height/margins further or increasing the trim size in `PDF_OPTIONS` (6×9in → 7×10in gives ~30% more area per page for free) — both are safer levers than fighting the site's own cascade (see next gotcha).
 
 **Known gotchas (don't redo this debugging):**
+- **Don't try to override the `<Passage>` component's Hebrew block by targeting `div[dir="rtl"]`.** This was tried and made things *worse* — for reasons rooted in the site's own CSS cascade (not fully understood, but reproduced twice), the Passage Hebrew div already renders smaller under the print body-font override than any explicit override we tried forces it to. If Shaar 1 / Shaar 2 Ch1 (the `<Passage>`-based chapters) ever need further Hebrew-specific tuning, verify with a computed-style diff (`getComputedStyle` before/after) rather than assuming a smaller explicit value shrinks it — it may do the opposite.
 - **Images must be inlined as base64 data URIs, not `file://` links.** Chromium silently fails to load `<img src="file://...">` from a `page.setContent()` document even though `file://` `<link>` stylesheets/fonts load fine — you'll get broken-image icons with no error. `rewriteAssetPaths()` in the script handles this.
 - **Fonts are self-hosted in `scripts/fonts/`** (downloaded from Google Fonts, `fonts.css` rewritten to local `font-N.woff2` files) rather than linked live. The sandboxed environment this was built in couldn't complete `networkidle0` against the live Google Fonts URL (hung/timed out), even though plain `curl` to the same URL worked fine.
-- Chapter content is extracted from the built HTML's `<div class="theme-doc-markdown markdown">`, which must be wrapped in a bare `<article>` tag when re-rendered — several custom.css rules (`article h1`, `article p[dir="rtl"]`, etc.) are scoped to an `article` ancestor and silently fall back to unstyled defaults without it.
+- Chapter content is extracted from the built HTML's `<div class="theme-doc-markdown markdown">` (`readBuiltPage()` keeps this wrapper div in the returned HTML) and must be wrapped in a bare `<article>` only — not another copy of that div — when re-rendered (`chapterHtml()`). Several custom.css rules (`article h1`, `article p[dir="rtl"]`, etc.) are scoped to an `article` ancestor and silently fall back to unstyled defaults without it.
 - Chapter order / Shaar grouping / volume boundaries are hardcoded in the `SHAARS` and `VOLUMES` arrays at the top of the script — update both if you add a new Shaar or chapter.
+- KDP's 828-page cap is a hard ceiling on a *single* print file — merging the whole 7-Gate work into one omnibus file isn't possible at 6×9in even at current density (~1001 pages combined). It only works for subsets that land under 828 (e.g. the current Gates 1–6 volume at 530).
 
 **Before final KDP submission:**
 - Replace the `COPYRIGHT_NAME` / `COPYRIGHT_YEAR` placeholders near the top of the script.
-- Margins are currently a uniform 0.75in on all sides. KDP wants a larger inside/gutter margin that scales with final page count for perfect binding — tighten `PDF_OPTIONS.margin` per volume once page counts are final.
+- Margins are currently a uniform 0.65in on all sides. KDP wants a larger inside/gutter margin that scales with final page count for perfect binding — tighten `PDF_OPTIONS.margin` per volume once page counts are final.
 - KDP requires a separate cover PDF per volume (not generated by this script) — use KDP's Cover Calculator with each volume's trim size + exact page count.

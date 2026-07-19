@@ -20,20 +20,14 @@ const COPYRIGHT_YEAR = '[Year]';
 // ── Volume split (each volume stays well under KDP's 828-page paperback cap) ─
 const VOLUMES = [
   {
-    file: 'book-vol1-gates-1-4.pdf',
+    file: 'book-vol1-gates-1-6.pdf',
     number: 'One',
-    range: 'Gates One Through Four',
-    shaarIds: ['intro', 'shaar-1', 'shaar-2', 'shaar-3', 'shaar-4'],
+    range: 'Gates One Through Six',
+    shaarIds: ['intro', 'shaar-1', 'shaar-2', 'shaar-3', 'shaar-4', 'shaar-5', 'shaar-6'],
   },
   {
-    file: 'book-vol2-gates-5-6.pdf',
+    file: 'book-vol2-gate-7.pdf',
     number: 'Two',
-    range: 'Gates Five and Six',
-    shaarIds: ['shaar-5', 'shaar-6'],
-  },
-  {
-    file: 'book-vol3-gate-7.pdf',
-    number: 'Three',
     range: 'Gate Seven',
     shaarIds: ['shaar-7', 'illustrations'],
   },
@@ -91,7 +85,7 @@ const PDF_OPTIONS = {
   preferCSSPageSize: false,
   width: '6in',
   height: '9in',
-  margin: { top: '0.75in', bottom: '0.75in', left: '0.75in', right: '0.75in' },
+  margin: { top: '0.65in', bottom: '0.65in', left: '0.65in', right: '0.65in' },
 };
 
 // ── CSS ──────────────────────────────────────────────────────────────────
@@ -104,7 +98,19 @@ const PRINT_CSS = `
   .theme-doc-markdown { max-width: none !important; }
   img { max-width: 100% !important; height: auto !important; break-inside: avoid; }
   * { box-shadow: none !important; }
-  article h1 { font-size: 19px !important; line-height: 1.35 !important; margin-top: 0 !important; margin-bottom: 22px !important; }
+  /* Print density overrides — the site CSS is tuned for airy web reading
+     (16-22px text, 1.85-2x line-height, 1em paragraph gaps); a print book
+     needs standard book-text density or content-per-page collapses to a
+     fraction of the source manuscript. */
+  body, article p { font-size: 10pt !important; line-height: 1.28 !important; }
+  article p { margin: 0 0 0.35em 0 !important; }
+  article p[dir="rtl"] { font-size: 12.5pt !important; line-height: 1.35 !important; margin: 0 0 0.25em 0 !important; }
+  article h1 { font-size: 15pt !important; line-height: 1.25 !important; margin-top: 0 !important; margin-bottom: 12px !important; }
+  article h2 { font-size: 10pt !important; margin-top: 1em !important; margin-bottom: 0.4em !important; }
+  article strong { font-weight: 600; }
+  .footnotes { margin-top: 1.2em !important; padding-top: 0.5em !important; font-size: 8pt !important; }
+  .footnotes p { margin-bottom: 0.2em !important; line-height: 1.25 !important; }
+  .markdown hr { margin: 0.9em auto !important; }
   .pdf-divider {
     height: 7.2in;
     display: flex;
@@ -195,7 +201,9 @@ function dividerHtml(label) {
 }
 
 function chapterHtml(html) {
-  return wrapHtml(`<article><div class="theme-doc-markdown markdown">${html}</div></article>`);
+  // `html` already starts with the `<div class="theme-doc-markdown markdown">`
+  // wrapper (see readBuiltPage) — only the <article> ancestor needs adding here.
+  return wrapHtml(`<article>${html}</article>`);
 }
 
 function titlePageHtml(volume) {
