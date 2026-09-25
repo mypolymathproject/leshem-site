@@ -1,13 +1,14 @@
 import React, {useRef, useState} from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import {useLocation} from '@docusaurus/router';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './search-by-meaning.module.css';
 
 // Results below this cosine similarity are hidden. A starting guess: tune it
 // against real queries once the index exists.
 const MIN_SCORE = 0.2;
-const MAX_RESULTS = 10;
+const MAX_RESULTS = 6;
 const PER_CHAPTER = 2;
 
 const EXAMPLES = [
@@ -39,7 +40,7 @@ async function loadEngine(passagesUrl, vectorsUrl) {
   return {meta, vecs, extractor};
 }
 
-function rank({meta, vecs}, queryVec) {
+function rank({meta, vecs}, queryVec, ignoreCutoff) {
   const {count, dim, passages} = meta;
   const scored = new Array(count);
   for (let i = 0; i < count; i++) {
@@ -53,7 +54,7 @@ function rank({meta, vecs}, queryVec) {
   const perChapter = new Map();
   const picked = [];
   for (const [score, i] of scored) {
-    if (score < MIN_SCORE || picked.length >= MAX_RESULTS) break;
+    if ((!ignoreCutoff && score < MIN_SCORE) || picked.length >= MAX_RESULTS) break;
     const p = passages[i];
     const seen = perChapter.get(p.u) ?? 0;
     if (seen >= PER_CHAPTER) continue;
@@ -66,6 +67,8 @@ function rank({meta, vecs}, queryVec) {
 export default function SearchByMeaning() {
   const passagesUrl = useBaseUrl('/search-passages.json');
   const vectorsUrl = useBaseUrl('/search-vectors.bin');
+  // Add ?scores=1 to the address to see each result's similarity and to bypass the cutoff (for tuning).
+  const showScores = new URLSearchParams(useLocation().search).get('scores') === '1';
   const engine = useRef(null);
   const [query, setQuery] = useState('');
   const [phase, setPhase] = useState('idle'); // idle | loading | searching | error
@@ -89,7 +92,7 @@ export default function SearchByMeaning() {
       const loaded = await load();
       setPhase('searching');
       const out = await loaded.extractor(text, {pooling: 'mean', normalize: true});
-      setResult({q: text, items: rank(loaded, out.data)});
+      setResult({q: text, items: rank(loaded, out.data, showScores)});
       setPhase('idle');
     } catch (err) {
       console.error('[search-by-meaning]', err);
@@ -166,6 +169,7 @@ export default function SearchByMeaning() {
                   <Link to={r.u} className={styles.resultTitle}>
                     {r.c}
                   </Link>
+                  {showScores && <span className={styles.score}>{r.score.toFixed(3)}</span>}
                   {r.l && <div className={styles.resultLabel}>{r.l}</div>}
                   <p className={styles.resultText}>{r.t}</p>
                 </li>

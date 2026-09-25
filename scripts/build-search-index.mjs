@@ -41,6 +41,7 @@ const FLUSH_AT = 80; // words: close a passage once it reaches this
 const MAX_WORDS = 160; // a single paragraph longer than this is split by sentence
 const SPLIT_TO = 110; // target words per piece when splitting
 const MIN_WORDS = 12; // passages shorter than this are merged or dropped
+const MIN_FOOTNOTE_WORDS = 15; // shorter footnotes are bare citations; skip them
 const SNIPPET_CHARS = 320;
 
 const DRY = process.argv.includes('--dry-run');
@@ -134,19 +135,28 @@ function cleanInline(s) {
     .replace(/\[\^[^\]]+\]/g, '')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     .replace(/<\/?[A-Za-z][^>]*>/g, ' ')
-    .replace(/[֐-׿יִ-ﭏ]/g, '') // Hebrew: the model reads English
     .replace(/[*_`]+/g, '')
     .replace(/\\([^\sA-Za-z0-9])/g, '$1') // markdown escapes such as "3\."
+    .replace(/\\(?=\s|$)/g, '') // a lone backslash before a space or at the end
     .replace(/\s+/g, ' ')
     .trim();
 }
 
+/** The model reads English, so Hebrew is removed from what gets embedded but kept for display. */
+function stripHebrew(s) {
+  return s.replace(/[֐-׿יִ-ﭏ]/g, '').replace(/\s+/g, ' ').trim();
+}
+
+const embedWords = (s) => words(stripHebrew(s));
+
 function toBlocks(body) {
   const blocks = [];
   let buf = [];
+  let kind = 'p';
   const flush = () => {
-    if (buf.length) blocks.push({ kind: 'p', raw: buf.join(' ') });
+    if (buf.length) blocks.push({ kind, raw: buf.join(' ') });
     buf = [];
+    kind = 'p';
   };
   for (const rawLine of body.split(/\r?\n/)) {
     const line = rawLine.trim();
@@ -156,7 +166,9 @@ function toBlocks(body) {
     }
     if (/^(import|export)\s/.test(line)) continue;
     if (/^\[\^[^\]]+\]:/.test(line)) {
-      flush(); // footnote definitions are bare citations; skip them
+      flush();
+      kind = 'f'; // footnote: indexed as its own passage
+      buf.push(line.replace(/^\[\^[^\]]+\]:\s*/, ''));
       continue;
     }
     if (line.includes('={{') || /^\/?>$/.test(line)) continue; // JSX diagram plumbing
@@ -179,13 +191,13 @@ function toBlocks(body) {
 }
 
 function splitLong(text) {
-  if (words(text) <= MAX_WORDS) return [text];
+  if (embedWords(text) <= MAX_WORDS) return [text];
   const pieces = [];
   let cur = [];
   let n = 0;
   for (const sentence of text.split(/(?<=[.!?])\s+/)) {
     cur.push(sentence);
-    n += words(sentence);
+    n += embedWords(sentence);
     if (n >= SPLIT_TO) {
       pieces.push(cur.join(' '));
       cur = [];
@@ -199,20 +211,28 @@ function splitLong(text) {
 function chunkDoc(doc) {
   const passages = [];
   let label = '';
-  let cur = [];
-  let n = 0;
+  let cur = []; // display pieces (Hebrew kept)
+  let n = 0; // embedded words in cur
+
+  const push = (display, l) => {
+    const text = stripHebrew(display);
+    passages.push({ u: doc.url, c: doc.title, l, text, display });
+  };
 
   const emit = () => {
-    const text = cur.join(' ').replace(/\s+/g, ' ').trim();
+    const display = cur.join(' ').replace(/\s+/g, ' ').trim();
     cur = [];
     n = 0;
-    if (!text) return;
+    if (!display) return;
     const last = passages[passages.length - 1];
-    if (words(text) < MIN_WORDS) {
-      if (last && last.l === label) last.text += ' ' + text; // fold a short tail into its neighbour
+    if (embedWords(display) < MIN_WORDS) {
+      if (last && last.l === label) {
+        last.display += ' ' + display; // fold a short tail into its neighbour
+        last.text = stripHebrew(last.display);
+      }
       return;
     }
-    passages.push({ u: doc.url, c: doc.title, l: label, text });
+    push(display, label);
   };
 
   for (const b of doc.blocks) {
@@ -221,11 +241,18 @@ function chunkDoc(doc) {
       label = cleanInline(b.raw);
       continue;
     }
-    const text = cleanInline(b.raw);
-    if (!/[A-Za-z]/.test(text)) continue;
-    for (const piece of splitLong(text)) {
+    const display = cleanInline(b.raw);
+    if (!/[A-Za-z]/.test(stripHebrew(display))) continue;
+    if (b.kind === 'f') {
+      emit();
+      for (const piece of splitLong(display)) {
+        if (embedWords(piece) >= MIN_FOOTNOTE_WORDS) push(piece, 'Footnote');
+      }
+      continue;
+    }
+    for (const piece of splitLong(display)) {
       cur.push(piece);
-      n += words(piece);
+      n += embedWords(piece);
       if (n >= FLUSH_AT) emit();
     }
   }
@@ -252,21 +279,25 @@ async function main() {
     passages.push(...chunkDoc(doc));
   }
   const totalWords = passages.reduce((s, p) => s + words(p.text), 0);
+  const footnotes = passages.filter((p) => p.l === 'Footnote').length;
   console.log(
-    `[search-index] ${files.length} files, ${passages.length} passages, ${totalWords} words (avg ${Math.round(totalWords / passages.length)})`,
+    `[search-index] ${files.length} files, ${passages.length} passages (${footnotes} footnotes), ${totalWords} words (avg ${Math.round(totalWords / passages.length)})`,
   );
 
   if (DRY) {
+    const hebrewInEmbed = passages.filter((p) => /[\u0590-\u05FF]/.test(p.text)).length;
+    const strayBackslash = passages.filter((p) => /\\(\s|$)/.test(p.display)).length;
+    console.log(`[search-index] check: ${hebrewInEmbed} passages with Hebrew in embedded text (want 0), ${strayBackslash} with a stray backslash (want 0)`);
     const show = process.argv.find((a) => a.startsWith('--show='))?.slice(7);
     if (show) {
       for (const p of passages.filter((x) => x.u === show).slice(0, 4)) {
-        console.log(`\n--- ${p.u} | ${p.l}\n${snippet(p.text)}`);
+        console.log(`\n--- ${p.u} | ${p.l}\n${snippet(p.display)}`);
       }
       return;
     }
     for (const i of [0, Math.floor(passages.length / 2), passages.length - 1]) {
       const p = passages[i];
-      console.log(`\n--- #${i} ${p.u} | ${p.c} | ${p.l}\n${snippet(p.text)}`);
+      console.log(`\n--- #${i} ${p.u} | ${p.c} | ${p.l}\n${snippet(p.display)}`);
     }
     return;
   }
@@ -292,7 +323,7 @@ async function main() {
     dtype: DTYPE,
     dim: DIM,
     count: passages.length,
-    passages: passages.map((p) => ({ u: p.u, c: p.c, l: p.l, t: snippet(p.text) })),
+    passages: passages.map((p) => ({ u: p.u, c: p.c, l: p.l, t: snippet(p.display) })),
   };
   await writeFile(OUT_PASSAGES, JSON.stringify(meta));
   await writeFile(OUT_VECTORS, Buffer.from(vecs.buffer));
