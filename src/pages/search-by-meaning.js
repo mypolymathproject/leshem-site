@@ -5,9 +5,10 @@ import {useLocation} from '@docusaurus/router';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './search-by-meaning.module.css';
 
-// Results below this cosine similarity are hidden. A starting guess: tune it
-// against real queries once the index exists.
-const MIN_SCORE = 0.2;
+// Results below this cosine similarity are hidden. Measured on the preview:
+// a good query's 6th result scored 0.269 and a nonsense query's best scored
+// 0.227, so 0.25 sits in the gap. Two data points; recheck with ?scores=1.
+const MIN_SCORE = 0.25;
 const MAX_RESULTS = 6;
 const PER_CHAPTER = 2;
 
@@ -52,12 +53,15 @@ function rank({meta, vecs}, queryVec, ignoreCutoff) {
   scored.sort((a, b) => b[0] - a[0]);
 
   const perChapter = new Map();
+  const seenText = new Set(); // the same footnote can appear in several chapters
   const picked = [];
   for (const [score, i] of scored) {
     if ((!ignoreCutoff && score < MIN_SCORE) || picked.length >= MAX_RESULTS) break;
     const p = passages[i];
+    if (seenText.has(p.t)) continue;
     const seen = perChapter.get(p.u) ?? 0;
     if (seen >= PER_CHAPTER) continue;
+    seenText.add(p.t);
     perChapter.set(p.u, seen + 1);
     picked.push({...p, score});
   }
