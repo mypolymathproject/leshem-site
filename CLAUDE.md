@@ -303,6 +303,17 @@ Local search is provided by `@easyops-cn/docusaurus-search-local`. It builds a s
 
 Note: search only works on the production build (`npm run build` + `npm run serve`), not on the dev server (`npm start`).
 
+### Search by meaning (`/search-by-meaning`)
+
+A second, separate search that matches passages by meaning. It sits beside the keyword search and does not replace it.
+
+- `scripts/build-search-index.mjs` runs as part of `npm run build`. It splits the English text of every chapter (and each footnote of 15+ words) into ~80-word passages, embeds them with `Xenova/all-MiniLM-L6-v2` (via `@huggingface/transformers`, a devDependency), and writes `static/search-passages.json` and `static/search-vectors.bin`. Both are generated and gitignored.
+- `src/pages/search-by-meaning.js` loads those files in the browser, embeds the visitor's query with the same model, and ranks by cosine similarity. The model library is imported from jsDelivr at run time, pinned to the same version as the devDependency. Keep the two versions and the model/dtype in sync, or the vectors stop matching.
+- The script never fails the build: if the model cannot be downloaded it deletes its output, warns, and exits 0, and the page shows "not available".
+- Dry run without the model: `node scripts/build-search-index.mjs --dry-run` (add `--show=/shaar-1/chapter-1` to preview one chapter's passages).
+- Results below a cosine score of 0.25 are hidden (`MIN_SCORE` in the page). Add `?scores=1` to the page address to see each result's score and bypass the cutoff when retuning; on the preview a nonsense query's best score was 0.227 and a good query's 6th was 0.269.
+- English text only. Hebrew is stripped before embedding. Hebrew terms and transliterations are the main weakness, which is why the top-bar keyword search stays.
+
 ## Deployment
 
 - Push to GitHub → Vercel auto-deploys

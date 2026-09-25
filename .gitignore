@@ -7,6 +7,8 @@
 # Generated files
 .docusaurus
 .cache-loader
+/static/search-passages.json
+/static/search-vectors.bin
 
 # Misc
 .DS_Store

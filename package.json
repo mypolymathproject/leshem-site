@@ -5,7 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build:search": "node scripts/build-search-index.mjs",
+    "build": "npm run build:search && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.10.1",
     "@docusaurus/types": "3.10.1",
+    "@huggingface/transformers": "3.8.1",
     "pdf-lib": "^1.17.1",
     "puppeteer": "^25.3.0"
   },

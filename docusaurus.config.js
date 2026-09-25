@@ -99,6 +99,11 @@ const config = {
             label: 'Table of Contents',
           },
           {
+            to: '/search-by-meaning',
+            label: 'Search by meaning',
+            position: 'left',
+          },
+          {
             href: 'https://ko-fi.com',
             label: '☕ Support this project',
             position: 'right',
