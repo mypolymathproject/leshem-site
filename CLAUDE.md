@@ -305,7 +305,7 @@ Note: search only works on the production build (`npm run build` + `npm run serv
 
 ### Search by meaning (`/search-by-meaning`)
 
-A second, separate search that matches passages by meaning. It sits beside the keyword search and does not replace it.
+A second, separate search that matches passages by meaning. It sits beside the keyword search and does not replace it. **Live on `master`** (merged as PR #1, Sep 25, 2026) at `https://leshem-site.vercel.app/search-by-meaning`.
 
 - `scripts/build-search-index.mjs` runs as part of `npm run build`. It splits the English text of every chapter (and each footnote of 15+ words) into ~80-word passages, embeds them with `Xenova/all-MiniLM-L6-v2` (via `@huggingface/transformers`, a devDependency), and writes `static/search-passages.json` and `static/search-vectors.bin`. Both are generated and gitignored.
 - `src/pages/search-by-meaning.js` loads those files in the browser, embeds the visitor's query with the same model, and ranks by cosine similarity. The model library is imported from jsDelivr at run time, pinned to the same version as the devDependency. Keep the two versions and the model/dtype in sync, or the vectors stop matching.
